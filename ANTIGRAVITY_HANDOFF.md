@@ -283,3 +283,25 @@ Owner requested header inner edges match hero and sections. Changed .nav-contain
    - Verified video embed functionality: click-only iframe creation with clean teardown on modal close; Talda local video preserved.
    - Verified alignment: `.container` and `.nav-container` sharing 1280px max-width and 32px padding; `#hero .hero-grid-layout` gap at 24px matching capabilities; `.timeline` width at 100%.
    - Verified bilingual rendering (English LTR and Arabic RTL with Thmanyah font) and responsive layout (desktop 1440px and mobile 390px) via headless Chrome captures.
+
+
+## 2026-11-06 — Production Deployment to GitHub Pages
+
+**Summary:** Successfully deployed the approved 30-project architectural portfolio to GitHub Pages via the user's authenticated account `abdelazizothmaneg-alt`.
+- **Repository:** https://github.com/abdelazizothmaneg-alt/portfolio
+- **Live Public URL:** https://abdelazizothmaneg-alt.github.io/portfolio/
+- **Verification:** Verified live HTTP 200 response, verified full assets and fonts loading, verified headless Chrome capture of the production URL. All 30 projects (4 opening spotlights + 26 expandable archive), bilingual switching, and responsive layouts are live and accessible globally.
+
+
+## 2026-11-06 — Background Animation & Motion Activation
+
+**Summary:** The generative topographic contours canvas (`#genArtBg`) animation was upgraded to deliver a visibly living, smooth, and elegant motion across all viewports.
+- **Root Cause of Stillness:** Previous speed increment was `t += 0.000018` with pattern scale `0.00085`, producing only ~1.2 px/s drift, which appeared completely static to the human eye. Furthermore, the noise sampling was purely 1D along the Y-axis.
+- **Motion Enhancements:**
+  1. **Speed & Flow:** Increased speed to `t += 0.00055`, resulting in ~35 px/s organic drift.
+  2. **Multi-Octave Interference:** Upgraded `fbm(x, y, time)` to evaluate two noise octaves with opposing vector trajectories (`noise2D(x + time * 0.30, y + time * 0.70)` and `noise2D(x * 1.85 - time * 0.25 + 1.2, y * 1.85 + time * 0.40 + 1.2)`). This produces authentic topographic morphing, breathing, and isoline reformation rather than a rigid slide.
+  3. **Visual Hierarchy & Contrast:** Refined contour line weights and alpha values (Major: 1.25px / 0.22 alpha; Medium: 0.85px / 0.12 alpha; Minor: 0.50px / 0.065 alpha; Strata shades: up to 2.7% opacity) for crisp architectural clarity beneath content cards.
+- **Verification:**
+  1. Node.js AST / Function validation confirmed 0 syntax errors.
+  2. Chrome DevTools Protocol (CDP) live frame comparison in Microsoft Edge headless captured consecutive frames 1.5 seconds apart, detecting 402,361 pixel variations confirming active real-time rendering.
+  3. Verified 100% hash parity between `PORTFOLIO\index.html` and `PORTFOLIO_DEPLOY\index.html`.

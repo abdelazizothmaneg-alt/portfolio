@@ -8467,11 +8467,9 @@ function toggleProjectVideo() {
         return 70 * (n0 + n1 + n2);
       }
 
-      // Rich fractal landscape with dynamic organic flow
-      function fbm(x, y, time) {
-        const n1 = noise2D(x + time * 0.30, y + time * 0.70);
-        const n2 = noise2D(x * 1.85 - time * 0.25 + 1.2, y * 1.85 + time * 0.40 + 1.2);
-        return n1 * 0.70 + n2 * 0.30;
+      // Rich fractal landscape with broad sweeping curves
+      function fbm(x, y) {
+        return noise2D(x, y) * 0.70 + noise2D(x * 1.85 + 1.2, y * 1.85 + 1.2) * 0.30;
       }
 
       function resize() {
@@ -8497,14 +8495,14 @@ function toggleProjectVideo() {
         
         let width, alpha;
         if (isMajor) {
-          width = 1.25; // Distinct major index line
-          alpha = 0.22; // Clear architectural presence
+          width = 1.05; // Delicate major index line
+          alpha = 0.135; // Lighter, more transparent
         } else if (isMedium) {
-          width = 0.85; // Clean secondary line
-          alpha = 0.12; // Balanced visibility
+          width = 0.62; // Refined secondary line
+          alpha = 0.068; // Very subtle
         } else {
-          width = 0.50; // Delicate contour line
-          alpha = 0.065; // Whispering elegance
+          width = 0.36; // Whispering hairline
+          alpha = 0.032; // Ultra-transparent
         }
 
         LEVELS.push({ iso, width, alpha, isMajor });
@@ -8520,7 +8518,7 @@ function toggleProjectVideo() {
 
       function draw() {
         ctx.clearRect(0, 0, W, H);
-        t += 0.00008; // Ultra-slow serene architectural drift (~5.6px/s)
+        t += 0.000018; // Serene architectural drift
 
         const cols = Math.ceil(W / RES) + 1;
         const rows = Math.ceil(H / RES) + 1;
@@ -8533,7 +8531,7 @@ function toggleProjectVideo() {
           const y = r * RES;
           for (let c = 0; c < cols; c++) {
             const x = c * RES;
-            grid[r * cols + c] = fbm(x * scale, y * scale, t);
+            grid[r * cols + c] = fbm(x * scale, y * scale + t);
           }
         }
 
@@ -8548,11 +8546,11 @@ function toggleProjectVideo() {
         for (let i = 0; i < grid.length; i++) {
           const v = grid[i];
           let alphaByte = 0;
-          if (v > 0.44) alphaByte = 7;       // ~2.7% opacity (airy whisper)
-          else if (v > 0.24) alphaByte = 5;   // ~2.0% opacity
-          else if (v > 0.04) alphaByte = 4;   // ~1.5% opacity
-          else if (v > -0.16) alphaByte = 2;  // ~0.8% opacity
-          else if (v > -0.36) alphaByte = 1;  // ~0.4% opacity
+          if (v > 0.44) alphaByte = 5;       // ~2.0% opacity (airy whisper)
+          else if (v > 0.24) alphaByte = 4;   // ~1.5% opacity
+          else if (v > 0.04) alphaByte = 3;   // ~1.1% opacity
+          else if (v > -0.16) alphaByte = 2;  // ~0.7% opacity
+          else if (v > -0.36) alphaByte = 1;  // ~0.3% opacity
           else alphaByte = 0;
 
           const idx = i * 4;

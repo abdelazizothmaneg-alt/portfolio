@@ -316,3 +316,21 @@ Owner requested header inner edges match hero and sections. Changed .nav-contain
   - Node.js syntax test confirmed 0 errors across all scripts.
   - Edge headless CDP captured consecutive frames 1.5 seconds apart: detected 123,326 pixel delta, verifying gentle active motion without freezing.
   - Verified 100% SHA256 synchronization between `D:\_Course\PORTFOLIO\index.html` and `D:\_Course\PORTFOLIO_DEPLOY\index.html` (`d037a44d06098e8ae64b11fbbff1ce71141cfdce27b420594ea1e13b7b9199d6`).
+
+
+## 2026-11-06 — Restoration of Codex Original Background Animation
+
+**Summary:** Restored the exact, original background animation and styling parameters authored by Codex from the approved baseline (`index.backup-before-sync.html`) per user request ("خلي الحركه في ال background زي ما codex كان عاملها").
+- **Exact Parameters Restored:**
+  - Speed increment: `t += 0.000018` (Codex's original serene architectural drift).
+  - Single-vector vertical flow: `grid[r * cols + c] = fbm(x * scale, y * scale + t)` with pattern scale `scale = 0.00085`.
+  - Fractal formula: `fbm(x, y) = noise2D(x, y) * 0.70 + noise2D(x * 1.85 + 1.2, y * 1.85 + 1.2) * 0.30`.
+  - 26 Contour elevation tiers:
+    - Major: `width = 1.05; alpha = 0.135;`
+    - Medium: `width = 0.62; alpha = 0.068;`
+    - Hairline: `width = 0.36; alpha = 0.032;`
+  - Strata shades: stepped opacities 5, 4, 3, 2, 1 out of 255 (0% to ~2.0% opacity).
+- **Verification:**
+  - Exact SHA256 match with the original approved baseline: `88f6b9a67c9461144c173a126e609e214e37c13bcf772998b0ba37958a2f0228`.
+  - Node.js syntax test confirmed 0 errors across all scripts.
+  - Mirrored across both `D:\_Course\PORTFOLIO` and `D:\_Course\PORTFOLIO_DEPLOY`.

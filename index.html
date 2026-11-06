@@ -8519,7 +8519,7 @@ function toggleProjectVideo() {
 
       function draw() {
         ctx.clearRect(0, 0, W, H);
-        t += 0.000018; // Serene architectural drift
+        t += 0.000024; // Tuned serene architectural drift (slightly faster per user request)
 
         const cols = Math.ceil(W / RES) + 1;
         const rows = Math.ceil(H / RES) + 1;

@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Abdelaziz Osman | Studio &amp; Spatial Project Index</title>
+  <meta name="description" content="Spatial Project Index of Abdelaziz Osman. Interactive architectural portfolio, render-to-reality slider, and structured project index table.">
+  <link rel="icon" type="image/jpeg" href="assets/web/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0C0E12;
+      --surface: #14171E;
+      --surface-hover: #1B202A;
+      --border: rgba(255, 255, 255, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.05);
+      --text: #F8FAFC;
+      --text-muted: #94A3B8;
+      --accent: #C5A880;
+      --font-display: 'Outfit', -apple-system, sans-serif;
+      --font-mono: 'SF Mono', Consolas, monospace;
+      --font-ar: 'Readex Pro', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; background: var(--bg); color: var(--text); }
+    body {
+      font-family: var(--font-display);
+      font-size: 15px;
+      line-height: 1.6;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+    html[dir="rtl"] body { font-family: var(--font-ar); }
+
+    /* Top Variant Bar */
+    .variant-bar {
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+      background: rgba(10, 12, 16, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .variant-label {
+      font-family: var(--font-mono);
+      color: var(--accent);
+      font-size: 11.5px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .variant-pills { display: flex; gap: 8px; }
+    .variant-pill {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 4px;
+      border: 1px solid var(--border-subtle);
+      transition: all 0.2s;
+      font-size: 12.5px;
+    }
+    .variant-pill.active {
+      background: rgba(197, 168, 128, 0.15);
+      border-color: var(--accent);
+      color: #FFF;
+      font-weight: 600;
+    }
+    .variant-pill:hover:not(.active) { border-color: var(--border); color: #FFF; }
+
+    /* Studio Cinematic Hero */
+    .studio-hero {
+      position: relative;
+      height: 85vh;
+      min-height: 600px;
+      display: flex;
+      align-items: flex-end;
+      padding: 60px 48px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-bg-media {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+    .hero-bg-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.65) contrast(1.05);
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: linear-gradient(180deg, rgba(12,14,18,0.3) 0%, rgba(12,14,18,0.92) 100%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      max-width: 1360px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+    .hero-brand h1 {
+      font-size: clamp(38px, 6vw, 76px);
+      font-weight: 800;
+      line-height: 0.98;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .hero-brand p {
+      font-family: var(--font-mono);
+      font-size: 14px;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 12px;
+    }
+    .hero-stats-panel {
+      background: rgba(15, 18, 24, 0.85);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px 28px;
+      display: flex;
+      gap: 36px;
+    }
+    .stat-col span {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+    .stat-col strong {
+      display: block;
+      font-size: 24px;
+      font-weight: 700;
+      color: #FFF;
+      margin-top: 2px;
+    }
+
+    /* Interactive Spatial Controls Bar */
+    .controls-bar {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 32px 32px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .filter-group {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 13px;
+      transition: all 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--surface-hover);
+      border-color: var(--accent);
+      color: #FFF;
+    }
+    .view-toggle-group {
+      display: flex;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .view-btn {
+      background: var(--surface);
+      border: none;
+      color: var(--text-muted);
+      padding: 8px 16px;
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .view-btn.active {
+      background: rgba(197, 168, 128, 0.18);
+      color: #FFF;
+      font-weight: 600;
+    }
+
+    /* VIEW MODE A: Interactive Render-to-Reality Slider Feature */
+    .slider-section {
+      max-width: 1360px;
+      margin: 0 auto 60px;
+      padding: 0 32px;
+    }
+    .slider-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 32px;
+    }
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 20px;
+    }
+    .slider-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #FFF;
+    }
+    .slider-instructions {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+    }
+
+    .comparison-container {
+      position: relative;
+      width: 100%;
+      height: clamp(380px, 50vh, 580px);
+      overflow: hidden;
+      border-radius: 4px;
+      user-select: none;
+      cursor: ew-resize;
+    }
+    .comparison-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      pointer-events: none;
+    }
+    .comparison-top-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 50%;
+      overflow: hidden;
+      border-right: 2px solid #FFFFFF;
+      box-shadow: 4px 0 24px rgba(0,0,0,0.6);
+      background: #000;
+    }
+    .comparison-top-layer img {
+      width: 1360px;
+      max-width: none;
+      height: 100%;
+    }
+    .comparison-handle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      color: #0C0E12;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      z-index: 10;
+      pointer-events: none;
+    }
+    .badge-label {
+      position: absolute;
+      bottom: 16px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 6px 12px;
+      border-radius: 3px;
+      background: rgba(12,14,18,0.85);
+      border: 1px solid var(--border);
+      color: #FFF;
+      z-index: 5;
+    }
+    .badge-before { left: 16px; }
+    .badge-after { right: 16px; }
+
+    /* VIEW MODE B: Spatial Project Grid */
+    .spatial-grid {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 0 32px 80px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    @media (max-width: 1024px) { .spatial-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 640px) { .spatial-grid { grid-template-columns: 1fr; } }
+
+    .studio-card {
+      background: var(--surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 6px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .studio-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+      background: var(--surface-hover);
+    }
+    .studio-media {
+      position: relative;
+      height: 260px;
+      overflow: hidden;
+      background: #0B0D11;
+    }
+    .studio-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .studio-card:hover .studio-media img { transform: scale(1.04); }
+    .card-plate-num {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      background: rgba(12,14,18,0.85);
+      border: 1px solid var(--border);
+      padding: 3px 8px;
+      border-radius: 3px;
+      color: #FFF;
+    }
+    .studio-info {
+      padding: 20px;
+    }
+    .studio-info h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #FFF;
+      margin-bottom: 6px;
+    }
+    .studio-info p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+    .studio-specs-row {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 12px;
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+    .studio-specs-row strong { color: #FFF; }
+
+    /* VIEW MODE C: Spatial Index Table (Foster+Partners style) */
+    .spatial-table-container {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 0 32px 80px;
+      display: none;
+    }
+    .spatial-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+      text-align: left;
+    }
+    html[dir="rtl"] .spatial-table { text-align: right; }
+    .spatial-table th {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .spatial-table td {
+      padding: 16px;
+      border-bottom: 1px solid var(--border-subtle);
+      color: var(--text);
+    }
+    .spatial-table tr:hover td {
+      background: var(--surface-hover);
+      color: #FFF;
+    }
+    .table-thumb {
+      width: 64px;
+      height: 44px;
+      object-fit: cover;
+      border-radius: 3px;
+      border: 1px solid var(--border-subtle);
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+    html[dir="rtl"] .table-thumb { margin-right: 0; margin-left: 12px; }
+
+    /* Footer */
+    .studio-footer {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 60px 32px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Multi-Variant Switcher Bar -->
+  <div class="variant-bar">
+    <span class="variant-label">Arch Prototype Mode • نمط النموذج المعماري</span>
+    <div class="variant-pills">
+      <a href="variant1_monograph.html" class="variant-pill">01 Editorial Monograph</a>
+      <a href="variant2_studio_index.html" class="variant-pill active">02 Studio Spatial Index</a>
+      <a href="variant3_consulting_partner.html" class="variant-pill">03 Consulting Partner Dossier</a>
+      <a href="index.html" class="variant-pill" style="opacity:0.6;">Original</a>
+    </div>
+  </div>
+
+  <!-- Studio Cinematic Hero -->
+  <header class="studio-hero">
+    <div class="hero-bg-media">
+      <img src="assets/web/kingfahd_cam01.webp" alt="King Fahd Landmark Towers" id="heroBg">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-brand">
+        <h1 id="brandName">ABDELAZIZ OSMAN</h1>
+        <p id="brandRole">Architect Team Leader &amp; Lead Consultant Architect • Foster-Style Spatial Index</p>
+      </div>
+      <div class="hero-stats-panel">
+        <div class="stat-col">
+          <span>Governed Portfolio</span>
+          <strong>+350k m²</strong>
+        </div>
+        <div class="stat-col">
+          <span>Capital Valuation</span>
+          <strong>+500M SAR</strong>
+        </div>
+        <div class="stat-col">
+          <span>Statutory Clearances</span>
+          <strong>100% Balady</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Interactive Controls Bar -->
+  <div class="controls-bar">
+    <div class="filter-group">
+      <button class="filter-btn active" onclick="filterProjects('all')">All Works (23)</button>
+      <button class="filter-btn" onclick="filterProjects('towers')">Towers &amp; Corporate</button>
+      <button class="filter-btn" onclick="filterProjects('masterplans')">Master Communities</button>
+      <button class="filter-btn" onclick="filterProjects('commercial')">Retail &amp; Waterfront</button>
+      <button class="filter-btn" onclick="filterProjects('healthcare')">Healthcare</button>
+    </div>
+
+    <div class="view-toggle-group">
+      <button class="view-btn active" id="btnGrid" onclick="switchView('grid')">
+        <span>⊞</span> Grid View
+      </button>
+      <button class="view-btn" id="btnTable" onclick="switchView('table')">
+        <span>☰</span> Spatial Index
+      </button>
+    </div>
+  </div>
+
+  <!-- Interactive Render-to-Reality Slider Feature (Live interactive component) -->
+  <section class="slider-section">
+    <div class="slider-card">
+      <div class="slider-header">
+        <div>
+          <h2 class="slider-title">Render vs Built Reality Verification</h2>
+          <p style="font-size:13px; color:var(--text-muted); margin-top:4px;">
+            Sunset Corniche Promenade (3.2 km) • Drag slider horizontally to inspect design fidelity.
+          </p>
+        </div>
+        <div class="slider-instructions">
+          ↔ DRAG CURTAIN TO COMPARE
+        </div>
+      </div>
+
+      <div class="comparison-container" id="compareContainer">
+        <!-- Built Reality (Bottom) -->
+        <img src="assets/web/sunset_cam01.webp" alt="Built Waterfront Execution">
+        <span class="badge-label badge-after">02 • AS-BUILT SITE REALIZATION</span>
+
+        <!-- 3D Render (Top Clipped) -->
+        <div class="comparison-top-layer" id="clippedLayer">
+          <img src="assets/web/sunset_cam02.webp" alt="3D Architectural Visualization">
+          <span class="badge-label badge-before">01 • 3D BIM SIMULATION</span>
+        </div>
+
+        <!-- Draggable Handle -->
+        <div class="comparison-handle" id="sliderHandle">↔</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIEW MODE A: Spatial Project Grid -->
+  <main class="spatial-grid" id="gridContainer">
+    <!-- Card 01 -->
+    <article class="studio-card" data-cat="towers">
+      <div class="studio-media">
+        <span class="card-plate-num">01 / 23</span>
+        <img src="assets/web/ouroba_cam01.webp" alt="Ouroba Business Towers" loading="lazy">
+      </div>
+      <div class="studio-info">
+        <h3>Ouroba Business Towers</h3>
+        <p>Corporate office campus with passive bioclimatic louvers and central pedestrian promenade.</p>
+        <div class="studio-specs-row">
+          <span>Riyadh, KSA</span>
+          <strong>48,500 m² BUA</strong>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 02 -->
+    <article class="studio-card" data-cat="towers">
+      <div class="studio-media">
+        <span class="card-plate-num">02 / 23</span>
+        <img src="assets/web/kingfahd_cam01.webp" alt="King Fahd Landmark Towers" loading="lazy">
+      </div>
+      <div class="studio-info">
+        <h3>King Fahd Landmark Towers</h3>
+        <p>135m twin corporate high-rise connected by a glazed skybridge at Level 18.</p>
+        <div class="studio-specs-row">
+          <span>Riyadh, KSA</span>
+          <strong>85,000 m² BUA</strong>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 03 -->
+    <article class="studio-card" data-cat="masterplans">
+      <div class="studio-media">
+        <span class="card-plate-num">03 / 23</span>
+        <img src="assets/web/talda_cam01.webp" alt="Talda Terraced Park" loading="lazy">
+      </div>
+      <div class="studio-info">
+        <h3>Talda Terraced Residential Park</h3>
+        <p>Stepped topography-integrated master community framing linear cooling waterways.</p>
+        <div class="studio-specs-row">
+          <span>Mostakbal City, Egypt</span>
+          <strong>65% Greenery</strong>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 04 -->
+    <article class="studio-card" data-cat="commercial">
+      <div class="studio-media">
+        <span class="card-plate-num">04 / 23</span>
+        <img src="assets/web/sunset_cam01.webp" alt="Jazan Sunset Corniche" loading="lazy">
+      </div>
+      <div class="studio-info">
+        <h3>Jazan Sunset Corniche</h3>
+        <p>3.2 km iconic waterfront promenade with dynamic tensile canopies and cycling network.</p>
+        <div class="studio-specs-row">
+          <span>Jazan, KSA</span>
+          <strong>3.2 km Public Realm</strong>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 05 -->
+    <article class="studio-card" data-cat="healthcare">
+      <div class="studio-media">
+        <span class="card-plate-num">05 / 23</span>
+        <img src="assets/web/hospital_cam01.webp" alt="Jazan Hospital Plaza" loading="lazy">
+      </div>
+      <div class="studio-info">
+        <h3>Jazan Hospital &amp; Medical Plaza</h3>
+        <p>220-bed healthcare medical center with infection control clinical segregation.</p>
+        <div class="studio-specs-row">
+          <span>Jazan, KSA</span>
+          <strong>42,000 m² BUA</strong>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 06 -->
+    <article class="studio-card" data-cat="masterplans">
+      <div class="studio-media">
+        <span class="card-plate-num">06 / 23</span>
+        <img src="assets/web/a114_cam01.webp" alt="Boutique Luxury Villas" loading="lazy">
+      </div>
+      <div class="studio-info">
+        <h3>Al Hada Gated Community</h3>
+        <p>65 private luxury villas with private sky terraces and post-tension cantilevers.</p>
+        <div class="studio-specs-row">
+          <span>Al Hada, KSA</span>
+          <strong>42,000 m² Masterplan</strong>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- VIEW MODE B: Spatial Index Table -->
+  <section class="spatial-table-container" id="tableContainer">
+    <table class="spatial-table">
+      <thead>
+        <tr>
+          <th>Plate</th>
+          <th>Project Title</th>
+          <th>Location</th>
+          <th>Typology</th>
+          <th>Scale / BUA</th>
+          <th>Statutory Code</th>
+          <th>PMC Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>01</strong></td>
+          <td><img src="assets/web/ouroba_cam01.webp" class="table-thumb" alt="Ouroba"> Ouroba Business Towers</td>
+          <td>Riyadh, KSA</td>
+          <td>Corporate Campus</td>
+          <td>48,500 m²</td>
+          <td>SBC 201 / 801</td>
+          <td>Lead Architect &amp; Facade BIM</td>
+        </tr>
+        <tr>
+          <td><strong>02</strong></td>
+          <td><img src="assets/web/kingfahd_cam01.webp" class="table-thumb" alt="King Fahd"> King Fahd Landmark Towers</td>
+          <td>Riyadh, KSA</td>
+          <td>High-Rise Towers (135m)</td>
+          <td>85,000 m²</td>
+          <td>NFPA 101 Egress</td>
+          <td>Architectural Concept &amp; Detailing</td>
+        </tr>
+        <tr>
+          <td><strong>03</strong></td>
+          <td><img src="assets/web/talda_cam01.webp" class="table-thumb" alt="Talda"> Talda Terraced Residential Park</td>
+          <td>Mostakbal City, Egypt</td>
+          <td>Master Community</td>
+          <td>Stepped Contours</td>
+          <td>Masterplan Code</td>
+          <td>Lead Urban Planner (MHG)</td>
+        </tr>
+        <tr>
+          <td><strong>04</strong></td>
+          <td><img src="assets/web/sunset_cam01.webp" class="table-thumb" alt="Sunset"> Jazan Sunset Corniche</td>
+          <td>Jazan, KSA</td>
+          <td>Waterfront Public Realm</td>
+          <td>3.2 Kilometers</td>
+          <td>Municipal Waterfront</td>
+          <td>PMC Lead Consultant</td>
+        </tr>
+        <tr>
+          <td><strong>05</strong></td>
+          <td><img src="assets/web/hospital_cam01.webp" class="table-thumb" alt="Hospital"> Jazan Hospital &amp; Medical Plaza</td>
+          <td>Jazan, KSA</td>
+          <td>Specialized Healthcare</td>
+          <td>42,000 m² (220 Beds)</td>
+          <td>Infection Control / SBC</td>
+          <td>Lead Architectural Consultant</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Studio Footer -->
+  <footer class="studio-footer">
+    <div>
+      <strong>Abdelaziz Osman</strong> • Foster-Inspired Spatial Studio Index
+    </div>
+    <div style="display:flex; gap:20px;">
+      <a href="mailto:aothman.ksa@gmail.com" style="color:var(--text); text-decoration:none;">aothman.ksa@gmail.com</a>
+      <a href="tel:+966501255227" style="color:var(--text); text-decoration:none;">+966 50 125 5227</a>
+      <a href="https://www.linkedin.com/in/abdelaziz-osman-sa/" target="_blank" style="color:var(--text); text-decoration:none;">LinkedIn ↗</a>
+      <a href="https://www.behance.net/AbdelazizOthman" target="_blank" style="color:var(--text); text-decoration:none;">Behance ↗</a>
+    </div>
+  </footer>
+
+  <!-- Interactive Scripts -->
+  <script>
+    // View Switcher (Grid vs Table)
+    function switchView(mode) {
+      const grid = document.getElementById('gridContainer');
+      const table = document.getElementById('tableContainer');
+      const btnGrid = document.getElementById('btnGrid');
+      const btnTable = document.getElementById('btnTable');
+
+      if (mode === 'grid') {
+        grid.style.display = 'grid';
+        table.style.display = 'none';
+        btnGrid.classList.add('active');
+        btnTable.classList.remove('active');
+      } else {
+        grid.style.display = 'none';
+        table.style.display = 'block';
+        btnTable.classList.add('active');
+        btnGrid.classList.remove('active');
+      }
+    }
+
+    // Category Filter
+    function filterProjects(cat) {
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const cards = document.querySelectorAll('.studio-card');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Interactive Render-to-Reality Slider Dragging
+    const container = document.getElementById('compareContainer');
+    const clipped = document.getElementById('clippedLayer');
+    const handle = document.getElementById('sliderHandle');
+    let isDragging = false;
+
+    function updateSlider(x) {
+      const rect = container.getBoundingClientRect();
+      let pos = (x - rect.left) / rect.width;
+      pos = Math.max(0.05, Math.min(0.95, pos));
+      clipped.style.width = (pos * 100) + '%';
+      handle.style.left = (pos * 100) + '%';
+    }
+
+    container.addEventListener('mousedown', (e) => { isDragging = true; updateSlider(e.clientX); });
+    window.addEventListener('mouseup', () => { isDragging = false; });
+    window.addEventListener('mousemove', (e) => { if (isDragging) updateSlider(e.clientX); });
+
+    // Touch support for mobile
+    container.addEventListener('touchstart', (e) => { isDragging = true; updateSlider(e.touches[0].clientX); });
+    window.addEventListener('touchend', () => { isDragging = false; });
+    window.addEventListener('touchmove', (e) => { if (isDragging) updateSlider(e.touches[0].clientX); });
+  </script>
+</body>
+</html>

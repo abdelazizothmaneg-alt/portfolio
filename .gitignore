@@ -1,0 +1,11 @@
+# Large media (streamed via Vimeo embed)
+*.mp4
+*.m4v
+
+# Deployment / Vercel caches
+.vercel
+.vercelignore
+
+# Backups
+*.backup*.html
+index.before-*.html

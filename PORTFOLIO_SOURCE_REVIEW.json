@@ -1,0 +1,1197 @@
+{
+  "source": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\01 - عقود و عروض\\عرض فني ومالي شركة السليمان\\مشروع ينبع\\العرض الفني لشركة واجهة زان العقارية _ 29_10_2026.pdf",
+  "projects": [
+    {
+      "id": "nahdi-care-clinics",
+      "page": 34,
+      "roleConfirmedByOwner": "Review, coordination and permitting",
+      "assets": [
+        "assets/web/portfolio-source-zan/nahdi-care-01.webp",
+        "assets/web/portfolio-source-zan/nahdi-care-02.webp",
+        "assets/web/portfolio-source-zan/nahdi-care-03.webp",
+        "assets/web/portfolio-source-zan/nahdi-care-04.webp"
+      ],
+      "locationConfirmedByOwner": "Jazan, KSA"
+    },
+    {
+      "id": "zan-jazan-waterfront",
+      "page": 19,
+      "roleConfirmedByOwner": "Review, coordination and permitting",
+      "assets": [
+        "assets/web/portfolio-source-zan/zan-jazan-waterfront-01.webp"
+      ]
+    },
+    {
+      "id": "al-mousa-complex",
+      "page": 30,
+      "action": "Additional gallery views only; project facts unchanged",
+      "assets": [
+        "assets/web/portfolio-source-zan/al-mousa-01.webp",
+        "assets/web/portfolio-source-zan/al-mousa-02.webp",
+        "assets/web/portfolio-source-zan/al-mousa-03.webp",
+        "assets/web/portfolio-source-zan/al-mousa-04.webp"
+      ]
+    },
+    {
+      "id": "jazan-hospital",
+      "page": 31,
+      "action": "Additional gallery views only; project facts unchanged",
+      "assets": [
+        "assets/web/portfolio-source-zan/jeddah-hospital-01.webp",
+        "assets/web/portfolio-source-zan/jeddah-hospital-02.webp",
+        "assets/web/portfolio-source-zan/jeddah-hospital-03.webp"
+      ]
+    },
+    {
+      "id": "dmc-office",
+      "source": "https://www.behance.net/gallery/81309665/DMC-Office",
+      "roleConfirmedByOwner": "Interior Design & 3D Visualization",
+      "status": "No formal approval or construction completion claimed",
+      "assets": [
+        "assets/web/portfolio-source-behance/dmc-office-cover.webp"
+      ],
+      "imageResolution": "404px preview; full project linked on Behance"
+    },
+    {
+      "id": "daghriri-park",
+      "source": "https://www.behance.net/gallery/252600285/Daghriri-Park",
+      "roleConfirmedByOwner": "Masterplanning, Architectural & Landscape Design",
+      "status": "No formal approval or construction completion claimed",
+      "assets": [
+        "assets/web/portfolio-source-behance/daghriri-park-cover.webp"
+      ],
+      "imageResolution": "404px preview; full project linked on Behance"
+    }
+  ],
+  "excludedByOwner": [
+    "J.S. Hospital Lobby",
+    "Tuhama Coast — Applied Design",
+    "Makan Cafe & Lounge (Sabya)"
+  ],
+  "slideshowAudit": {
+    "holdMs": 3000,
+    "transitionMs": 1050,
+    "direction": "right to left",
+    "projectImageCounts": [
+      {
+        "index": 0,
+        "project": "Talda Residential Compound",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 1,
+        "project": "Al-Mousa Commercial & Business Complex",
+        "images": 5,
+        "needs_more": false
+      },
+      {
+        "index": 2,
+        "project": "Lulu & Jarir Strip Mall Hub",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 3,
+        "project": "Vivienda Residential Compound",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 4,
+        "project": "Pearl Des Rois Mixed-Use Complex",
+        "images": 1,
+        "needs_more": true
+      },
+      {
+        "index": 5,
+        "project": "Ouroba Business Towers",
+        "images": 3,
+        "needs_more": false
+      },
+      {
+        "index": 6,
+        "project": "Jazan Sunset Corniche Waterfront",
+        "images": 3,
+        "needs_more": false
+      },
+      {
+        "index": 7,
+        "project": "King Fahd Landmark Towers",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 8,
+        "project": "Obelisko Capitale Iconic Tower",
+        "images": 1,
+        "needs_more": true
+      },
+      {
+        "index": 9,
+        "project": "The Arched Arcade Commercial Plaza (A-55)",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 10,
+        "project": "Corporate HQ 37 Commercial Building",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 11,
+        "project": "Emaar Mivida Boulevard Commercial",
+        "images": 1,
+        "needs_more": true
+      },
+      {
+        "index": 12,
+        "project": "Makan Cafe & Lounge (Sabya)",
+        "images": 1,
+        "needs_more": true
+      },
+      {
+        "index": 13,
+        "project": "Sabya Gardens Residential Compound",
+        "images": 5,
+        "needs_more": false
+      },
+      {
+        "index": 14,
+        "project": "Salim Babgi Mixed-Use Residential Complex",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 15,
+        "project": "Al Hada Luxury Gated Community",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 16,
+        "project": "Armonia New Capital Gated Community",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 17,
+        "project": "Jeddah Hospital",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 18,
+        "project": "Addengreens Urban Residential Community",
+        "images": 1,
+        "needs_more": true
+      },
+      {
+        "index": 19,
+        "project": "The Fluted Boutique Villas (A-114)",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 20,
+        "project": "The Monolithic Cube Townhomes (A-115)",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 21,
+        "project": "The Modern Mashrabiya Villas (A-50)",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 22,
+        "project": "The Modern Wing Townhomes (A-49)",
+        "images": 3,
+        "needs_more": false
+      },
+      {
+        "index": 23,
+        "project": "Nahdi Care Clinics & Retail",
+        "images": 4,
+        "needs_more": false
+      },
+      {
+        "index": 24,
+        "project": "ZAN Jazan Waterfront — Hospitality & Commercial",
+        "images": 1,
+        "needs_more": true
+      },
+      {
+        "index": 25,
+        "project": "D.M.C Office",
+        "images": 1,
+        "needs_more": true
+      },
+      {
+        "index": 26,
+        "project": "Daghriri Park",
+        "images": 1,
+        "needs_more": true
+      }
+    ],
+    "videoStills": [
+      {
+        "project": "talda-community",
+        "source": "assets/web/talda_walkthrough.mp4",
+        "seconds": 32
+      },
+      {
+        "project": "talda-community",
+        "source": "assets/web/talda_walkthrough.mp4",
+        "seconds": 50
+      }
+    ],
+    "removedInvalidImage": {
+      "project": "Lulu & Jarir",
+      "path": "assets/web/image1.png",
+      "reason": "Personal portrait, not project imagery"
+    },
+    "newGallerySources": [
+      [
+        3,
+        "assets/web/gallery-verified/behance-3-0.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/dae4c0217384613.67908df94ee9f.jpg"
+      ],
+      [
+        3,
+        "assets/web/gallery-verified/behance-3-1.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/579471217384613.67908df94f80a.jpg"
+      ],
+      [
+        3,
+        "assets/web/gallery-verified/behance-3-2.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/eefdec217384613.678fd21973f20.jpg"
+      ],
+      [
+        3,
+        "assets/web/gallery-verified/behance-3-3.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/f8eafa217384613.678fd21972caa.jpg"
+      ],
+      [
+        16,
+        "assets/web/gallery-verified/behance-16-0.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/38790b81802941.5d0a573215ecf.jpg"
+      ],
+      [
+        16,
+        "assets/web/gallery-verified/behance-16-1.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/83368981802941.5d0a573214dd5.jpg"
+      ],
+      [
+        16,
+        "assets/web/gallery-verified/behance-16-2.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/dc6f2081802941.5d0a5732154c5.jpg"
+      ],
+      [
+        16,
+        "assets/web/gallery-verified/behance-16-3.webp",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/cdcf7081802941.5d0a573215ac9.jpg"
+      ],
+      [
+        2,
+        "assets/web/gallery-verified/proposal-2-0.webp",
+        "Proposal page 29"
+      ],
+      [
+        2,
+        "assets/web/gallery-verified/proposal-2-1.webp",
+        "Proposal page 29"
+      ],
+      [
+        2,
+        "assets/web/gallery-verified/proposal-2-2.webp",
+        "Proposal page 29"
+      ],
+      [
+        2,
+        "assets/web/gallery-verified/proposal-2-3.webp",
+        "Proposal page 29"
+      ],
+      [
+        13,
+        "assets/web/gallery-verified/proposal-13-0.webp",
+        "Proposal page 33"
+      ],
+      [
+        13,
+        "assets/web/gallery-verified/proposal-13-1.webp",
+        "Proposal page 33"
+      ],
+      [
+        13,
+        "assets/web/gallery-verified/proposal-13-2.webp",
+        "Proposal page 33"
+      ],
+      [
+        13,
+        "assets/web/gallery-verified/proposal-13-3.webp",
+        "Proposal page 33"
+      ],
+      [
+        13,
+        "assets/web/gallery-verified/proposal-13-4.webp",
+        "Proposal page 33"
+      ],
+      [
+        14,
+        "assets/web/gallery-verified/proposal-14-0.webp",
+        "Proposal page 35"
+      ],
+      [
+        14,
+        "assets/web/gallery-verified/proposal-14-1.webp",
+        "Proposal page 35"
+      ],
+      [
+        14,
+        "assets/web/gallery-verified/proposal-14-2.webp",
+        "Proposal page 35"
+      ],
+      [
+        14,
+        "assets/web/gallery-verified/proposal-14-3.webp",
+        "Proposal page 35"
+      ]
+    ],
+    "behanceRetryStatus": "Waiting for owner to restore minimized Chrome Behance window after embedded browser target closed."
+  },
+  "currentPresentation": {
+    "mode": "Single cover image per project; no hover slideshow",
+    "projectCount": 26,
+    "opening": 4,
+    "archive": 22,
+    "removedByOwner": "Makan Cafe & Lounge (Sabya)"
+  },
+  "zanMasterplanUpdate": {
+    "source": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\01 - عقود و عروض\\عرض فني ومالي شركة السليمان\\المخططات المبدئية\\Jazan Masterplan June 2026 Submission (1) copy.pdf",
+    "coverPage": 15,
+    "alternativeInspectedPage": 16,
+    "programSourcePage": 2,
+    "clientSourcePage": 1,
+    "version": "June 2026",
+    "scope": "Owner review/coordination/permitting; not original design authorship",
+    "areaNotPublished": "201,837 m² is an indicative program total, not verified site area or BUA"
+  },
+  "royalCommissionReview": {
+    "sourceFolder": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\01 - عقود و عروض\\TAMPLET\\الهيئة الملكية",
+    "roleConfirmedByOwner": "Al Barrak: design; others: design review, Royal Commission compliance and approval process",
+    "authorityRelationship": "Regulatory review/approval; direct client relationship not asserted",
+    "locationUnconfirmed": [],
+    "projects": [
+      {
+        "id": "al-barrak-warehouses",
+        "sourceBoard": "01.png",
+        "cover": "assets/web/portfolio-source-royal-commission/al-barrak-warehouses.webp"
+      },
+      {
+        "id": "saudi-coffee-factory",
+        "sourceBoard": "02.png",
+        "cover": "assets/web/portfolio-source-royal-commission/saudi-coffee-factory.webp"
+      },
+      {
+        "id": "red-sea-marine-ship-repair",
+        "sourceBoard": "03.png",
+        "cover": "assets/web/portfolio-source-royal-commission/red-sea-marine-ship-repair.webp"
+      }
+    ],
+    "telecomTowers": "Board05; technical capability line only",
+    "existingZan": "Board06; no duplicate or new metrics published",
+    "ownerConfirmedLocation": "All four projects: Royal Commission jurisdiction in Jazan",
+    "locationReference": "https://maps.app.goo.gl/3AiSFn7gheQtCfEeA",
+    "locationVerification": "Owner-confirmed; short map link inaccessible to web tool; no exact parcel coordinates inferred"
+  },
+  "daghririOriginalCover": {
+    "source": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\25120-C-Ibrahim Kariri Garden _ _\\02-Arch\\01-sketch\\3d_\\RENDER_01\\00_Prespective (1).jpg",
+    "asset": "assets/web/portfolio-source-originals/daghriri-park-cover.webp",
+    "dimensions": [
+      2400,
+      1200
+    ],
+    "ownerSelected": true,
+    "singleImage": true,
+    "previewOnlyRemoved": true
+  },
+  "sabyaOriginalCover": {
+    "source": "\\\\192.168.0.199\\e\\Faqih 2022\\23036-PL-OMAR ZERAA\\02-Arch\\OLD\\3D\\00_Render\\LAYOUT\\00_Layout_Zone_3.RGB_color.jpg",
+    "asset": "assets/web/portfolio-source-originals/sabya-gardens-cover.webp",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "ownerSelected": true,
+    "singleImage": true
+  },
+  "mediaUpdate20261106": {
+    "sources": [
+      "https://www.behance.net/gallery/81309665/DMC-Office",
+      "https://www.behance.net/gallery/73390235/Emaar-Mivida-Boulevard",
+      "https://www.behance.net/gallery/104744041/Addengreens-Zagazig",
+      "https://www.behance.net/gallery/217384613/VIVIENDA",
+      "https://www.behance.net/gallery/206431041/JAZAN-WALKWAYWATERFRONT",
+      "https://www.behance.net/gallery/255417661/Tuhama-Coast-Applied-Design"
+    ],
+    "ownerConfirmedSeparateScopes": [
+      "daghriri-park",
+      "tuhama-coast"
+    ],
+    "videos": {
+      "vivienda-compound": "https://player.vimeo.com/video/1048979213?h=157ba13c28",
+      "emaar-mivida": "https://player.vimeo.com/video/304610826",
+      "addengreens-community": "https://player.vimeo.com/video/1046457324?h=939030f9ae",
+      "armonia-new-capital": "https://player.vimeo.com/video/343241007",
+      "jazan-waterfront": "https://www-ccv.adobe.io/v1/player/ccv/PjWIBuT-Jho/embed?api_key=behance1&bgcolor=%23191919"
+    },
+    "imageSelection": "DMC4, Mivida5 (600px source images, branding banner omitted), Addengreens2, Vivienda8, Lulu6, ZAN3, Daghriri6, Tuhama8, Corniche8. Corniche option02 NOT APPROVED excluded.",
+    "zanSources": [
+      {
+        "file": "Jazan_Masterplan_Stage1_100pct_14Oct2026_Part1_p1-40_Batch Compress.pdf",
+        "page": 40
+      },
+      {
+        "file": "Jazan_Masterplan_Stage1_100pct_14Oct2026_Part2_p41-62_Batch Compress.pdf",
+        "page": 1
+      }
+    ],
+    "assetDetails": [
+      {
+        "group": "dmc",
+        "i": 0,
+        "asset": "assets/web/behance-galleries/dmc-00.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/5c52ed81309665.5cfba4c282585.jpg",
+        "size": [
+          1400,
+          875
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\dmc-00.webp"
+      },
+      {
+        "group": "dmc",
+        "i": 1,
+        "asset": "assets/web/behance-galleries/dmc-01.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/dc0be681309665.5cfba4c282067.jpg",
+        "size": [
+          1400,
+          875
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\dmc-01.webp"
+      },
+      {
+        "group": "dmc",
+        "i": 2,
+        "asset": "assets/web/behance-galleries/dmc-02.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/33106f81309665.5cfba4c281aff.jpg",
+        "size": [
+          1400,
+          1120
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\dmc-02.webp"
+      },
+      {
+        "group": "dmc",
+        "i": 3,
+        "asset": "assets/web/behance-galleries/dmc-03.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/12688681309665.5cfba3f5c88ea.jpg",
+        "size": [
+          938,
+          1000
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\dmc-03.webp"
+      },
+      {
+        "group": "mivida",
+        "i": 0,
+        "asset": "assets/web/behance-galleries/mivida-00.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/98da7073390235.5c07e33575502.jpg",
+        "size": [
+          1400,
+          332
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\mivida-00.webp"
+      },
+      {
+        "group": "mivida",
+        "i": 1,
+        "asset": "assets/web/behance-galleries/mivida-01.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/37b72373390235.5c07e33525a1a.jpg",
+        "size": [
+          600,
+          338
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\mivida-01.webp"
+      },
+      {
+        "group": "mivida",
+        "i": 2,
+        "asset": "assets/web/behance-galleries/mivida-02.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/34103973390235.5c07e335263cf.jpg",
+        "size": [
+          600,
+          338
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\mivida-02.webp"
+      },
+      {
+        "group": "mivida",
+        "i": 3,
+        "asset": "assets/web/behance-galleries/mivida-03.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/4a412773390235.5c07e33526f2c.jpg",
+        "size": [
+          600,
+          338
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\mivida-03.webp"
+      },
+      {
+        "group": "mivida",
+        "i": 4,
+        "asset": "assets/web/behance-galleries/mivida-04.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/f0353073390235.5c07e33524790.jpg",
+        "size": [
+          600,
+          338
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\mivida-04.webp"
+      },
+      {
+        "group": "mivida",
+        "i": 5,
+        "asset": "assets/web/behance-galleries/mivida-05.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/11c13473390235.5c07e3352521a.jpg",
+        "size": [
+          600,
+          338
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\mivida-05.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 0,
+        "asset": "assets/web/behance-galleries/tuhama-samples-00.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/ef19f2255417661.6ab4c226d2d2c.jpg",
+        "size": [
+          1400,
+          840
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-00.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 1,
+        "asset": "assets/web/behance-galleries/tuhama-samples-01.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f7397f255417661.6ab4b93400d1f.jpg",
+        "size": [
+          1400,
+          788
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-01.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 2,
+        "asset": "assets/web/behance-galleries/tuhama-samples-02.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/9d57aa255417661.6ab4b934d8d54.jpg",
+        "size": [
+          1400,
+          933
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-02.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 3,
+        "asset": "assets/web/behance-galleries/tuhama-samples-03.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/8c06c2255417661.6ab4b9357ad0d.jpg",
+        "size": [
+          1400,
+          800
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-03.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 4,
+        "asset": "assets/web/behance-galleries/tuhama-samples-04.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/044b7a255417661.6ab4b93620337.jpg",
+        "size": [
+          1400,
+          1474
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-04.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 5,
+        "asset": "assets/web/behance-galleries/tuhama-samples-05.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/15fa1f255417661.6ab4b936c6586.jpg",
+        "size": [
+          1400,
+          788
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-05.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 6,
+        "asset": "assets/web/behance-galleries/tuhama-samples-06.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/3b5baf255417661.6ab4b937b1869.jpg",
+        "size": [
+          1400,
+          1474
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-06.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 7,
+        "asset": "assets/web/behance-galleries/tuhama-samples-07.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/4e8dee255417661.6ab4b9387a379.jpg",
+        "size": [
+          1400,
+          788
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-07.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 8,
+        "asset": "assets/web/behance-galleries/tuhama-samples-08.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/1d9c70255417661.6ab4b93944275.jpg",
+        "size": [
+          1400,
+          933
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-08.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 9,
+        "asset": "assets/web/behance-galleries/tuhama-samples-09.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/3be40c255417661.6ab4b93a2b940.jpg",
+        "size": [
+          1400,
+          788
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-09.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 10,
+        "asset": "assets/web/behance-galleries/tuhama-samples-10.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/2ee5e7255417661.6ab4c132e5011.jpg",
+        "size": [
+          1400,
+          700
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-10.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 11,
+        "asset": "assets/web/behance-galleries/tuhama-samples-11.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/548727255417661.6ab4b93b41205.jpg",
+        "size": [
+          1400,
+          840
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-11.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 12,
+        "asset": "assets/web/behance-galleries/tuhama-samples-12.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a76530255417661.6ab4b93d8e30f.jpg",
+        "size": [
+          1400,
+          788
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-12.webp"
+      },
+      {
+        "group": "tuhama-samples",
+        "i": 13,
+        "asset": "assets/web/behance-galleries/tuhama-samples-13.webp",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/fc21e2255417661.6ab4b93ea36a0.jpg",
+        "size": [
+          1400,
+          700
+        ],
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-samples-13.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 0,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/548727255417661.6ab4b93b41205.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-00.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 1,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/55c7b2255417661.6ab4b93b3fb84.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-01.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 2,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/ca2122255417661.6ab4b93b42db4.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-02.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 3,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/d82f80255417661.6ab4b93b43902.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-03.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 4,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/99ee5e255417661.6ab4b93b43cd4.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-04.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 5,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/06b150255417661.6ab4b93b44491.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-05.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 6,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/77406e255417661.6ab4b93b41d3f.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-06.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 7,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/2b38da255417661.6ab4b93b419a9.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-07.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 8,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f65aeb255417661.6ab4b93b43544.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-08.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 9,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/e17e0a255417661.6ab4b93b44878.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-09.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 10,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/4da0c2255417661.6ab4b93b402e9.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-10.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 11,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/8d72ca255417661.6ab4b93b42634.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-11.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 12,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/63b161255417661.6ab4b93b3f78a.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-12.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 13,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/55c733255417661.6ab4b93b440aa.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-13.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 14,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/07705f255417661.6ab4b93b4553e.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-14.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 15,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/e82e8a255417661.6ab4b93b429f3.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-15.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 16,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6b7d29255417661.6ab4b93b3ff37.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-16.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 17,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/228b95255417661.6ab4b93b40e5b.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-17.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 18,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/e5ab9f255417661.6ab4b93b40a7f.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-18.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 19,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/eb0305255417661.6ab4b93b44d25.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-19.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 20,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/4d79c1255417661.6ab4b93b4513e.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-20.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 21,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/692d08255417661.6ab4b93b4068e.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-21.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 22,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/1f9dba255417661.6ab4b93b415b6.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-22.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 23,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/3f22fc255417661.6ab4b93b4319c.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-23.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 24,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/86c5ae255417661.6ab4b93b42141.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-24.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 25,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/33884f255417661.6ab4b93b47293.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-25.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 26,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/d5131f255417661.6ab4b93b45c76.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-26.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 27,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/31253c255417661.6ab4b93b458ee.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-27.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 28,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/58fbdd255417661.6ab4b93b46ec5.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-28.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 29,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/be179e255417661.6ab4b93b463b1.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-29.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 30,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f28c7d255417661.6ab4b93b46019.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-30.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 31,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/bc2d89255417661.6ab4b93b46b06.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-31.webp"
+      },
+      {
+        "group": "tuhama-park",
+        "i": 32,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/e667a6255417661.6ab4b93b46744.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-park-32.webp"
+      },
+      {
+        "group": "tuhama-night",
+        "i": 0,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/2ee5e7255417661.6ab4c132e5011.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-night-00.webp"
+      },
+      {
+        "group": "tuhama-night",
+        "i": 1,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/53d814255417661.6ab4c132e54c8.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\tuhama-night-01.webp"
+      },
+      {
+        "group": "addengreens",
+        "i": 0,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/036919104744041.5f69ed53dbccd.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\addengreens-00.webp"
+      },
+      {
+        "group": "addengreens",
+        "i": 1,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/77a25e104744041.65353b01b9cd8.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\addengreens-01.webp"
+      },
+      {
+        "group": "lulu-original",
+        "i": 0,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\23026-c- lulu market\\02-Arch\\3D\\02_Render\\003.RGB_color.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\lulu-original-00.webp"
+      },
+      {
+        "group": "lulu-original",
+        "i": 1,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\23026-c- lulu market\\02-Arch\\3D\\02_Render\\004.RGB_color.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\lulu-original-01.webp"
+      },
+      {
+        "group": "lulu-original",
+        "i": 2,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\23026-c- lulu market\\02-Arch\\3D\\02_Render\\006.RGB_color.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\lulu-original-02.webp"
+      },
+      {
+        "group": "lulu-original",
+        "i": 3,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\23026-c- lulu market\\02-Arch\\3D\\02_Render\\008.RGB_color.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\lulu-original-03.webp"
+      },
+      {
+        "group": "lulu-original",
+        "i": 4,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\23026-c- lulu market\\02-Arch\\3D\\02_Render\\CAM_06.RGB_color.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\lulu-original-04.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 0,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/dae4c0217384613.67908df94ee9f.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-00.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 1,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/2e4f7f217384613.67908df94e1b5.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-01.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 2,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/5407c9217384613.67908df94db6e.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-02.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 3,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/579471217384613.67908df94f80a.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-03.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 4,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/5d7fc7217384613.67908df94e86d.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-04.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 5,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/ce5e9a217384613.678fd2197186f.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-05.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 6,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/eefdec217384613.678fd21973f20.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-06.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 7,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/1e4824217384613.678fd21972050.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-07.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 8,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/8f697a217384613.678fd219731c3.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-08.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 9,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/9c9ad0217384613.678fd219744d6.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-09.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 10,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/f8eafa217384613.678fd21972caa.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-10.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 11,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/2ef754217384613.678fd2197387c.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-11.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 12,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/35bad2217384613.678fd21972781.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-12.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 13,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/fc5edd217384613.678fd21c63256.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-13.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 14,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/79b1fc217384613.678fd21c60efb.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-14.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 15,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/c60432217384613.678fd21c606e6.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-15.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 16,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/cb5593217384613.678fd21c6169c.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-16.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 17,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/5a33f4217384613.678fd21c61e31.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-17.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 18,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/6e973f217384613.678fd21c5fa59.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-18.webp"
+      },
+      {
+        "group": "vivienda-new",
+        "i": 19,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/d9a079217384613.678fd21c62784.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\vivienda-new-19.webp"
+      },
+      {
+        "group": "corniche-approved",
+        "i": 0,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/532d91206431041.66cca057f2c6a.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-approved-00.webp"
+      },
+      {
+        "group": "corniche-approved",
+        "i": 1,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/8c133e206431041.66cca058dea8e.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-approved-01.webp"
+      },
+      {
+        "group": "corniche-approved",
+        "i": 2,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/647d73206431041.66cca058dddf1.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-approved-02.webp"
+      },
+      {
+        "group": "corniche-approved",
+        "i": 3,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/614eba206431041.66cca058dd676.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-approved-03.webp"
+      },
+      {
+        "group": "corniche-approved",
+        "i": 4,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/a3cc58206431041.66cca058dcedd.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-approved-04.webp"
+      },
+      {
+        "group": "corniche-approved",
+        "i": 5,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/5bcb4f206431041.66cca058de54b.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-approved-05.webp"
+      },
+      {
+        "group": "corniche-approved",
+        "i": 6,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/002010206431041.66cca058df1b0.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-approved-06.webp"
+      },
+      {
+        "group": "corniche-photo",
+        "i": 0,
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/caaa5b206431041.695a3a0643b5b.jpg",
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\corniche-photo-00.webp"
+      },
+      {
+        "group": "zan-october",
+        "i": 0,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\01 - عقود و عروض\\عرض فني ومالي شركة السليمان\\المخططات المبدئية\\19-10-2026\\Jazan_Masterplan_Stage1_100pct_14Oct2026_Part1_p1-40_Batch Compress.pdf",
+        "page": 40,
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\zan-october-00.webp"
+      },
+      {
+        "group": "zan-october",
+        "i": 1,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\01 - عقود و عروض\\عرض فني ومالي شركة السليمان\\المخططات المبدئية\\19-10-2026\\Jazan_Masterplan_Stage1_100pct_14Oct2026_Part2_p41-62_Batch Compress.pdf",
+        "page": 1,
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\zan-october-01.webp"
+      },
+      {
+        "group": "zan-october",
+        "i": 2,
+        "url": "\\\\HMF-Server01\\Faqih-2026\\faqih-2026\\01 - عقود و عروض\\عرض فني ومالي شركة السليمان\\المخططات المبدئية\\19-10-2026\\Jazan_Masterplan_Stage1_100pct_14Oct2026_Part1_p1-40_Batch Compress.pdf",
+        "page": 17,
+        "path": "D:\\_Course\\PORTFOLIO_DEPLOY\\assets\\web\\behance-galleries\\zan-october-02.webp"
+      }
+    ]
+  },
+  "zanDetailedBasis": {
+    "siteAreaSource": "October Part1 local page25: 302473 m2",
+    "gfaSource": "October Part3 local page5: 392069 m2 including podium categories",
+    "phaseSource": "October Part1 page1: Stage1 100% submission",
+    "programSource": "October Part1 page17 / Part3 page5",
+    "excludedFromPublicDetails": [
+      "internal client directions / licensing-vs-expected use table",
+      "407208 m2 BUA and 4546 bays from June schedule; conflict with October masterplan GFA basis",
+      "reference/benchmark photographs"
+    ],
+    "drawingReview": "June preliminary drawings checked; no construction/approval status inferred",
+    "massingAsset": "assets/web/behance-galleries/zan-october-massing.webp"
+  },
+  "tuhamaAerialUpdate": {
+    "ownerRequested": true,
+    "source": "https://www.behance.net/gallery/255417661/Tuhama-Coast-Applied-Design",
+    "added": [
+      "assets/web/behance-galleries/tuhama-night-00.webp",
+      "assets/web/behance-galleries/tuhama-park-00.webp",
+      "assets/web/behance-galleries/tuhama-park-01.webp",
+      "assets/web/behance-galleries/tuhama-park-02.webp",
+      "assets/web/behance-galleries/tuhama-park-03.webp",
+      "assets/web/behance-galleries/tuhama-park-04.webp",
+      "assets/web/behance-galleries/tuhama-park-05.webp"
+    ],
+    "coverUnchanged": true
+  }
+}

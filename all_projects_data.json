@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "talda-community",
+    "num": "01 / 23",
+    "category": "masterplan",
+    "region": "egypt",
+    "regionNameEn": "Mostakbal City, Egypt",
+    "regionNameAr": "مستقبل سيتي، مصر",
+    "statusEn": "Design & 4K Walkthrough",
+    "statusAr": "مرحلة التصميم والعرض السينمائي",
+    "titleEn": "Talda Residential Compound",
+    "titleAr": "كمبوند تالدة السكني (HDP)",
+    "roleEn": "Lead Architect & Master Planner",
+    "roleAr": "كبير المعماريين ومخطط عام المشروع",
+    "descEn": "30-feddan (126,000 m²) master-planned residential community in Mostakbal City developed by HDP. Features cascading terraced architecture, 80% green landscapes and water channels, 11 G+5 residential buildings (~600 apartments), 140 townhomes, 1,900 m² clubhouse, commercial strip, and 4K walkthrough animation.",
+    "descAr": "مجتمع سكني متكامل على مساحة 30 فداناً (126,000 م²) بمستقبل سيتي لصالح شركة HDP (بنك التعمير والإسكان). عمارة سكنية مدرجة، 80% مسطحات خضراء ومائية، 11 عمارة G+5 تضم 600 شقة، و140 تاون هاوس، وكلوب هاوس بمساحة 1,900 م²، ومول تجاري، وإخراج سينمائي 4K.",
+    "specs": [
+      {
+        "labelEn": "Masterplan Area",
+        "labelAr": "مساحة المخطط",
+        "val": "30 Feddans (~126,000 m²)"
+      },
+      {
+        "labelEn": "Landscape Ratio",
+        "labelAr": "المسطحات الخضراء",
+        "val": "80% Open Space / Riverways"
+      },
+      {
+        "labelEn": "Residential Units",
+        "labelAr": "الوحدات السكنية",
+        "val": "~740 Units (600 Apts + 140 TH)"
+      },
+      {
+        "labelEn": "Master Developer",
+        "labelAr": "المطور الرئيسي",
+        "val": "HDP (Housing & Dev. Bank)"
+      }
+    ],
+    "cover": "assets/web/talda_slope.webp",
+    "images": [
+      "assets/web/talda_slope.webp",
+      "assets/web/talda_view02.webp"
+    ],
+    "video": "assets/web/talda_walkthrough.mp4",
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "developer": "HDP (Housing & Development Properties - بنك التعمير والإسكان)"
+  },
+  {
+    "id": "al-mousa-complex",
+    "num": "02 / 23",
+    "category": "commercial",
+    "region": "ksa",
+    "regionNameEn": "Jazan, KSA",
+    "regionNameAr": "جازان، السعودية",
+    "statusEn": "Delivered",
+    "statusAr": "تم التسليم والتشغيل",
+    "titleEn": "Al-Mousa Commercial & Business Complex",
+    "titleAr": "مجمع الموسى التجاري والإداري",
+    "roleEn": "Lead Consultant Architect",
+    "roleAr": "استشاري معماري رئيسي",
+    "descEn": "18,600 m² 4-story commercial & business center in Jazan (85 units). Full scope: lead architectural consultancy (facade & layout optimization, MEP coordination, Balady and Civil Defense licensing), executive multi-tenant floorplans, and As-Built/Shop Drawing delivery handover.",
+    "descAr": "مجمع تجاري ومكتبي بمساحة 18,600 م² بارتفاع 4 طوابق بجازان (85 وحدة). نطاق العمل الشامل: استشاري معماري رئيسي، مراجعة وتطوير التصميم والواجهات الزجاجية، التنسيق الكهروميكانيكي، تراخيص بلدي والدفاع المدني، المخططات التنفيذية، وإجراءات التسليم والتشغيل.",
+    "specs": [
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "18,600 m²"
+      },
+      {
+        "labelEn": "Levels",
+        "labelAr": "عدد الأدوار",
+        "val": "4 Floors"
+      },
+      {
+        "labelEn": "Capacity",
+        "labelAr": "الوحدات التأجيرية",
+        "val": "85 Units"
+      },
+      {
+        "labelEn": "Balady",
+        "labelAr": "الاعتماد",
+        "val": "Municipal Clear"
+      }
+    ],
+    "cover": "assets/web/image18.jpg",
+    "images": [
+      "assets/web/image18.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/182844209/AL-MOUSSA-COMPLEX",
+    "verifiedScope": "Lead Architectural Consultancy, Executive Commercial & Office Planning (85 Units), Multi-disciplinary Coordination, Municipal & Civil Defense Permitting, Delivery Handover"
+  },
+  {
+    "id": "strip-mall",
+    "num": "03 / 23",
+    "category": "commercial",
+    "region": "ksa",
+    "regionNameEn": "Jazan, KSA",
+    "regionNameAr": "جازان، السعودية",
+    "statusEn": "Final Stages",
+    "statusAr": "المراحل الختامية",
+    "titleEn": "Lulu & Jarir Strip Mall Hub",
+    "titleAr": "مجمع الستريب مول التجاري (لولو وجرير)",
+    "roleEn": "PMC Lead Consultant & Architect of Record",
+    "roleAr": "استشاري إدارة المشاريع (PMC) والمعماري المعتمد",
+    "descEn": "High-density retail destination balancing prime commercial GLA with fluid vehicular circulation and municipal Balady approval.",
+    "descAr": "وجهة تجارية حيوية توازن بين المساحات الإيجارية (GLA) وانسيابية الحركة المرورية واعتمادات منصة بلدي.",
+    "specs": [
+      {
+        "labelEn": "Site Area",
+        "labelAr": "مساحة الموقع",
+        "val": "31,245 m²"
+      },
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "23,582 m²"
+      },
+      {
+        "labelEn": "Capacity",
+        "labelAr": "الطاقة الاستيعابية",
+        "val": "140 Units"
+      },
+      {
+        "labelEn": "Balady",
+        "labelAr": "الاعتماد",
+        "val": "100% Approved"
+      }
+    ],
+    "cover": "assets/web/image2.jpg",
+    "images": [
+      "assets/web/image2.jpg",
+      "assets/web/image1.png"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/206427399/LULU-HYPER-MARKET-JARIR-BOOKSTORE-JAZAN-COMPLEX"
+  },
+  {
+    "id": "vivienda-compound",
+    "num": "04 / 23",
+    "category": "villas",
+    "region": "egypt",
+    "regionNameEn": "Egypt",
+    "regionNameAr": "مصر",
+    "statusEn": "Delivered & Inhabited",
+    "statusAr": "تم التسليم ومأهول بالسكان",
+    "titleEn": "Vivienda Residential Compound",
+    "titleAr": "كمبوند فيفيندا السكني الفاخر",
+    "roleEn": "Lead Architect & Master Planner",
+    "roleAr": "كبير المعماريين ومخطط عام المشروع",
+    "descEn": "Exclusive luxury residential gated compound in Egypt. Full architectural scope: master planning, architectural concept and detailed design of private pool villas, ultra-luxury stone facade detailing, landscape integration, and 3D visualization.",
+    "descAr": "كمبوند سكني مغلق فائق الفخامة بمصر. نطاق العمل المعماري الشامل: إعداد المخطط العام، التصميم المعماري والتنفيذي لنماذج الفلل المستقلة ذات المسابح الخاصة، تفاصيل الواجهات الحجرية الفاخرة، اللاندسكيب، والإظهار البصري ثلاثي الأبعاد.",
+    "specs": [
+      {
+        "labelEn": "Community",
+        "labelAr": "طبيعة المجمع",
+        "val": "Gated Residential",
+        "valAr": "مجتمع سكني مغلق"
+      },
+      {
+        "labelEn": "Typology",
+        "labelAr": "الوحدات",
+        "val": "Private Pool Villas",
+        "valAr": "فلل بمسابح خاصة"
+      },
+      {
+        "labelEn": "Finishing",
+        "labelAr": "مستوى التشطيب",
+        "val": "Ultra Luxury",
+        "valAr": "تشطيب فائق الفخامة"
+      }
+    ],
+    "cover": "assets/web/behance_vivienda.jpg",
+    "images": [
+      "assets/web/behance_vivienda.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/217384613/VIVIENDA",
+    "verifiedScope": "Full Architectural Scope: Master Planning, Residential Villa Typologies with Private Pools, Ultra-Luxury Facade Detailing, Landscape & Pool Design, 3D Visualization"
+  },
+  {
+    "id": "pearl-des-rois",
+    "num": "05 / 23",
+    "category": "commercial",
+    "region": "egypt",
+    "regionNameEn": "New Cairo, Egypt",
+    "regionNameAr": "القاهرة الجديدة، مصر",
+    "statusEn": "Handed Over",
+    "statusAr": "تم الاعتماد والتسليم",
+    "titleEn": "Pearl Des Rois Mixed-Use Complex",
+    "titleAr": "مجمع لؤلؤة الملوك السكني التجاري الإداري",
+    "roleEn": "Lead Architect & 3D Visualizer",
+    "roleAr": "كبير المعماريين ومصمم الإظهار المعماري 3D",
+    "descEn": "Prestigious mixed-use residential, commercial, and administrative complex in New Cairo (Pearl Des Rois). Full scope: lead architectural design, grand French neoclassical stone facades, executive floorplans for commercial, office, and luxury residential suites, and 3D visualization.",
+    "descAr": "مجمع متعدّد الاستخدامات (سكني وتجاري وإداري) بالقاهرة الجديدة (لؤلؤة الملوك - بيرل دي روا). نطاق العمل الشامل: قيادة التصميم المعماري، الواجهات النيوكلاسيكية الفرنسية بالأعمدة الحجرية المهيبة، المخططات التنفيذية، وتوزيع المساحات الإدارية والتجارية والسكنية، والإظهار البصري الكامل.",
+    "specs": [
+      {
+        "labelEn": "Style",
+        "labelAr": "الطراز",
+        "val": "French Neoclassical"
+      },
+      {
+        "labelEn": "Typology",
+        "labelAr": "النوع",
+        "val": "Palatial Residence"
+      },
+      {
+        "labelEn": "Collab",
+        "labelAr": "التعاون الفني",
+        "val": "MHG Group"
+      },
+      {
+        "labelEn": "Landscape",
+        "labelAr": "اللاندسكيب",
+        "val": "Formal Gardens"
+      }
+    ],
+    "cover": "assets/web/pearl_des_rois_main.webp",
+    "images": [
+      "assets/web/pearl_des_rois_main.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/182830627/PEARL-DES-ROIS",
+    "verifiedScope": "Full Architectural Scope: Mixed-Use Master Layout (Residential, Retail & Offices), French Neoclassical Facade Detailing, Executive Drawings, 3D Visualization"
+  },
+  {
+    "id": "ouroba-towers",
+    "num": "06 / 23",
+    "category": "towers",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Planning & Approvals",
+    "statusAr": "مرحلة التصميم والاعتمادات",
+    "titleEn": "Ouroba Business Towers",
+    "titleAr": "مجمع أبراج العروبة للأعمال",
+    "roleEn": "Lead Concept & Facade Architect",
+    "roleAr": "معماري رئيسي للفكرة والواجهات",
+    "descEn": "Premier commercial campus on Al-Ouroba corridor, Riyadh. Led architectural massing concept, passive kinetic shading louvers, 3D visualization, and central pedestrian plaza connecting mid-rise office towers.",
+    "descAr": "مجمع أبراج مكتبية وتجارية رائد على طريق العروبة بالرياض. قيادة الفكرة التصميمية والكتل المعمارية، وتصميم الواجهات بكواسر شمسية ذكية، والإخراج البصري ثلاثي الأبعاد، وتخطيط البلازا المركزية.",
+    "specs": [
+      {
+        "labelEn": "Site Area",
+        "labelAr": "مساحة الأرض",
+        "val": "18,200 m²"
+      },
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "48,500 m²"
+      },
+      {
+        "labelEn": "Levels",
+        "labelAr": "الارتفاع",
+        "val": "G + 8 Floors"
+      },
+      {
+        "labelEn": "Capacity",
+        "labelAr": "مواقف السيارات",
+        "val": "620 Spaces"
+      }
+    ],
+    "cover": "assets/web/ouroba_cam01.webp",
+    "images": [
+      "assets/web/ouroba_cam01.webp",
+      "assets/web/ouroba_cam02.webp",
+      "assets/web/ouroba_cam03.webp"
+    ],
+    "dwg": "00 -MASS PLAN.dwg",
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Lead Concept & Facade Architecture, 3D Visualization, Urban Massing & Pedestrian Plaza Planning"
+  },
+  {
+    "id": "jazan-waterfront",
+    "num": "07 / 23",
+    "category": "masterplan",
+    "region": "ksa",
+    "regionNameEn": "Jazan, KSA",
+    "regionNameAr": "جازان، السعودية",
+    "statusEn": "Executed",
+    "statusAr": "تم التنفيذ والتشغيل",
+    "titleEn": "Jazan Sunset Corniche Waterfront",
+    "titleAr": "مشروع كورنيش الغروب والواجهة البحرية بجازان",
+    "roleEn": "PMC Lead Consultant & Urban Designer",
+    "roleAr": "استشاري إدارة المشاريع (PMC) ومصمم حضري",
+    "descEn": "3.2-kilometer civic waterfront promenade in Jazan (68,000 m² open space). Integrated scope: PMC leadership (field supervision, QA/QC, compliance over 3.2 km), urban & landscape design (bike tracks, kinetic wind-resistant canopies, civic kiosks), contractor management, and operational handover.",
+    "descAr": "كورنيش الواجهة البحرية الاستراتيجية بجازان بطول 3.2 كم (68,000 م² مسطحات مفتوحة). نطاق العمل المتكامل: قيادة استشارات إدارة المشاريع (PMC)، الإشراف الميداني وضمان الجودة، التصميم والتطوير الحضري، المظلات المقاومة للرياح، مسارات الدراجات، إدارة المقاولين والتسليم التشغيلي.",
+    "specs": [
+      {
+        "labelEn": "Length",
+        "labelAr": "طول الواجهة",
+        "val": "3.2 Kilometers"
+      },
+      {
+        "labelEn": "Footprint",
+        "labelAr": "المساحة المفتوحة",
+        "val": "68,000 m²"
+      },
+      {
+        "labelEn": "Shading",
+        "labelAr": "المظلات الذكية",
+        "val": "Aerodynamic Canopies"
+      },
+      {
+        "labelEn": "Balady",
+        "labelAr": "الاعتماد البلدي",
+        "val": "100% Delivered"
+      }
+    ],
+    "cover": "assets/web/jazan_sunset_corniche_cover.webp",
+    "images": [
+      "assets/web/jazan_sunset_corniche_cover.webp",
+      "assets/web/image15.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/206431041/JAZAN-WALKWAYWATERFRONT",
+    "verifiedScope": "Turnkey PMC Leadership, 3.2km Urban & Landscape Waterfront Design, Kinetic Shading Canopies, Site QA/QC Supervision, Contractor Management, Handover"
+  },
+  {
+    "id": "king-fahd-towers",
+    "num": "08 / 23",
+    "category": "towers",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Design Development",
+    "statusAr": "تطوير التصميم الإنشائي والمعماري",
+    "titleEn": "King Fahd Landmark Towers",
+    "titleAr": "أبراج طريق الملك فهد الأيقونية",
+    "roleEn": "Architectural & Facade Design, 3D Visualization",
+    "roleAr": "تصميم معماري وتطوير واجهات وإظهار 3D",
+    "descEn": "Landmark dual high-rise commercial towers on King Fahd Road characterized by a monumental parabolic sky-atrium, structural sky-bridge gardens, and high-performance solar facade systems.",
+    "descAr": "معلم معماري شاهق يرتفع على أهم محاور العاصمة الرياض، يتميز بقوس زجاجي بانورامي وجسور مشاة معلقة تربط البرجين بحدائق عمودية تحقق أقصى كفاءة استغلال للرياح والتهوية الطبيعية.",
+    "specs": [
+      {
+        "labelEn": "Height",
+        "labelAr": "الارتفاع الإجمالي",
+        "val": "135m (~32 Lvl)"
+      },
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "85,000 m²"
+      },
+      {
+        "labelEn": "Compliance",
+        "labelAr": "معايير الكود",
+        "val": "SBC 201 / NFPA"
+      },
+      {
+        "labelEn": "Typology",
+        "labelAr": "الاستخدام",
+        "val": "Mixed Corporate"
+      }
+    ],
+    "cover": "assets/web/king_fahd_cam01.webp",
+    "images": [
+      "assets/web/king_fahd_cam01.webp",
+      "assets/web/king_fahd_cam02.webp",
+      "assets/web/king_fahd_cam04.webp",
+      "assets/web/king_fahd_cam06.webp"
+    ],
+    "dwg": "04.dwg",
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman"
+  },
+  {
+    "id": "obelisko-capitale",
+    "num": "09 / 23",
+    "category": "towers",
+    "region": "egypt",
+    "regionNameEn": "New Administrative Capital, Egypt",
+    "regionNameAr": "العاصمة الإدارية، مصر",
+    "statusEn": "Iconic Concept",
+    "statusAr": "تصميم أيقوني عالمي",
+    "titleEn": "Obelisko Capitale Iconic Tower",
+    "titleAr": "برج أوبليسكو كابيتال الأيقوني",
+    "roleEn": "Senior 3D Architectural Visualizer",
+    "roleAr": "كبير مصممي الإظهار المعماري 3D",
+    "descEn": "1,000-meter visionary megatall skyscraper in the New Administrative Capital CBD inspired by ancient Egyptian obelisks. Senior 3D Architectural Visualizer at Vanilla Studio crafting high-fidelity aerial master vistas and aerodynamic exterior renders.",
+    "descAr": "برج أيقوني شاهق بارتفاع 1,000 متر بمنطقة الأعمال المركزية بالعاصمة الإدارية مستلهم من المسلة الفرعونية. كبير مصممي الإظهار المعماري في استوديو فانيلا لإخراج اللقطات البصرية الجوية فائقة الدقة والمشاهد المعمارية ثلاثية الأبعاد.",
+    "specs": [
+      {
+        "labelEn": "Concept Height",
+        "labelAr": "الارتفاع المقترح",
+        "val": "1,000m Megatall"
+      },
+      {
+        "labelEn": "Inspiration",
+        "labelAr": "الفكرة التصميمية",
+        "val": "Pharaonic Obelisk"
+      },
+      {
+        "labelEn": "Engineering",
+        "labelAr": "الحلول التقنية",
+        "val": "Wind Aerodynamics"
+      },
+      {
+        "labelEn": "Location",
+        "labelAr": "الموقع",
+        "val": "New Capital CBD"
+      }
+    ],
+    "cover": "assets/web/behance_obelisko-capitale.jpg",
+    "images": [
+      "assets/web/behance_obelisko-capitale.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/75994957/Obelisko-Capitale",
+    "verifiedScope": "Senior 3D Architectural Visualization (Vanilla Studio), Megatall Skyscraper (1000m) Aerial Rendering, Complex Scene Lighting & Texturing"
+  },
+  {
+    "id": "arched-arcade-55",
+    "num": "10 / 23",
+    "category": "commercial",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Design & Engineering",
+    "statusAr": "التصميم الهندسي المتكامل",
+    "titleEn": "The Arched Arcade Commercial Plaza (A-55)",
+    "titleAr": "بوليفارد الرواق التجاري 55",
+    "roleEn": "Architect Team Leader",
+    "roleAr": "رئيس فريق التصميم المعماري",
+    "descEn": "Contemporary neo-classical lifestyle destination with continuous illuminated ground-floor arched colonnades, luxury dining terraces, and shaded rooftop pergolas.",
+    "descAr": "استلهام للأروقة التاريخية بروح عصرية؛ ممر تجاري للمشاة مضاء بالكامل، طوابق علوية لمطاعم الـ Fine Dining بتراسات مكشوفة وأسقف مظللة برغولات.",
+    "specs": [
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "22,800 m²"
+      },
+      {
+        "labelEn": "Facade",
+        "labelAr": "طول الواجهة",
+        "val": "180m Arcade"
+      },
+      {
+        "labelEn": "Levels",
+        "labelAr": "عدد الطوابق",
+        "val": "G + 2 + Dining"
+      },
+      {
+        "labelEn": "BIM Model",
+        "labelAr": "ملف الريفيت",
+        "val": "Revit 2024 RVT"
+      }
+    ],
+    "cover": "assets/web/a55_cam01.webp",
+    "images": [
+      "assets/web/a55_cam01.webp",
+      "assets/web/a55_cam02.webp",
+      "assets/web/a55_cam03.webp",
+      "assets/web/a55_lightmix.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman"
+  },
+  {
+    "id": "corporate-hq-37",
+    "num": "11 / 23",
+    "category": "towers",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Executive Facade Design",
+    "statusAr": "التصميم التنفيذي والواجهات",
+    "titleEn": "Corporate HQ 37 Commercial Building",
+    "titleAr": "المقر المكتبي والإداري 37",
+    "roleEn": "Architect Team Leader & Lead Designer",
+    "roleAr": "رئيس فريق التصميم المعماري ومصمم رئيسي",
+    "descEn": "14,500 m² corporate headquarters in Riyadh. Full architectural scope: structural glass curtain walls, Riyadh natural stone framing, executive outdoor sky terraces, open office floorplans, cores/egress per SBC 201/801, MEP coordination, Value Engineering, and Balady/Salamah licensing.",
+    "descAr": "مقر إداري ومكتبي فاخر بمساحة 14,500 م² بالرياض. نطاق العمل الشامل: الواجهات الزجاجية الهيكلية وإطارات حجر الرياض، التراسات العلوية، المساقط الإدارية المفتوحة، مسارات الهروب ونواة الخدمات وفق SBC 201/801، التنسيق الهندسي، الهندسة القيمية، وتراخيص بلدي والدفاع المدني.",
+    "specs": [
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "14,500 m²"
+      },
+      {
+        "labelEn": "Typology",
+        "labelAr": "طبيعة المبنى",
+        "val": "Corporate HQ"
+      },
+      {
+        "labelEn": "Glazing",
+        "labelAr": "نظام الزجاج",
+        "val": "Double Glazed Low-E"
+      },
+      {
+        "labelEn": "IFC Model",
+        "labelAr": "ملف النمذجة",
+        "val": "Full IFC Export"
+      }
+    ],
+    "cover": "assets/web/a37_cam01.webp",
+    "images": [
+      "assets/web/a37_cam01.webp",
+      "assets/web/a37_cam02.webp",
+      "assets/web/a37_cam03.webp",
+      "assets/web/a37_cam05.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Full Architectural Scope: Concept & Facades, Structural Glass & Stone Detailing, Executive Floorplans, SBC 201/801 Compliance, Value Engineering, Municipal Licensing"
+  },
+  {
+    "id": "abu-arish-mixed",
+    "num": "12 / 23",
+    "category": "masterplan",
+    "region": "ksa",
+    "regionNameEn": "Abu Arish, KSA",
+    "regionNameAr": "أبو عريش، السعودية",
+    "statusEn": "Final Stages",
+    "statusAr": "المراحل الختامية",
+    "titleEn": "Salim Babgi Mixed-Use Residential Complex",
+    "titleAr": "مجمع سالم بابقي السكني والتجاري (أبو عريش)",
+    "roleEn": "Architect Team Leader & Master Planner",
+    "roleAr": "رئيس فريق التصميم المعماري والمخطط العام",
+    "descEn": "38,547 m² master-planned mixed community in Abu Arish for Salim Babgi. Integrates a private residential enclave (6 multi-family buildings around a central landscaped oasis) with an active commercial retail boulevard and central community mosque.",
+    "descAr": "مشروع عمراني متكامل على مساحة 38,547 م² بأبو عريش لصالح سالم بابقي. يدمج مجمعاً سكنياً خاصاً (6 عمائر سكنية تتوسطها واحة خضراء مائية) مع بوليفارد تجاري مفتوح، ومسجد جامع، و398 موقف سيارات.",
+    "specs": [
+      {
+        "labelEn": "Site Area",
+        "labelAr": "مساحة الأرض",
+        "val": "38,547 m²",
+        "valAr": "38,547 م²"
+      },
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "13,042 m²",
+        "valAr": "13,042 م²"
+      },
+      {
+        "labelEn": "Capacity",
+        "labelAr": "السعة والمواقف",
+        "val": "6 Buildings + 398 Parking",
+        "valAr": "6 عمائر + 398 موقف"
+      }
+    ],
+    "cover": "assets/web/image5.jpg",
+    "images": [
+      "assets/web/image5.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/206426511/SB-COMPLEX-Abu-Arish-02"
+  },
+  {
+    "id": "emaar-mivida",
+    "num": "13 / 23",
+    "category": "commercial",
+    "region": "egypt",
+    "regionNameEn": "New Cairo, Egypt",
+    "regionNameAr": "القاهرة الجديدة، مصر",
+    "statusEn": "Delivered",
+    "statusAr": "تم التسليم والتشغيل",
+    "titleEn": "Emaar Mivida Boulevard Commercial",
+    "titleAr": "إعمار ميفيدا بوليفارد",
+    "roleEn": "Senior 3D Architectural Visualizer",
+    "roleAr": "كبير مصممي الإظهار المعماري 3D",
+    "descEn": "Premier open-air retail and lifestyle boulevard within Emaar Mivida, New Cairo. Senior 3D Architectural Visualizer delivering high-fidelity daytime and evening cinematic renders adhering to Emaar's international branding standards.",
+    "descAr": "بوليفارد تجاري مفتوح ضمن مجتمع ميفيدا بالقاهرة الجديدة لصالح إعمار مصر. كبير مصممي الإظهار المعماري لإخراج اللقطات البصرية والمشاهد السينمائية النهارية والليلية للبوليفارد التجاري وفق أعلى معايير إعمار العالمية.",
+    "specs": [
+      {
+        "labelEn": "Developer",
+        "labelAr": "المطور الرئيسي",
+        "val": "Emaar Misr"
+      },
+      {
+        "labelEn": "Location",
+        "labelAr": "الموقع",
+        "val": "New Cairo"
+      },
+      {
+        "labelEn": "Typology",
+        "labelAr": "النمط التجاري",
+        "val": "Retail Boulevard"
+      },
+      {
+        "labelEn": "Standard",
+        "labelAr": "المعايير",
+        "val": "International Grade A"
+      }
+    ],
+    "cover": "assets/web/behance_emaar-mivida-boulevard.jpg",
+    "images": [
+      "assets/web/behance_emaar-mivida-boulevard.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/73390235/Emaar-Mivida-Boulevard",
+    "verifiedScope": "Senior 3D Architectural Visualization, Photorealistic Lighting & Materials, Cinematic Day/Dusk Renders, Emaar Standards Compliance"
+  },
+  {
+    "id": "makan-commercial",
+    "num": "14 / 23",
+    "category": "commercial",
+    "region": "ksa",
+    "regionNameEn": "Sabya, KSA",
+    "regionNameAr": "صبيا، السعودية",
+    "statusEn": "Delivered",
+    "statusAr": "تم التسليم والتشغيل",
+    "titleEn": "Makan Cafe & Lounge (Sabya)",
+    "titleAr": "مكان كافيه ولاونج (صبيا)",
+    "roleEn": "Lead Architect & Turnkey Interior Designer",
+    "roleAr": "معماري رئيسي ومصمم ديكور وتنفيذ متكامل",
+    "descEn": "Flagship specialty cafe and contemporary hospitality venue in Sabya. Full scope: lead architectural design, turnkey luxury interior architecture, custom acoustic joinery detailing, ambient lighting design, executive drawings, and site coordination.",
+    "descAr": "لاونج وكافيه عصري رائد بمدينة صبيا. نطاق العمل الشامل: التصميم المعماري للواجهات، الديكور والتصميم الداخلي المتكامل، تفاصيل الأخشاب والأثاث المخصص، دراسات الإضاءة الدافئة، المخططات التنفيذية وتنسيق التنفيذ بالموقع.",
+    "specs": [
+      {
+        "labelEn": "Typology",
+        "labelAr": "النمط المعماري",
+        "val": "Specialty Cafe & Lounge"
+      },
+      {
+        "labelEn": "Scope",
+        "labelAr": "نطاق العمل",
+        "val": "Turnkey Interior & Facades"
+      },
+      {
+        "labelEn": "Atmosphere",
+        "labelAr": "الهوية التصميمية",
+        "val": "Boutique Hospitality"
+      },
+      {
+        "labelEn": "Location",
+        "labelAr": "الموقع",
+        "val": "Sabya, KSA"
+      }
+    ],
+    "cover": "assets/web/behance_makan.jpg",
+    "images": [
+      "assets/web/behance_makan.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/202108875/MAKAN",
+    "verifiedScope": "Full Architectural & Interior Fit-Out Scope: Facade Design, Luxury Interior Architecture, Custom Joinery & Lighting Detailing, Executive Drawings, Site Coordination"
+  },
+  {
+    "id": "al-hada-compound",
+    "num": "15 / 23",
+    "category": "masterplan",
+    "region": "ksa",
+    "regionNameEn": "Al Hada, KSA",
+    "regionNameAr": "الهدا، السعودية",
+    "statusEn": "Master Plan & Executive",
+    "statusAr": "المخطط العام والتصميم التنفيذي",
+    "titleEn": "Al Hada Luxury Gated Community",
+    "titleAr": "كمبوند الهدا السكني الفاخر",
+    "roleEn": "Lead Architect & Master Planner",
+    "roleAr": "كبير المعماريين ومخطط عام المشروع",
+    "descEn": "42,000 m² mountainous luxury gated community in Al Hada, Taif. Delivered full master plan with 65 villas, architectural design for Villa Typologies A & B, MasterFormat specifications, BOQ, and SBC 1101 compliance.",
+    "descAr": "كمبوند جبلي فاخر على مساحة 42,000 م² بالهدا - الطائف. نطاق العمل الشامل: إعداد المخطط العام وتوزيع 65 فيلا، التصميم المعماري للنماذج السكنية A وB، جداول الكميات والمواصفات، ومطابقة كود البناء السعودي SBC 1101.",
+    "specs": [
+      {
+        "labelEn": "Site Area",
+        "labelAr": "مساحة المخطط",
+        "val": "42,000 m²"
+      },
+      {
+        "labelEn": "Units",
+        "labelAr": "الوحدات السكنية",
+        "val": "65 Luxury Villas"
+      },
+      {
+        "labelEn": "Landscape",
+        "labelAr": "المسطحات الخضراء",
+        "val": "35% Open Space"
+      },
+      {
+        "labelEn": "Amenities",
+        "labelAr": "المرافق المجتمعية",
+        "val": "Clubhouse & Pools"
+      }
+    ],
+    "cover": "assets/web/alhada_master.webp",
+    "images": [
+      "assets/web/alhada_master.webp",
+      "assets/web/alhada_gate.webp",
+      "assets/web/alhada_type_a.webp",
+      "assets/web/alhada_type_b.webp"
+    ],
+    "dwg": "SITE PLAN - 30.3.2025.dwg",
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Full Master Planning (65 villas), Architectural Design of Villa Typologies A & B, CSI MasterFormat Specifications, BOQ, SBC 1101 Compliance"
+  },
+  {
+    "id": "armonia-new-capital",
+    "num": "16 / 23",
+    "category": "masterplan",
+    "region": "egypt",
+    "regionNameEn": "New Administrative Capital, Egypt",
+    "regionNameAr": "العاصمة الإدارية، مصر",
+    "statusEn": "Under Construction",
+    "statusAr": "قيد الإنشاء والتنفيذ",
+    "titleEn": "Armonia New Capital Gated Community",
+    "titleAr": "كمبوند أرمونيا العاصمة الإدارية",
+    "roleEn": "Senior 3D Architectural Visualizer",
+    "roleAr": "كبير مصممي الإظهار المعماري 3D",
+    "descEn": "42-acre park-centric gated community in the New Administrative Capital (1,750 apartments, 80% greenery). Senior 3D Architectural Visualizer at Vanilla Studio producing comprehensive aerial master plan renders and residential park vistas.",
+    "descAr": "كمبوند سكني متكامل على مساحة 42 فداناً بالعاصمة الإدارية (1,750 شقة سكنية و80% مسطحات خضراء). كبير مصممي الإظهار المعماري في استوديو فانيلا لإخراج المشاهد الجوية الشاملة للماستر بلان والمباني السكنية والحدائق المركزية.",
+    "specs": [
+      {
+        "labelEn": "Site Area",
+        "labelAr": "مساحة المشروع",
+        "val": "42 Acres"
+      },
+      {
+        "labelEn": "Units",
+        "labelAr": "الوحدات السكنية",
+        "val": "1,750 Apartments"
+      },
+      {
+        "labelEn": "Open Space",
+        "labelAr": "المساحات المفتوحة",
+        "val": "80% Greenery"
+      },
+      {
+        "labelEn": "District",
+        "labelAr": "الحي",
+        "val": "R7 District"
+      }
+    ],
+    "cover": "assets/web/behance_armonia-new-capital.jpg",
+    "images": [
+      "assets/web/behance_armonia-new-capital.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/81802941/Armonia-New-Capital",
+    "verifiedScope": "Senior 3D Architectural Visualization (Vanilla Studio), 42-Acre Master Plan Aerials, Central Greenery & Residential Cluster Visuals"
+  },
+  {
+    "id": "sabya-gardens",
+    "num": "17 / 23",
+    "category": "masterplan",
+    "region": "ksa",
+    "regionNameEn": "Sabya, KSA",
+    "regionNameAr": "صبيا، السعودية",
+    "statusEn": "Handed Over",
+    "statusAr": "تم الاعتماد والتسليم",
+    "titleEn": "Sabya Gardens Residential Compound",
+    "titleAr": "كمبوند حدائق صبيا السكني",
+    "roleEn": "Lead Architect",
+    "roleAr": "كبير المعماريين",
+    "descEn": "24,000 m² gated residential compound in Sabya. Delivered full master plan with 38 contemporary family villas, 3 public parks, central community mosque, and climate-responsive architecture compliant with SBC 1101.",
+    "descAr": "كمبوند سكني متكامل على مساحة 24,000 م² بصبيا. نطاق العمل الشامل: تخطيط وتوزيع 38 فيلا، 3 حدائق عامة، مسجد المجمع، التصميم المعماري للفلل المتوافقة مع المناخ، واعتمادات بلدي وكود SBC 1101.",
+    "specs": [
+      {
+        "labelEn": "Site Area",
+        "labelAr": "مساحة المخطط",
+        "val": "24,000 m²"
+      },
+      {
+        "labelEn": "Units",
+        "labelAr": "عدد الفلل",
+        "val": "38 Villas"
+      },
+      {
+        "labelEn": "Parks",
+        "labelAr": "الحدائق المركزية",
+        "val": "3 Public Parks"
+      },
+      {
+        "labelEn": "Civic",
+        "labelAr": "المرافق العامة",
+        "val": "Central Mosque"
+      }
+    ],
+    "cover": "assets/web/image9.jpg",
+    "images": [
+      "assets/web/image9.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/202133187/Sabia-Gardens-Compound",
+    "verifiedScope": "Full Master Planning (38 Villas, 3 Parks, Mosque), Architectural Design of Villa Typologies, SBC 1101 Residential Code Compliance, Municipal Licensing, Tender & BOQ"
+  },
+  {
+    "id": "addengreens-community",
+    "num": "18 / 23",
+    "category": "masterplan",
+    "region": "egypt",
+    "regionNameEn": "Zagazig, Egypt",
+    "regionNameAr": "الزقازيق، مصر",
+    "statusEn": "Master Plan Approved",
+    "statusAr": "مخطط معتمد",
+    "titleEn": "Addengreens Urban Residential Community",
+    "titleAr": "مجتمع أدينجرينز السكني بالزقازيق",
+    "roleEn": "Lead Architect & Master Planner",
+    "roleAr": "كبير المعماريين ومخطط عام المشروع",
+    "descEn": "18-acre integrated residential master plan in Zagazig, Sharkia, Egypt. Full scope: comprehensive master plan, residential towers and townhouses massing, central sports park design, detailed planning approval drawings, and 3D visualization.",
+    "descAr": "مخطط عمراني سكني متكامل على مساحة 18 فداناً بالزقازيق بمصر. نطاق العمل الشامل: إعداد المخطط العام، توزيع كتل الأبراج السكنية والتاون هاوس، تصميم الحديقة الرياضية المركزية، المخططات التفصيلية للاعتمادات، والإظهار البصري ثلاثي الأبعاد.",
+    "specs": [
+      {
+        "labelEn": "Site Area",
+        "labelAr": "مساحة المخطط",
+        "val": "18 Acres"
+      },
+      {
+        "labelEn": "Typology",
+        "labelAr": "طبيعة المخطط",
+        "val": "Towers & Townhouses"
+      },
+      {
+        "labelEn": "Parks",
+        "labelAr": "الحدائق",
+        "val": "Central Sports Park"
+      },
+      {
+        "labelEn": "Commercial",
+        "labelAr": "الخدمات",
+        "val": "Integrated Retail"
+      }
+    ],
+    "cover": "assets/web/behance_addengreens-zagazig.jpg",
+    "images": [
+      "assets/web/behance_addengreens-zagazig.jpg"
+    ],
+    "behanceUrl": "https://www.behance.net/gallery/104744041/Addengreens-Zagazig",
+    "verifiedScope": "Comprehensive Master Planning (18 Acres), Residential Towers & Townhouses Massing, Central Sports Park Design, Planning Permitting Packages, 3D Visualization"
+  },
+  {
+    "id": "fluted-villas-114",
+    "num": "19 / 23",
+    "category": "villas",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Executive Detailing",
+    "statusAr": "التفاصيل التنفيذية واللاندسكيب",
+    "titleEn": "The Fluted Boutique Villas (A-114)",
+    "titleAr": "فلل الستائر الرأسية المنحنية 114",
+    "roleEn": "Architect Team Leader & Lead Designer",
+    "roleAr": "رئيس فريق التصميم المعماري ومصمم رئيسي",
+    "descEn": "Sculptural boutique villas in Riyadh (A-114). Full scope: conceptual fluted stone facades, vertical privacy louvers, double-height arched portals, internal courtyard layouts, SBC 1101 compliance, stone detailing, and municipal permitting.",
+    "descAr": "فيلات بوتيك فاخرة بلغة نحتية ناعمة بالرياض (A-114). نطاق العمل الشامل: الواجهات الحجرية المنحنية المضلعة، كواسر الخصوصية الرأسية، البوابات المقوسة مزدوجة الارتفاع، الأفنية الداخلية، مطابقة كود SBC 1101، وتفاصيل التكسيات والتراخيص.",
+    "specs": [
+      {
+        "labelEn": "Typology",
+        "labelAr": "التصنيف السكني",
+        "val": "Boutique Villas"
+      },
+      {
+        "labelEn": "Facade",
+        "labelAr": "مادة الواجهة",
+        "val": "Fluted Stone"
+      },
+      {
+        "labelEn": "Privacy",
+        "labelAr": "معيار الخصوصية",
+        "val": "Screened Louvers"
+      },
+      {
+        "labelEn": "BIM Model",
+        "labelAr": "ملف الريفيت",
+        "val": "Landscape RVT"
+      }
+    ],
+    "cover": "assets/web/a114_cam01.webp",
+    "images": [
+      "assets/web/a114_cam01.webp",
+      "assets/web/a114_cam03.webp",
+      "assets/web/a114_cam04.webp",
+      "assets/web/a114_night.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Full Architectural Scope: Concept & Facade Detailing (Curved Fluted Stone), Executive Floorplans, Courtyard Integration, SBC 1101 Compliance, Permitting"
+  },
+  {
+    "id": "monolith-villas-115",
+    "num": "20 / 23",
+    "category": "villas",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Design Development",
+    "statusAr": "تطوير التصميم المعماري",
+    "titleEn": "The Monolithic Cube Townhomes (A-115)",
+    "titleAr": "فلل الكتل التكعيبية 115",
+    "roleEn": "Lead Concept & Executive Architect",
+    "roleAr": "معماري رئيسي للفكرة والتصميم التنفيذي",
+    "descEn": "Minimalist cube townhomes in Riyadh (A-115). Led bold architectural concept (cantilevered geometric volumes over natural stone podiums, private sky gardens, 3D visualization) and executive architectural design with Post-Tension structural slab coordination per SBC 1101.",
+    "descAr": "فلل تاون هاوس مينيماليزم تكعيبية بالرياض (A-115). قيادة الفكرة المعمارية الجريئة (كتل مكعبة معلقة فوق قواعد حجرية، حدائق أسطح بانورامية، إظهار بصري 3D) والتصميم التنفيذي والتنسيق الإنشائي للبلاطات لاحقة الشد (PT) وفق SBC 1101.",
+    "specs": [
+      {
+        "labelEn": "Design Style",
+        "labelAr": "الطراز المعماري",
+        "val": "Minimalist Cubes"
+      },
+      {
+        "labelEn": "Cantilevers",
+        "labelAr": "البروزات الإنشائية",
+        "val": "Post-Tension Slabs"
+      },
+      {
+        "labelEn": "Roof Decks",
+        "labelAr": "تراسات السطح",
+        "val": "Private Sky Gardens"
+      },
+      {
+        "labelEn": "BIM Model",
+        "labelAr": "ملف الريفيت",
+        "val": "01-A-115 RVT"
+      }
+    ],
+    "cover": "assets/web/a115_cam03.webp",
+    "images": [
+      "assets/web/a115_cam03.webp",
+      "assets/web/a115_cam07.webp",
+      "assets/web/a115_cam08.webp",
+      "assets/web/a115_cam09.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Architectural Concept & Facades, Minimalist Massing, Post-Tension Slabs Structural Coordination, Sky Gardens, SBC 1101 Compliance"
+  },
+  {
+    "id": "mashrabiya-villas-50",
+    "num": "21 / 23",
+    "category": "villas",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Design Approved",
+    "statusAr": "اعتماد التصميم",
+    "titleEn": "The Modern Mashrabiya Villas (A-50)",
+    "titleAr": "فلل المشربية الحضرية 50",
+    "roleEn": "Lead Architect & Environmental Designer",
+    "roleAr": "معماري رئيسي ومصمم بيئي",
+    "descEn": "Climate-responsive urban townhomes in Riyadh (A-50). Full scope: architectural concept incorporating perforated concrete breeze blocks for natural ventilation and privacy, curved planter balconies, executive layouts, SBC 1101 compliance, and Balady permitting.",
+    "descAr": "فلل تاون هاوس بيئية متوافقة مع المناخ بالرياض (A-50). نطاق العمل الشامل: الفكرة المعمارية لقواطع المشربية الإسمنتية المفرغة للتبريد السلبي والخصوصية، أحواض الزراعة المنحنية، المخططات التنفيذية، مطابقة SBC 1101، وتراخيص بلدي.",
+    "specs": [
+      {
+        "labelEn": "Passive Cooling",
+        "labelAr": "التبريد السلبي",
+        "val": "Breeze Blocks"
+      },
+      {
+        "labelEn": "Balconies",
+        "labelAr": "الشرفات",
+        "val": "Curved Planters"
+      },
+      {
+        "labelEn": "Garage",
+        "labelAr": "المواقف",
+        "val": "Portico Parking"
+      },
+      {
+        "labelEn": "BIM Model",
+        "labelAr": "ملف الريفيت",
+        "val": "Site RVT"
+      }
+    ],
+    "cover": "assets/web/a50_cam01.webp",
+    "images": [
+      "assets/web/a50_cam01.webp",
+      "assets/web/a50_cam02.webp",
+      "assets/web/a50_cam03.webp",
+      "assets/web/a50_cam04.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Full Architectural Scope: Passive Cooling Mashrabiya Concept, Breeze Blocks Detailing, Curved Planters, Executive Floorplans, SBC 1101 Compliance, Balady Permitting"
+  },
+  {
+    "id": "wing-villas-49",
+    "num": "22 / 23",
+    "category": "villas",
+    "region": "ksa",
+    "regionNameEn": "Riyadh, KSA",
+    "regionNameAr": "الرياض، السعودية",
+    "statusEn": "Marketing Stage",
+    "statusAr": "حزمة التسويق والمبيعات",
+    "titleEn": "The Modern Wing Townhomes (A-49)",
+    "titleAr": "فلل الأجنحة المعاصرة 49",
+    "roleEn": "Lead Concept & Executive Architect",
+    "roleAr": "معماري رئيسي للفكرة والتصميم التنفيذي",
+    "descEn": "Contemporary urban townhomes in Riyadh (A-49). Led dynamic angled wing roofline concept, facade massing, 3D visualization, and functional layout optimization for high space efficiency conforming to SBC 1101.",
+    "descAr": "فلل تاون هاوس عصرية بالرياض (A-49). قيادة الفكرة التصميمية للأسقف المائلة الديناميكية (Sloped Wings) والواجهات والإظهار البصري، وتطوير التصميم المعماري التنفيذي وتحسين كفاءة المساحات الداخلية وفق SBC 1101.",
+    "specs": [
+      {
+        "labelEn": "Roof Profile",
+        "labelAr": "شكل السقف",
+        "val": "Sloped Wings"
+      },
+      {
+        "labelEn": "Efficiency",
+        "labelAr": "كفاءة الفراغات",
+        "val": "Optimized Layout"
+      },
+      {
+        "labelEn": "Delivery",
+        "labelAr": "نطاق العمل",
+        "val": "Sales Catalog"
+      },
+      {
+        "labelEn": "Revit Template",
+        "labelAr": "قالب النمذجة",
+        "val": "Marketing RTE"
+      }
+    ],
+    "cover": "assets/web/a49_cam01.webp",
+    "images": [
+      "assets/web/a49_cam01.webp",
+      "assets/web/a49_cam02.webp",
+      "assets/web/a49_cam03.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Architectural Concept & Facades, Sloped Dynamic Wing Rooflines, Executive Layout Optimization, 3D Visualization, SBC 1101 Compliance"
+  },
+  {
+    "id": "jazan-hospital",
+    "num": "23 / 23",
+    "category": "commercial",
+    "region": "ksa",
+    "regionNameEn": "Jazan, KSA",
+    "regionNameAr": "جازان، السعودية",
+    "statusEn": "Technical Approvals",
+    "statusAr": "مرحلة الاعتمادات الفنية",
+    "titleEn": "Jeddah Hospital",
+    "titleAr": "مستشفى جدة",
+    "roleEn": "Lead Healthcare Consultant Architect",
+    "roleAr": "استشاري معماري رئيسي للمشاريع الطبية",
+    "descEn": "42,000 m² 220-bed specialized hospital and commercial medical plaza in Jazan. Full scope: lead architectural consultant, infection control planning (clean/dirty flows per FGI standards), SBC 801 fire & NFPA 101 compliance, medical gases & specialized HVAC coordination, and Ministry of Health / Balady technical approvals.",
+    "descAr": "صرح طبي متكامل بسعة 220 سريراً ومسطح 42,000 م² بجازان مع بلازا تجارية طبية. نطاق العمل الشامل: استشاري معماري رئيسي، مراجعة وتطوير المخططات الطبية، تطبيق معايير مكافحة العدوى وفصل المسارات (FGI Guidelines)، كود الحريق SBC 801 وNFPA 101، التنسيق الكهروميكانيكي المتخصص، واعتمادات وزارة الصحة وبلدي والدفاع المدني.",
+    "specs": [
+      {
+        "labelEn": "Built-Up",
+        "labelAr": "المسطحات البنائية",
+        "val": "42,000 m²"
+      },
+      {
+        "labelEn": "Capacity",
+        "labelAr": "الطاقة الاستيعابية",
+        "val": "220 Beds"
+      },
+      {
+        "labelEn": "Plaza",
+        "labelAr": "المركز التجاري",
+        "val": "Commercial Retail"
+      },
+      {
+        "labelEn": "Safety",
+        "labelAr": "كود السلامة",
+        "val": "NFPA 101 Certified"
+      }
+    ],
+    "cover": "assets/web/jeddah_hospital_cover.webp",
+    "images": [
+      "assets/web/jeddah_hospital_cover.webp"
+    ],
+    "behanceUrl": "https://www.behance.net/AbdelazizOthman",
+    "verifiedScope": "Lead Healthcare Consultant Architect, Hospital Massing & Medical Cores (220 Beds), FGI Infection Control Compliance, NFPA 101 & SBC 801 Life Safety, MEP Coordination, Ministry of Health Licensing"
+  }
+]

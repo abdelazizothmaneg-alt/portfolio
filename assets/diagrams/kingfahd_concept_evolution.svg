@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="auto">
+  <defs>
+    <linearGradient id="kfGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C79E" />
+      <stop offset="100%" stop-color="#C5A880" />
+    </linearGradient>
+    <marker id="kfArrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#C5A880" />
+    </marker>
+  </defs>
+
+  <rect width="1000" height="360" fill="#0C0E14" rx="8" />
+  
+  <text x="30" y="32" font-family="'Bahnschrift', sans-serif" font-size="12" font-weight="700" letter-spacing="0.1em" fill="#C5A880">MASSING FORM-FINDING &amp; AERODYNAMIC SKY-BRIDGE • KING FAHD LANDMARK TOWERS</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(30, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 01</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Monolith Block</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">85,000 m² BUA High-Rise Volume</text>
+
+    <!-- Tall Block -->
+    <path d="M 60 210 L 105 185 L 150 210 L 105 235 Z" fill="rgba(197,168,128,0.15)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 60 100 L 105 75 L 150 100 L 105 125 Z" fill="rgba(197,168,128,0.3)" stroke="#C5A880" stroke-width="1.2" />
+    <line x1="60" y1="210" x2="60" y2="100" stroke="#C5A880" stroke-width="1.2" />
+    <line x1="105" y1="235" x2="105" y2="125" stroke="#C5A880" stroke-width="1.2" />
+    <line x1="150" y1="210" x2="150" y2="100" stroke="#C5A880" stroke-width="1.2" />
+
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#64748B">135m Height • King Fahd Rd</text>
+  </g>
+
+  <path d="M 248 190 L 268 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#kfArrow)" />
+
+  <!-- Step 2 -->
+  <g transform="translate(276, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 02</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Parabolic Void</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Wind shear reduction &amp; portal</text>
+
+    <!-- Split Towers with Parabolic Curve -->
+    <path d="M 50 205 L 85 185 L 95 190 L 60 210 Z" fill="rgba(197,168,128,0.2)" stroke="#C5A880" />
+    <path d="M 50 90 L 85 70 L 95 75 L 60 95 Z" fill="rgba(197,168,128,0.35)" stroke="#C5A880" />
+    <line x1="50" y1="205" x2="50" y2="90" stroke="#C5A880" />
+    <line x1="95" y1="190" x2="95" y2="75" stroke="#C5A880" />
+
+    <path d="M 115 190 L 125 185 L 160 205 L 150 210 Z" fill="rgba(197,168,128,0.2)" stroke="#C5A880" />
+    <path d="M 115 75 L 125 70 L 160 90 L 150 95 Z" fill="rgba(197,168,128,0.35)" stroke="#C5A880" />
+    <line x1="115" y1="190" x2="115" y2="75" stroke="#C5A880" />
+    <line x1="160" y1="205" x2="160" y2="90" stroke="#C5A880" />
+
+    <!-- Parabolic Void Curve -->
+    <path d="M 95 160 Q 105 100 115 160" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="3,2" />
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#38BDF8">Aerodynamic Vortex Void</text>
+  </g>
+
+  <path d="M 494 190 L 514 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#kfArrow)" />
+
+  <!-- Step 3 -->
+  <g transform="translate(522, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 03</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sky-Bridge Deck</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Inter-tower structural link</text>
+
+    <!-- Towers -->
+    <path d="M 50 85 L 90 70 L 90 200 L 50 215 Z" fill="rgba(197,168,128,0.25)" stroke="#C5A880" />
+    <path d="M 120 70 L 160 85 L 160 215 L 120 200 Z" fill="rgba(197,168,128,0.25)" stroke="#C5A880" />
+
+    <!-- Sky Bridge Span at Lvl 18 -->
+    <rect x="85" y="115" width="40" height="20" fill="url(#kfGold)" stroke="#FFF" stroke-width="1" />
+    <text x="105" y="128" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="700" fill="#000" text-anchor="middle">L-18</text>
+
+    <!-- Sky Garden Green -->
+    <rect x="88" y="110" width="34" height="5" fill="#10B981" />
+
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#10B981">Executive Sky Garden &amp; Lounge</text>
+  </g>
+
+  <path d="M 740 190 L 760 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#kfArrow)" />
+
+  <!-- Step 4 -->
+  <g transform="translate(768, 50)">
+    <rect width="202" height="280" fill="#131620" stroke="#C5A880" stroke-width="1.5" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 04 • FINAL</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Solar Facade Diagrid</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Triangulated diagrid exo-skeleton</text>
+
+    <!-- Towers with Diagrid -->
+    <path d="M 45 80 L 85 65 L 85 200 L 45 215 Z" fill="rgba(197,168,128,0.3)" stroke="#C5A880" />
+    <line x1="45" y1="80" x2="85" y2="120" stroke="#E5C79E" stroke-width="1" />
+    <line x1="85" y1="80" x2="45" y2="120" stroke="#E5C79E" stroke-width="1" />
+    <line x1="45" y1="120" x2="85" y2="160" stroke="#E5C79E" stroke-width="1" />
+    <line x1="85" y1="120" x2="45" y2="160" stroke="#E5C79E" stroke-width="1" />
+
+    <path d="M 125 65 L 165 80 L 165 215 L 125 200 Z" fill="rgba(197,168,128,0.3)" stroke="#C5A880" />
+    <line x1="125" y1="80" x2="165" y2="120" stroke="#E5C79E" stroke-width="1" />
+    <line x1="165" y1="80" x2="125" y2="120" stroke="#E5C79E" stroke-width="1" />
+    <line x1="125" y1="120" x2="165" y2="160" stroke="#E5C79E" stroke-width="1" />
+    <line x1="165" y1="120" x2="125" y2="160" stroke="#E5C79E" stroke-width="1" />
+
+    <rect x="80" y="110" width="50" height="18" fill="url(#kfGold)" stroke="#FFF" stroke-width="1" />
+
+    <text x="16" y="260" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#C5A880">32 Levels • SBC 801 / NFPA</text>
+  </g>
+</svg>

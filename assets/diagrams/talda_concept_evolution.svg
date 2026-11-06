@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="auto">
+  <defs>
+    <marker id="tArrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#C5A880" />
+    </marker>
+  </defs>
+
+  <rect width="1000" height="360" fill="#0C0E14" rx="8" />
+  
+  <text x="30" y="32" font-family="'Bahnschrift', sans-serif" font-size="12" font-weight="700" letter-spacing="0.1em" fill="#C5A880">TOPOGRAPHICAL TERRACING &amp; WATER SPUR • TALDA RESIDENTIAL PARK</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(30, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 01</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sloping Terrain</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Natural 8m site elevation drop</text>
+
+    <!-- Sloping mesh -->
+    <path d="M 30 140 Q 105 160 180 210 L 180 230 L 30 160 Z" fill="rgba(197,168,128,0.2)" stroke="#C5A880" stroke-width="1.2" />
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#64748B">Mostakbal City Natural Basin</text>
+  </g>
+
+  <path d="M 248 190 L 268 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#tArrow)" />
+
+  <!-- Step 2 -->
+  <g transform="translate(276, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 02</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Central Water Canal</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Gravity-fed microclimate cooling</text>
+
+    <!-- Sloping mesh -->
+    <path d="M 30 140 L 180 200" stroke="#64748B" stroke-dasharray="2,2" />
+    <!-- Water River -->
+    <path d="M 105 110 Q 115 170 95 230" fill="none" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" />
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#38BDF8">Linear Water Oasis Canal</text>
+  </g>
+
+  <path d="M 494 190 L 514 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#tArrow)" />
+
+  <!-- Step 3 -->
+  <g transform="translate(522, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 03</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Stepped Terraces</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Cascading residential blocks</text>
+
+    <!-- Steps -->
+    <rect x="40" y="110" width="45" height="30" fill="#242B3B" stroke="#C5A880" />
+    <rect x="45" y="145" width="45" height="30" fill="#242B3B" stroke="#C5A880" />
+    <rect x="50" y="180" width="45" height="30" fill="#242B3B" stroke="#C5A880" />
+
+    <rect x="125" y="110" width="45" height="30" fill="#242B3B" stroke="#C5A880" />
+    <rect x="120" y="145" width="45" height="30" fill="#242B3B" stroke="#C5A880" />
+    <rect x="115" y="180" width="45" height="30" fill="#242B3B" stroke="#C5A880" />
+
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#10B981">100% Unobstructed Views</text>
+  </g>
+
+  <path d="M 740 190 L 760 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#tArrow)" />
+
+  <!-- Step 4 -->
+  <g transform="translate(768, 50)">
+    <rect width="202" height="280" fill="#131620" stroke="#C5A880" stroke-width="1.5" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 04 • FINAL</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Car-Free Pedestrian Park</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Perimeter ring vehicular loop</text>
+
+    <!-- Central green and water -->
+    <path d="M 85 90 C 115 150, 90 190, 115 230" fill="none" stroke="#10B981" stroke-width="24" stroke-linecap="round" opacity="0.3" />
+    <path d="M 90 90 C 120 150, 95 190, 120 230" fill="none" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" />
+
+    <rect x="35" y="115" width="35" height="30" fill="#1E2433" stroke="#C5A880" />
+    <rect x="40" y="150" width="35" height="30" fill="#1E2433" stroke="#C5A880" />
+    <rect x="135" y="115" width="35" height="30" fill="#1E2433" stroke="#C5A880" />
+    <rect x="130" y="150" width="35" height="30" fill="#1E2433" stroke="#C5A880" />
+
+    <text x="16" y="260" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#C5A880">G+5 Stepped • 100k+ m² GFA</text>
+  </g>
+</svg>

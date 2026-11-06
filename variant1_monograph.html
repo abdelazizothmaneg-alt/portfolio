@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Abdelaziz Osman | Architectural Monograph • Selected Works</title>
+  <meta name="description" content="Architectural monograph of Abdelaziz Osman. 12+ years directing landmark corporate towers, regional retail hubs, and master communities across Saudi Arabia and Egypt.">
+  <link rel="icon" type="image/jpeg" href="assets/web/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0F1115;
+      --bg-surface: #151820;
+      --border: rgba(255, 255, 255, 0.12);
+      --border-subtle: rgba(255, 255, 255, 0.06);
+      --text: #F1F3F7;
+      --text-muted: #9BA1B0;
+      --accent: #C5A880;
+      --font-display: 'Outfit', -apple-system, sans-serif;
+      --font-body: 'Outfit', -apple-system, sans-serif;
+      --font-mono: 'SF Mono', Consolas, monospace;
+      --font-ar: 'Readex Pro', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; background: var(--bg); color: var(--text); }
+    body {
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.65;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    html[dir="rtl"] body {
+      font-family: var(--font-ar);
+    }
+
+    /* Top Variant Bar */
+    .variant-bar {
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+      background: rgba(10, 12, 16, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .variant-label {
+      font-family: var(--font-mono);
+      color: var(--accent);
+      font-size: 11.5px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .variant-pills {
+      display: flex;
+      gap: 8px;
+    }
+    .variant-pill {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 4px;
+      border: 1px solid var(--border-subtle);
+      transition: all 0.2s;
+      font-size: 12.5px;
+    }
+    .variant-pill.active {
+      background: rgba(197, 168, 128, 0.15);
+      border-color: var(--accent);
+      color: #FFF;
+      font-weight: 600;
+    }
+    .variant-pill:hover:not(.active) {
+      border-color: var(--border);
+      color: #FFF;
+    }
+
+    /* Masthead Header */
+    .masthead {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 60px 32px 40px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .masthead-brand h1 {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .masthead-brand p {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--accent);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-top: 8px;
+    }
+    .masthead-meta {
+      text-align: right;
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+    html[dir="rtl"] .masthead-meta { text-align: left; }
+
+    .lang-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 12.5px;
+      margin-top: 8px;
+      transition: all 0.2s;
+    }
+    .lang-btn:hover {
+      border-color: var(--accent);
+      color: #FFF;
+    }
+
+    /* Curator Statement */
+    .statement-section {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 64px 32px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 48px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    @media (max-width: 900px) {
+      .statement-section { grid-template-columns: 1fr; gap: 24px; }
+    }
+    .statement-title {
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      letter-spacing: 0.15em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+    .statement-text {
+      font-size: clamp(17px, 2vw, 22px);
+      line-height: 1.6;
+      color: #E2E8F0;
+      font-weight: 400;
+    }
+    .statement-credentials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-subtle);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .statement-credentials span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .statement-credentials strong {
+      color: #FFF;
+      font-weight: 600;
+    }
+
+    /* Editorial Project Case Studies */
+    .monograph-works {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 40px 32px 100px;
+    }
+    .monograph-case {
+      margin-bottom: 140px;
+      padding-bottom: 80px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .case-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .case-index {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+    }
+    .case-title {
+      font-family: var(--font-display);
+      font-size: clamp(26px, 3.5vw, 42px);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: #FFF;
+      margin-top: 4px;
+    }
+    .case-meta-tags {
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      color: var(--text-muted);
+    }
+
+    /* Hero Visual Spread */
+    .case-hero-spread {
+      width: 100%;
+      height: clamp(380px, 60vh, 720px);
+      border-radius: 4px;
+      overflow: hidden;
+      background: #0B0D11;
+      border: 1px solid var(--border);
+      margin-bottom: 36px;
+    }
+    .case-hero-spread img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .case-hero-spread:hover img {
+      transform: scale(1.02);
+    }
+
+    /* Technical Factsheet & Narrative Columns */
+    .case-editorial-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 48px;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .case-editorial-grid { grid-template-columns: 1fr; gap: 32px; }
+    }
+
+    .factsheet-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .factsheet-table tr {
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .factsheet-table td {
+      padding: 10px 0;
+    }
+    .factsheet-table td:first-child {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      width: 42%;
+    }
+    .factsheet-table td:last-child {
+      color: #FFF;
+      font-weight: 500;
+    }
+
+    .case-narrative {
+      font-size: 15.5px;
+      line-height: 1.8;
+      color: #CBD5E1;
+    }
+    .case-narrative p {
+      margin-bottom: 20px;
+    }
+
+    /* Architectural Technical Diagram Plinth */
+    .technical-drawing-stage {
+      margin-top: 36px;
+      background: #0B0D11;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 24px;
+      position: relative;
+    }
+    .stage-label {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .technical-drawing-stage img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 2px;
+      background: #080A0D;
+    }
+
+    /* Secondary Gallery Vignettes */
+    .case-vignettes-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+    @media (max-width: 768px) {
+      .case-vignettes-strip { grid-template-columns: 1fr; }
+    }
+    .vignette-item {
+      height: 200px;
+      overflow: hidden;
+      border-radius: 3px;
+      border: 1px solid var(--border-subtle);
+      background: #0B0D11;
+    }
+    .vignette-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .vignette-item:hover img {
+      transform: scale(1.05);
+    }
+
+    /* Minimalist Colophon Footer */
+    .colophon {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 60px 32px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 24px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .colophon a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .colophon a:hover {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Multi-Variant Switcher Bar -->
+  <div class="variant-bar">
+    <span class="variant-label">Arch Prototype Mode • نمط النموذج المعماري</span>
+    <div class="variant-pills">
+      <a href="variant1_monograph.html" class="variant-pill active">01 Editorial Monograph</a>
+      <a href="variant2_studio_index.html" class="variant-pill">02 Studio Spatial Index</a>
+      <a href="variant3_consulting_partner.html" class="variant-pill">03 Consulting Partner Dossier</a>
+      <a href="index.html" class="variant-pill" style="opacity:0.6;">Original</a>
+    </div>
+  </div>
+
+  <!-- Masthead Header -->
+  <header class="masthead">
+    <div class="masthead-brand">
+      <h1 id="brandTitle">ABDELAZIZ OSMAN</h1>
+      <p id="brandSub">Senior Architect &amp; PMC Lead Consultant • Architectural Monograph</p>
+    </div>
+    <div class="masthead-meta">
+      <div>Riyadh, KSA • Cairo, Egypt</div>
+      <div>PMP® #4322897 • LEED® GA #11676431 • SCE #864653</div>
+      <button class="lang-btn" onclick="toggleLang()" id="langBtn">العربية (Arabic)</button>
+    </div>
+  </header>
+
+  <!-- Curator Statement -->
+  <section class="statement-section">
+    <div class="statement-title" id="statementTitle">Curatorial Premise</div>
+    <div>
+      <p class="statement-text" id="statementText">
+        Over 12 years bridging visionary architectural design with rigorous Project Management Consultancy (PMC) across Saudi Arabia and Egypt. Leading multidisciplinary teams to deliver high-profile strategic developments, regional master communities, and commercial brand flagships totaling over 350,000+ sqm BUA.
+      </p>
+      <div class="statement-credentials">
+        <span><strong>PMI</strong> PMP® Certified</span>
+        <span><strong>USGBC</strong> LEED® Green Associate</span>
+        <span><strong>SCE</strong> Accredited Consultant</span>
+        <span><strong>NFPA 101</strong> Life Safety Essentials</span>
+        <span><strong>SBC</strong> First-Pass Code Governance</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Monograph Works -->
+  <main class="monograph-works" id="worksContainer">
+
+    <!-- Case Study 01: Ouroba Business Towers -->
+    <article class="monograph-case">
+      <div class="case-header">
+        <div>
+          <span class="case-index">PLATE 01 / 23</span>
+          <h2 class="case-title">Ouroba Business Towers</h2>
+        </div>
+        <div class="case-meta-tags">
+          Riyadh, Kingdom of Saudi Arabia • Al-Ouroba Corridor
+        </div>
+      </div>
+
+      <div class="case-hero-spread">
+        <img src="assets/web/ouroba_cam01.webp" alt="Ouroba Business Towers" loading="lazy">
+      </div>
+
+      <div class="case-editorial-grid">
+        <div class="case-factsheet">
+          <table class="factsheet-table">
+            <tr><td>Typology</td><td>Commercial Office Campus &amp; Retail Arcade</td></tr>
+            <tr><td>Site Area</td><td>18,200 m²</td></tr>
+            <tr><td>Built-Up Area</td><td>48,500 m²</td></tr>
+            <tr><td>Height &amp; Levels</td><td>G + 8 Office Floors + 2 Basements</td></tr>
+            <tr><td>Project Role</td><td>Architectural Concept, Facade Design, BIM LOD 350</td></tr>
+            <tr><td>Code Compliance</td><td>SBC 201 Architectural / SBC 801 Fire Safety</td></tr>
+            <tr><td>Status</td><td>Planning &amp; Municipal Permitting Approvals</td></tr>
+          </table>
+        </div>
+
+        <div class="case-narrative">
+          <p>
+            Positioned strategically along the high-velocity Al-Ouroba corridor in Riyadh, this corporate campus redefines commercial density through bioclimatic orientation. The massing configuration splits into two mid-rise geometric towers connected by an urban plinth and landscaped central pedestrian promenade.
+          </p>
+          <p>
+            The exterior envelope utilizes fluted natural Riyadh limestone contrasted with high-performance double-glazed Low-E curtain walls. Integrated horizontal louvers are calibrated to Riyadh’s extreme solar azimuth angles, mitigating midday solar heat gain while opening expansive northward light into the open-plan corporate plates.
+          </p>
+
+          <!-- Technical Drawing Stage -->
+          <div class="technical-drawing-stage">
+            <div class="stage-label">
+              <span>Figure 1.1 • Vector Concept &amp; Massing Morphogenesis</span>
+              <span>1:500 Analytical</span>
+            </div>
+            <img src="assets/diagrams/ouroba_concept_evolution.svg" alt="Ouroba Concept Evolution" loading="lazy">
+          </div>
+
+          <div class="technical-drawing-stage" style="margin-top:20px;">
+            <div class="stage-label">
+              <span>Figure 1.2 • Master Ground Plan &amp; Spatial Circulation</span>
+              <span>Graphic Scale &amp; North Arrow</span>
+            </div>
+            <img src="assets/diagrams/ouroba_plan_layout.svg" alt="Ouroba Plan Layout" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <!-- Vignettes -->
+      <div class="case-vignettes-strip">
+        <div class="vignette-item"><img src="assets/web/ouroba_cam02.webp" alt="Ouroba Cam 02" loading="lazy"></div>
+        <div class="vignette-item"><img src="assets/web/ouroba_cam01.webp" alt="Ouroba Cam 01" loading="lazy"></div>
+        <div class="vignette-item"><img src="assets/web/ouroba_cam02.webp" alt="Ouroba Cam Detail" loading="lazy"></div>
+      </div>
+    </article>
+
+
+    <!-- Case Study 02: King Fahd Landmark Towers -->
+    <article class="monograph-case">
+      <div class="case-header">
+        <div>
+          <span class="case-index">PLATE 02 / 23</span>
+          <h2 class="case-title">King Fahd Landmark Towers</h2>
+        </div>
+        <div class="case-meta-tags">
+          Riyadh, Kingdom of Saudi Arabia • King Fahd Highway
+        </div>
+      </div>
+
+      <div class="case-hero-spread">
+        <img src="assets/web/kingfahd_cam01.webp" alt="King Fahd Landmark Towers" loading="lazy">
+      </div>
+
+      <div class="case-editorial-grid">
+        <div class="case-factsheet">
+          <table class="factsheet-table">
+            <tr><td>Typology</td><td>Dual High-Rise Corporate Towers &amp; Skybridge</td></tr>
+            <tr><td>Height</td><td>135 Meters (~32 Levels)</td></tr>
+            <tr><td>Built-Up Area</td><td>85,000 m²</td></tr>
+            <tr><td>Structure</td><td>Reinforced Concrete Core with Composite Steel Cantilever</td></tr>
+            <tr><td>Project Role</td><td>Architectural &amp; Facade Design, 3D Visualization</td></tr>
+            <tr><td>Statutory Codes</td><td>SBC 201 / NFPA 101 High-Rise Egress</td></tr>
+            <tr><td>Status</td><td>Design Development &amp; Coordination</td></tr>
+          </table>
+        </div>
+
+        <div class="case-narrative">
+          <p>
+            An iconic landmark intervention commanding Riyadh’s primary north-south arterial axis. The twin towers form an aerodynamic gateway defined by a central vertical parabolic void that relieves aerodynamic wind pressure at upper elevations.
+          </p>
+          <p>
+            At Level 18, a suspended glazed skybridge unites the executive floorplates, housing shared executive boardroom suites, sky lounges, and panoramic views across Riyadh's financial district. The facade is clad in an interwoven diagrid screen inspired by contemporary interpretations of traditional Islamic Mashrabiya patterns.
+          </p>
+
+          <div class="technical-drawing-stage">
+            <div class="stage-label">
+              <span>Figure 2.1 • Aerodynamic Void &amp; Skybridge Morphogenesis</span>
+              <span>1:1000 Diagram</span>
+            </div>
+            <img src="assets/diagrams/kingfahd_concept_evolution.svg" alt="King Fahd Concept Diagram" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="case-vignettes-strip">
+        <div class="vignette-item"><img src="assets/web/kingfahd_cam02.webp" alt="King Fahd Cam 02" loading="lazy"></div>
+        <div class="vignette-item"><img src="assets/web/kingfahd_cam01.webp" alt="King Fahd Cam 01" loading="lazy"></div>
+        <div class="vignette-item"><img src="assets/web/kingfahd_cam02.webp" alt="King Fahd Detail" loading="lazy"></div>
+      </div>
+    </article>
+
+
+    <!-- Case Study 03: Talda Terraced Residential Park -->
+    <article class="monograph-case">
+      <div class="case-header">
+        <div>
+          <span class="case-index">PLATE 03 / 23</span>
+          <h2 class="case-title">Talda Terraced Residential Park</h2>
+        </div>
+        <div class="case-meta-tags">
+          Mostakbal City, New Cairo, Egypt
+        </div>
+      </div>
+
+      <div class="case-hero-spread">
+        <img src="assets/web/talda_cam01.webp" alt="Talda Terraced Park" loading="lazy">
+      </div>
+
+      <div class="case-editorial-grid">
+        <div class="case-factsheet">
+          <table class="factsheet-table">
+            <tr><td>Typology</td><td>Master-Planned Residential Park Community</td></tr>
+            <tr><td>Site Topography</td><td>Stepped Topographical Terraces (-6m to +4m)</td></tr>
+            <tr><td>Green Ratio</td><td>65% Landscaped Park &amp; Linear Waterway</td></tr>
+            <tr><td>Project Role</td><td>Lead Architect &amp; Urban Master Planner (MHG)</td></tr>
+            <tr><td>Deliverables</td><td>Concept Masterplan, 4K Walkthrough Direction</td></tr>
+          </table>
+        </div>
+
+        <div class="case-narrative">
+          <p>
+            Talda is conceptualized as an organic counterpoint to typical high-density suburban compounds. Rather than imposing flat platforms, the architecture adapts to existing terrain contours through stepped residential terraces that frame a central cooling waterway canal.
+          </p>
+          <p>
+            Every residential unit is oriented to maximize cross-ventilation and daylight autonomy while enjoying unhindered sightlines into the linear green park network. Pedestrian corridors are completely decoupled from vehicular transit loops, guaranteeing child safety and continuous walkable shaded corridors.
+          </p>
+
+          <div class="technical-drawing-stage">
+            <div class="stage-label">
+              <span>Figure 3.1 • Topographical Terracing &amp; Canal Cooling</span>
+              <span>Ecological Master Diagram</span>
+            </div>
+            <img src="assets/diagrams/talda_concept_evolution.svg" alt="Talda Concept Diagram" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="case-vignettes-strip">
+        <div class="vignette-item"><img src="assets/web/talda_cam02.webp" alt="Talda Cam 02" loading="lazy"></div>
+        <div class="vignette-item"><img src="assets/web/talda_cam01.webp" alt="Talda Cam 01" loading="lazy"></div>
+        <div class="vignette-item"><img src="assets/web/talda_cam02.webp" alt="Talda Detail" loading="lazy"></div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Minimalist Colophon Footer -->
+  <footer class="colophon">
+    <div>
+      <strong>Abdelaziz Osman</strong> • Senior Architect &amp; PMC Lead Consultant
+      <br>Riyadh &amp; Jazan, KSA • Cairo, Egypt
+    </div>
+    <div style="display:flex; gap:20px;">
+      <a href="mailto:aothman.ksa@gmail.com">aothman.ksa@gmail.com</a>
+      <a href="tel:+966501255227">+966 50 125 5227</a>
+      <a href="https://www.linkedin.com/in/abdelaziz-osman-sa/" target="_blank">LinkedIn ↗</a>
+      <a href="https://www.behance.net/AbdelazizOthman" target="_blank">Behance ↗</a>
+    </div>
+    <div>
+      © 2026 Architectural Monograph. All drawings &amp; renderings reserved.
+    </div>
+  </footer>
+
+  <script>
+    let isAr = false;
+    function toggleLang() {
+      isAr = !isAr;
+      document.documentElement.setAttribute('dir', isAr ? 'rtl' : 'ltr');
+      document.documentElement.setAttribute('lang', isAr ? 'ar' : 'en');
+      
+      const langBtn = document.getElementById('langBtn');
+      const brandSub = document.getElementById('brandSub');
+      const statementTitle = document.getElementById('statementTitle');
+      const statementText = document.getElementById('statementText');
+
+      if (isAr) {
+        langBtn.textContent = 'English (الإنجليزية)';
+        brandSub.textContent = 'معماري أول وقائد استشارات إدارة المشاريع (PMC) • مونوغراف معماري';
+        statementTitle.textContent = 'الرؤية التحريرية والمعمارية';
+        statementText.textContent = 'أكثر من 12 عاماً من قيادة وتسليم الأصول العقارية والمعمارية الكبرى بين المملكة العربية السعودية وجمهورية مصر العربية. قيادة فرق هندسية متعددة التخصصات لتسليم مجمعات إدارية وتجارية ومجتمعات عمرانية متكاملة تتجاوز 350,000 م² من المسطحات البنائية.';
+      } else {
+        langBtn.textContent = 'العربية (Arabic)';
+        brandSub.textContent = 'Senior Architect & PMC Lead Consultant • Architectural Monograph';
+        statementTitle.textContent = 'Curatorial Premise';
+        statementText.textContent = 'Over 12 years bridging visionary architectural design with rigorous Project Management Consultancy (PMC) across Saudi Arabia and Egypt. Leading multidisciplinary teams to deliver high-profile strategic developments, regional master communities, and commercial brand flagships totaling over 350,000+ sqm BUA.';
+      }
+    }
+  </script>
+</body>
+</html>

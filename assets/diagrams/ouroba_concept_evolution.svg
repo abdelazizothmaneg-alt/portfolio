@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="auto">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C79E" />
+      <stop offset="100%" stop-color="#C5A880" />
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.05" />
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#C5A880" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="360" fill="#0C0E14" rx="8" />
+  
+  <!-- Grid Lines -->
+  <pattern id="cadGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.5" />
+  </pattern>
+  <rect width="1000" height="360" fill="url(#cadGrid)" />
+
+  <!-- Header -->
+  <text x="30" y="32" font-family="'Bahnschrift', sans-serif" font-size="12" font-weight="700" letter-spacing="0.1em" fill="#C5A880">MASSING FORM-FINDING &amp; BIOCLIMATIC EVOLUTION • OUROBA BUSINESS TOWERS</text>
+
+  <!-- ================= STEP 1 ================= -->
+  <g transform="translate(30, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 01</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Zoning Envelope</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Max allowable volume (FAR 3.0)</text>
+
+    <!-- Isometric Base Grid -->
+    <path d="M 30 200 L 105 160 L 180 200 L 105 240 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+    
+    <!-- Monolith Extrusion -->
+    <path d="M 50 190 L 105 160 L 160 190 L 105 220 Z" fill="rgba(197,168,128,0.15)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 50 120 L 105 90 L 160 120 L 105 150 Z" fill="rgba(197,168,128,0.3)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 50 190 L 50 120 M 105 220 L 105 150 M 160 190 L 160 120" stroke="#C5A880" stroke-width="1.2" />
+    
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#64748B">18,200 m² Site • G+8 Limit</text>
+  </g>
+
+  <!-- Step Arrow 1->2 -->
+  <path d="M 248 190 L 268 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#arrow)" />
+
+  <!-- ================= STEP 2 ================= -->
+  <g transform="translate(276, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 02</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Solar &amp; Wind Void</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Splitting dual solar-oriented wings</text>
+
+    <!-- Isometric Base Grid -->
+    <path d="M 30 200 L 105 160 L 180 200 L 105 240 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+
+    <!-- West Block -->
+    <path d="M 40 185 L 80 162 L 95 170 L 55 194 Z" fill="rgba(197,168,128,0.2)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 40 120 L 80 97 L 95 105 L 55 129 Z" fill="rgba(197,168,128,0.35)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 40 185 L 40 120 M 80 162 L 80 97 M 95 170 L 95 105 M 55 194 L 55 129" stroke="#C5A880" stroke-width="1.2" />
+
+    <!-- East Block -->
+    <path d="M 115 180 L 155 158 L 170 166 L 130 190 Z" fill="rgba(197,168,128,0.2)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 115 115 L 155 93 L 170 101 L 130 125 Z" fill="rgba(197,168,128,0.35)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 115 180 L 115 115 M 155 158 L 155 93 M 170 166 L 170 101 M 130 190 L 130 125" stroke="#C5A880" stroke-width="1.2" />
+
+    <!-- Wind arrow in void -->
+    <path d="M 85 220 Q 105 180 125 140" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#arrow)" />
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#38BDF8">Prevailing Wind Breezeway</text>
+  </g>
+
+  <!-- Step Arrow 2->3 -->
+  <path d="M 494 190 L 514 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#arrow)" />
+
+  <!-- ================= STEP 3 ================= -->
+  <g transform="translate(522, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 03</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Urban Retail Spine</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Interlocking ground galleria</text>
+
+    <!-- Base Grid -->
+    <path d="M 30 200 L 105 160 L 180 200 L 105 240 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3,3" />
+
+    <!-- Central Plazas & Canopy -->
+    <path d="M 60 195 L 105 170 L 150 195 L 105 220 Z" fill="rgba(16,185,129,0.15)" stroke="#10B981" stroke-width="1" />
+    
+    <!-- Stepped Towers -->
+    <path d="M 45 180 L 80 160 L 95 170 L 60 190 Z" fill="rgba(197,168,128,0.25)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 45 110 L 80 90 L 95 100 L 60 120 Z" fill="rgba(197,168,128,0.4)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 45 180 L 45 110 M 80 160 L 80 90 M 95 170 L 95 100 M 60 190 L 60 120" stroke="#C5A880" stroke-width="1.2" />
+
+    <path d="M 115 175 L 150 155 L 165 165 L 130 185 Z" fill="rgba(197,168,128,0.25)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 115 105 L 150 85 L 165 95 L 130 115 Z" fill="rgba(197,168,128,0.4)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 115 175 L 115 105 M 150 155 L 150 85 M 165 165 L 165 95 M 130 185 L 130 115" stroke="#C5A880" stroke-width="1.2" />
+
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#10B981">Shaded Pedestrian Promenade</text>
+  </g>
+
+  <!-- Step Arrow 3->4 -->
+  <path d="M 740 190 L 760 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#arrow)" />
+
+  <!-- ================= STEP 4 ================= -->
+  <g transform="translate(768, 50)">
+    <rect width="202" height="280" fill="#131620" stroke="#C5A880" stroke-width="1.5" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 04 • FINAL</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Kinetic Louver Skin</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Integrated sky gardens &amp; VE</text>
+
+    <!-- Tower A with Louver Texture -->
+    <path d="M 40 180 L 80 158 L 95 167 L 55 190 Z" fill="rgba(197,168,128,0.3)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 40 100 L 80 78 L 95 87 L 55 110 Z" fill="url(#goldGrad)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 40 180 L 40 100 M 80 158 L 80 78 M 95 167 L 95 87 M 55 190 L 55 110" stroke="#C5A880" stroke-width="1.2" />
+    <!-- Louver lines -->
+    <line x1="44" y1="110" x2="44" y2="175" stroke="#E5C79E" stroke-width="1" />
+    <line x1="48" y1="113" x2="48" y2="177" stroke="#E5C79E" stroke-width="1" />
+    <line x1="52" y1="116" x2="52" y2="180" stroke="#E5C79E" stroke-width="1" />
+
+    <!-- Sky Garden Green Patch -->
+    <polygon points="80,78 95,87 88,95 72,85" fill="#10B981" />
+
+    <!-- Tower B with Louvers -->
+    <path d="M 115 175 L 155 153 L 170 162 L 130 185 Z" fill="rgba(197,168,128,0.3)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 115 95 L 155 73 L 170 82 L 130 105 Z" fill="url(#goldGrad)" stroke="#C5A880" stroke-width="1.2" />
+    <path d="M 115 175 L 115 95 M 155 153 L 155 73 M 170 162 L 170 82 M 130 185 L 130 105" stroke="#C5A880" stroke-width="1.2" />
+    <line x1="119" y1="105" x2="119" y2="170" stroke="#E5C79E" stroke-width="1" />
+    <line x1="123" y1="108" x2="123" y2="172" stroke="#E5C79E" stroke-width="1" />
+    <line x1="127" y1="111" x2="127" y2="175" stroke="#E5C79E" stroke-width="1" />
+
+    <text x="16" y="260" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#C5A880">48,500 m² BUA • SBC 201</text>
+  </g>
+</svg>

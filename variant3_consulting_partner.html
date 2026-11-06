@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Abdelaziz Osman | Executive Consulting Partner Dossier (PMP® • LEED® GA)</title>
+  <meta name="description" content="Senior Architect & PMC Lead Consultant. Executive practice dossier for sovereign development funds, municipal authorizers, and institutional developers.">
+  <link rel="icon" type="image/jpeg" href="assets/web/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0D0F14;
+      --card-bg: #131722;
+      --card-inner: #0A0C10;
+      --border: rgba(255, 255, 255, 0.12);
+      --border-gold: rgba(197, 168, 128, 0.3);
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --accent: #C5A880;
+      --accent-subtle: rgba(197, 168, 128, 0.08);
+      --font-display: 'Outfit', -apple-system, sans-serif;
+      --font-mono: 'SF Mono', Consolas, monospace;
+      --font-ar: 'Readex Pro', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; background: var(--bg); color: var(--text); }
+    body {
+      font-family: var(--font-display);
+      font-size: 15px;
+      line-height: 1.65;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+    html[dir="rtl"] body { font-family: var(--font-ar); }
+
+    /* Top Variant Bar */
+    .variant-bar {
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+      background: rgba(10, 12, 16, 0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+    .variant-label {
+      font-family: var(--font-mono);
+      color: var(--accent);
+      font-size: 11.5px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .variant-pills { display: flex; gap: 8px; }
+    .variant-pill {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.08);
+      transition: all 0.2s;
+      font-size: 12.5px;
+    }
+    .variant-pill.active {
+      background: rgba(197, 168, 128, 0.15);
+      border-color: var(--accent);
+      color: #FFF;
+      font-weight: 600;
+    }
+    .variant-pill:hover:not(.active) { border-color: var(--border); color: #FFF; }
+
+    /* Partner Dossier Header */
+    .dossier-masthead {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 60px 32px 40px;
+      border-bottom: 1px solid var(--border);
+    }
+    .dossier-top-meta {
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .dossier-hero-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+      align-items: end;
+    }
+    @media (max-width: 900px) { .dossier-hero-grid { grid-template-columns: 1fr; } }
+
+    .dossier-name {
+      font-size: clamp(36px, 5.5vw, 64px);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .dossier-role {
+      font-size: 18px;
+      color: var(--text-muted);
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    .dossier-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .btn-dossier-primary {
+      background: var(--accent);
+      color: #0D0F14;
+      font-weight: 700;
+      font-size: 13.5px;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 4px;
+      text-align: center;
+      transition: all 0.2s;
+    }
+    .btn-dossier-primary:hover { background: #D5B990; }
+    .btn-dossier-secondary {
+      background: var(--card-bg);
+      color: #FFF;
+      border: 1px solid var(--border);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 11px 20px;
+      border-radius: 4px;
+      text-align: center;
+      transition: all 0.2s;
+    }
+    .btn-dossier-secondary:hover { border-color: var(--accent); }
+
+    /* Statutory Governance Summary */
+    .governance-strip {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 32px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    @media (max-width: 900px) { .governance-strip { grid-template-columns: repeat(2, 1fr); } }
+    .gov-block {
+      background: var(--card-bg);
+      border: 1px solid var(--border-gold);
+      border-radius: 6px;
+      padding: 20px;
+    }
+    .gov-block span {
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .gov-block strong {
+      display: block;
+      font-size: 16px;
+      color: #FFF;
+      margin: 6px 0 2px;
+    }
+    .gov-block p {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    /* 5-Phase Project Case Studies */
+    .dossier-body {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 60px 32px 100px;
+    }
+    .project-dossier-case {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 80px;
+    }
+
+    /* Phase 1: Factsheet & Visual Hook */
+    .phase1-header {
+      padding: 36px 36px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .phase1-title h2 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #FFF;
+    }
+    .phase1-title span {
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      color: var(--accent);
+    }
+
+    .phase1-media {
+      height: 480px;
+      position: relative;
+      background: #000;
+    }
+    .phase1-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Phase 2 to 5 Tabs / Flow */
+    .phases-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-bottom: 1px solid var(--border);
+    }
+    @media (max-width: 900px) { .phases-grid { grid-template-columns: 1fr; } }
+
+    .phase-column {
+      padding: 24px;
+      border-right: 1px solid var(--border);
+    }
+    .phase-column:last-child { border-right: none; }
+    .phase-tag {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .phase-column h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #FFF;
+      margin-bottom: 10px;
+    }
+    .phase-column p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* Technical Drawing & CAD Lightbox Preview */
+    .phase-cad-preview {
+      padding: 28px 36px 36px;
+      background: var(--card-inner);
+    }
+    .cad-label-bar {
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .phase-cad-preview img {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      display: block;
+    }
+
+    /* Footer */
+    .dossier-footer {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 60px 32px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Multi-Variant Switcher Bar -->
+  <div class="variant-bar">
+    <span class="variant-label">Arch Prototype Mode • نمط النموذج المعماري</span>
+    <div class="variant-pills">
+      <a href="variant1_monograph.html" class="variant-pill">01 Editorial Monograph</a>
+      <a href="variant2_studio_index.html" class="variant-pill">02 Studio Spatial Index</a>
+      <a href="variant3_consulting_partner.html" class="variant-pill active">03 Consulting Partner Dossier</a>
+      <a href="index.html" class="variant-pill" style="opacity:0.6;">Original</a>
+    </div>
+  </div>
+
+  <!-- Partner Dossier Header -->
+  <header class="dossier-masthead">
+    <div class="dossier-top-meta">
+      <span>INSTITUTIONAL ARCHITECTURAL CONSULTANCY &amp; PMC ADVISORY</span>
+      <span>DOSSIER REF: AO-2026-KSA</span>
+    </div>
+
+    <div class="dossier-hero-grid">
+      <div>
+        <h1 class="dossier-name">ABDELAZIZ OSMAN</h1>
+        <p class="dossier-role">
+          Senior Architect &amp; PMC Lead Consultant (PMP® • LEED® GA • SCE Accredited)
+        </p>
+      </div>
+
+      <div class="dossier-actions">
+        <a href="assets/Abdelaziz_Osman_CV.pdf" target="_blank" download class="btn-dossier-primary">
+          Download Verified Executive Dossier (PDF) ↗
+        </a>
+        <a href="https://wa.me/966501255227" target="_blank" class="btn-dossier-secondary">
+          Direct Advisory Inquiry (+966 50 125 5227)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Statutory Governance Summary -->
+  <section class="governance-strip">
+    <div class="gov-block">
+      <span>STATUTORY GOVERNANCE</span>
+      <strong>Saudi Building Code (SBC)</strong>
+      <p>100% first-pass municipal clearances across Balady and Salamah civil defense portals.</p>
+    </div>
+    <div class="gov-block">
+      <span>SUSTAINABLE PERFORMANCE</span>
+      <strong>USGBC LEED® &amp; Mostadam</strong>
+      <p>Thermal envelope calibration, low-E glazing optimization, and regional bioclimatic shading.</p>
+    </div>
+    <div class="gov-block">
+      <span>PROJECT GOVERNANCE</span>
+      <strong>PMI PMP® Governance</strong>
+      <p>Work Breakdown Structure (WBS), design stage-gate QA/QC, and Value Engineering (VE) leadership.</p>
+    </div>
+    <div class="gov-block">
+      <span>TECHNICAL DELIVERY</span>
+      <strong>BIM Execution (LOD 350-400)</strong>
+      <p>Multi-disciplinary clash resolution and executive tender documentation across Autodesk Revit.</p>
+    </div>
+  </section>
+
+  <!-- 5-Phase Case Study Body -->
+  <main class="dossier-body">
+
+    <!-- Project 01: Ouroba Corporate Campus -->
+    <article class="project-dossier-case">
+      <div class="phase1-header">
+        <div class="phase1-title">
+          <span>CASE DOSSIER 01 / 23 • CORPORATE CAMPUS</span>
+          <h2>Ouroba Business Towers</h2>
+        </div>
+        <div style="font-family:var(--font-mono); font-size:13px; color:var(--text-muted);">
+          Riyadh, KSA • 48,500 m² BUA • 18,200 m² Site
+        </div>
+      </div>
+
+      <div class="phase1-media">
+        <img src="assets/web/ouroba_cam01.webp" alt="Ouroba Corporate Campus" loading="lazy">
+      </div>
+
+      <!-- 4 Phases of Technical Execution -->
+      <div class="phases-grid">
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 02: CONTEXT &amp; CODE</span>
+          <h4>Urban &amp; Setback Envelope</h4>
+          <p>
+            Governed under Riyadh municipal commercial bylaws. Calibrated building setbacks to buffer high-velocity traffic along Al-Ouroba corridor while securing dedicated ingress/egress slip lanes.
+          </p>
+        </div>
+
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 03: BIOCLIMATIC LOGIC</span>
+          <h4>Massing Morphogenesis</h4>
+          <p>
+            Dual-tower massing rotated to minimize western solar exposure. Central courtyard acts as an aerodynamic wind-funnel, enhancing ground-level pedestrian comfort through shaded microclimates.
+          </p>
+        </div>
+
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 04: BIM &amp; STATUTORY</span>
+          <h4>SBC 201 &amp; 801 Compliance</h4>
+          <p>
+            Full life safety egress calculations, dual pressurized fire stairs, and vertical smoke extraction shafts designed to meet stringent Civil Defense (Salamah) first-pass criteria.
+          </p>
+        </div>
+
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 05: VALUE ENGINEERING</span>
+          <h4>Tectonic Materiality</h4>
+          <p>
+            Value Engineering workshop on the stone facade system: transitioned from wet-fix to an engineered ventilated rainscreen bracket system, yielding a 14% cost reduction while improving thermal insulation.
+          </p>
+        </div>
+      </div>
+
+      <!-- Technical Drawing & CAD Stage -->
+      <div class="phase-cad-preview">
+        <div class="cad-label-bar">
+          <span>Figure 1.1 • Analytical Massing Evolution &amp; Solar Shading Louvers</span>
+          <span>AUTODESK REVIT • LOD 350 MODEL SPECIFICATION</span>
+        </div>
+        <img src="assets/diagrams/ouroba_concept_evolution.svg" alt="Ouroba Technical Diagram" loading="lazy">
+      </div>
+    </article>
+
+
+    <!-- Project 02: King Fahd Landmark Towers -->
+    <article class="project-dossier-case">
+      <div class="phase1-header">
+        <div class="phase1-title">
+          <span>CASE DOSSIER 02 / 23 • HIGH-RISE LANDMARK</span>
+          <h2>King Fahd Landmark Towers</h2>
+        </div>
+        <div style="font-family:var(--font-mono); font-size:13px; color:var(--text-muted);">
+          Riyadh, KSA • 135 Meters • 85,000 m² BUA
+        </div>
+      </div>
+
+      <div class="phase1-media">
+        <img src="assets/web/kingfahd_cam01.webp" alt="King Fahd Landmark Towers" loading="lazy">
+      </div>
+
+      <div class="phases-grid">
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 02: HIGH-RISE CONSTRAINTS</span>
+          <h4>Wind Shear &amp; Parabolic Void</h4>
+          <p>
+            Mitigated high-altitude vortex shedding along King Fahd Highway by introducing an aerodynamic central parabolic aperture that relieves lateral wind loads on the structural shear cores.
+          </p>
+        </div>
+
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 03: SKYBRIDGE ENGINEERING</span>
+          <h4>Suspended Bridge at L-18</h4>
+          <p>
+            Structural composite steel truss bridge connecting twin cores at Level 18, creating 1,200 m² of prime executive boardroom and sky-lounge floorplates with 360-degree views across Riyadh.
+          </p>
+        </div>
+
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 04: NFPA 101 SAFETY</span>
+          <h4>Refuge Floors &amp; Egress</h4>
+          <p>
+            Dedicated structural refuge floor at mid-height, paired with interconnected pressurized evacuation cores adhering to NFPA 101 and Saudi Building Code requirements for super-tall buildings.
+          </p>
+        </div>
+
+        <div class="phase-column">
+          <span class="phase-tag">PHASE 05: ENVELOPE PERFORMANCE</span>
+          <h4>Unitized Curtain Wall</h4>
+          <p>
+            Double-glazed Low-E unitized curtain wall with bespoke anodized aluminum fins, achieving a thermal U-value of 1.4 W/m²K compliant with SBC 1001 green building guidelines.
+          </p>
+        </div>
+      </div>
+
+      <div class="phase-cad-preview">
+        <div class="cad-label-bar">
+          <span>Figure 2.1 • Aerodynamic Wind Aperture &amp; Core Structural Separation</span>
+          <span>1:1000 STRUCTURAL &amp; MASSING SCHEMATIC</span>
+        </div>
+        <img src="assets/diagrams/kingfahd_concept_evolution.svg" alt="King Fahd Technical Diagram" loading="lazy">
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Dossier Footer -->
+  <footer class="dossier-footer">
+    <div>
+      <strong>Abdelaziz Osman</strong> • Senior Architect &amp; PMC Lead Consultant
+      <br>Riyadh &amp; Jazan, KSA • Cairo, Egypt
+    </div>
+    <div style="display:flex; gap:20px;">
+      <a href="mailto:aothman.ksa@gmail.com" style="color:var(--text); text-decoration:none;">aothman.ksa@gmail.com</a>
+      <a href="tel:+966501255227" style="color:var(--text); text-decoration:none;">+966 50 125 5227</a>
+      <a href="https://www.linkedin.com/in/abdelaziz-osman-sa/" target="_blank" style="color:var(--text); text-decoration:none;">LinkedIn ↗</a>
+      <a href="https://www.behance.net/AbdelazizOthman" target="_blank" style="color:var(--text); text-decoration:none;">Behance ↗</a>
+    </div>
+  </footer>
+
+</body>
+</html>

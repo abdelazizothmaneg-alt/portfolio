@@ -1,0 +1,369 @@
+[
+  {
+    "id": "talda-community",
+    "project": "Talda Residential Compound",
+    "images": 4,
+    "assets": [
+      "assets/web/talda_slope.webp",
+      "assets/web/talda_view02.webp",
+      "assets/web/gallery-verified/talda-video-32s.webp",
+      "assets/web/gallery-verified/talda-video-50s.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "al-mousa-complex",
+    "project": "Al-Mousa Commercial & Business Complex",
+    "images": 5,
+    "assets": [
+      "assets/web/image18.jpg",
+      "assets/web/portfolio-source-zan/al-mousa-01.webp",
+      "assets/web/portfolio-source-zan/al-mousa-02.webp",
+      "assets/web/portfolio-source-zan/al-mousa-03.webp",
+      "assets/web/portfolio-source-zan/al-mousa-04.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "strip-mall",
+    "project": "Lulu & Jarir Strip Mall Hub",
+    "images": 6,
+    "assets": [
+      "assets/web/image2.jpg",
+      "assets/web/behance-galleries/lulu-original-00.webp",
+      "assets/web/behance-galleries/lulu-original-01.webp",
+      "assets/web/behance-galleries/lulu-original-02.webp",
+      "assets/web/behance-galleries/lulu-original-03.webp",
+      "assets/web/behance-galleries/lulu-original-04.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "vivienda-compound",
+    "project": "Vivienda Residential Compound",
+    "images": 8,
+    "assets": [
+      "assets/web/behance_vivienda.jpg",
+      "assets/web/behance-galleries/vivienda-new-00.webp",
+      "assets/web/behance-galleries/vivienda-new-01.webp",
+      "assets/web/behance-galleries/vivienda-new-02.webp",
+      "assets/web/behance-galleries/vivienda-new-04.webp",
+      "assets/web/behance-galleries/vivienda-new-05.webp",
+      "assets/web/behance-galleries/vivienda-new-13.webp",
+      "assets/web/behance-galleries/vivienda-new-19.webp"
+    ],
+    "videoEmbed": "https://player.vimeo.com/video/1048979213?h=157ba13c28"
+  },
+  {
+    "id": "pearl-des-rois",
+    "project": "Pearl Des Rois Mixed-Use Complex",
+    "images": 1,
+    "assets": [
+      "assets/web/pearl_des_rois_main.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "ouroba-towers",
+    "project": "Ouroba Business Towers",
+    "images": 3,
+    "assets": [
+      "assets/web/ouroba_cam01.webp",
+      "assets/web/ouroba_cam02.webp",
+      "assets/web/ouroba_cam03.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "jazan-waterfront",
+    "project": "Jazan Sunset Corniche Waterfront",
+    "images": 8,
+    "assets": [
+      "assets/web/behance-galleries/corniche-photo-00.webp",
+      "assets/web/behance-galleries/corniche-approved-00.webp",
+      "assets/web/behance-galleries/corniche-approved-01.webp",
+      "assets/web/behance-galleries/corniche-approved-02.webp",
+      "assets/web/behance-galleries/corniche-approved-03.webp",
+      "assets/web/behance-galleries/corniche-approved-04.webp",
+      "assets/web/behance-galleries/corniche-approved-05.webp",
+      "assets/web/behance-galleries/corniche-approved-06.webp"
+    ],
+    "videoEmbed": "https://www-ccv.adobe.io/v1/player/ccv/PjWIBuT-Jho/embed?api_key=behance1&bgcolor=%23191919"
+  },
+  {
+    "id": "king-fahd-towers",
+    "project": "King Fahd Landmark Towers",
+    "images": 4,
+    "assets": [
+      "assets/web/king_fahd_cam01.webp",
+      "assets/web/king_fahd_cam02.webp",
+      "assets/web/king_fahd_cam04.webp",
+      "assets/web/king_fahd_cam06.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "obelisko-capitale",
+    "project": "Obelisko Capitale Iconic Tower",
+    "images": 1,
+    "assets": [
+      "assets/web/behance_obelisko-capitale.jpg"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "arched-arcade-55",
+    "project": "The Arched Arcade Commercial Plaza (A-55)",
+    "images": 4,
+    "assets": [
+      "assets/web/a55_cam01.webp",
+      "assets/web/a55_cam02.webp",
+      "assets/web/a55_cam03.webp",
+      "assets/web/a55_lightmix.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "corporate-hq-37",
+    "project": "Corporate HQ 37 Commercial Building",
+    "images": 4,
+    "assets": [
+      "assets/web/a37_cam01.webp",
+      "assets/web/a37_cam02.webp",
+      "assets/web/a37_cam03.webp",
+      "assets/web/a37_cam05.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "emaar-mivida",
+    "project": "Emaar Mivida Boulevard Commercial",
+    "images": 5,
+    "assets": [
+      "assets/web/behance_emaar-mivida-boulevard.jpg",
+      "assets/web/behance-galleries/mivida-01.webp",
+      "assets/web/behance-galleries/mivida-02.webp",
+      "assets/web/behance-galleries/mivida-03.webp",
+      "assets/web/behance-galleries/mivida-04.webp"
+    ],
+    "videoEmbed": "https://player.vimeo.com/video/304610826"
+  },
+  {
+    "id": "sabya-gardens",
+    "project": "Sabya Gardens Residential Compound",
+    "images": 5,
+    "assets": [
+      "assets/web/portfolio-source-originals/sabya-gardens-cover.webp",
+      "assets/web/gallery-verified/proposal-13-0.webp",
+      "assets/web/gallery-verified/proposal-13-1.webp",
+      "assets/web/gallery-verified/proposal-13-2.webp",
+      "assets/web/gallery-verified/proposal-13-3.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "abu-arish-mixed",
+    "project": "Salim Babgi Mixed-Use Residential Complex",
+    "images": 4,
+    "assets": [
+      "assets/web/image5.jpg",
+      "assets/web/gallery-verified/proposal-14-1.webp",
+      "assets/web/gallery-verified/proposal-14-2.webp",
+      "assets/web/gallery-verified/proposal-14-3.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "al-hada-compound",
+    "project": "Al Hada Luxury Gated Community",
+    "images": 4,
+    "assets": [
+      "assets/web/alhada_master.webp",
+      "assets/web/alhada_gate.webp",
+      "assets/web/alhada_type_a.webp",
+      "assets/web/alhada_type_b.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "armonia-new-capital",
+    "project": "Armonia New Capital Gated Community",
+    "images": 4,
+    "assets": [
+      "assets/web/behance_armonia-new-capital.jpg",
+      "assets/web/gallery-verified/behance-16-0.webp",
+      "assets/web/gallery-verified/behance-16-1.webp",
+      "assets/web/gallery-verified/behance-16-2.webp"
+    ],
+    "videoEmbed": "https://player.vimeo.com/video/343241007"
+  },
+  {
+    "id": "jazan-hospital",
+    "project": "Jeddah Hospital",
+    "images": 4,
+    "assets": [
+      "assets/web/jeddah_hospital_cover.webp",
+      "assets/web/portfolio-source-zan/jeddah-hospital-01.webp",
+      "assets/web/portfolio-source-zan/jeddah-hospital-02.webp",
+      "assets/web/portfolio-source-zan/jeddah-hospital-03.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "addengreens-community",
+    "project": "Addengreens Urban Residential Community",
+    "images": 2,
+    "assets": [
+      "assets/web/behance_addengreens-zagazig.jpg",
+      "assets/web/behance-galleries/addengreens-01.webp"
+    ],
+    "videoEmbed": "https://player.vimeo.com/video/1046457324?h=939030f9ae"
+  },
+  {
+    "id": "fluted-villas-114",
+    "project": "The Fluted Boutique Villas (A-114)",
+    "images": 4,
+    "assets": [
+      "assets/web/a114_cam01.webp",
+      "assets/web/a114_cam03.webp",
+      "assets/web/a114_cam04.webp",
+      "assets/web/a114_night.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "monolith-villas-115",
+    "project": "The Monolithic Cube Townhomes (A-115)",
+    "images": 4,
+    "assets": [
+      "assets/web/a115_cam03.webp",
+      "assets/web/a115_cam07.webp",
+      "assets/web/a115_cam08.webp",
+      "assets/web/a115_cam09.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "mashrabiya-villas-50",
+    "project": "The Modern Mashrabiya Villas (A-50)",
+    "images": 4,
+    "assets": [
+      "assets/web/a50_cam01.webp",
+      "assets/web/a50_cam02.webp",
+      "assets/web/a50_cam03.webp",
+      "assets/web/a50_cam04.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "wing-villas-49",
+    "project": "The Modern Wing Townhomes (A-49)",
+    "images": 3,
+    "assets": [
+      "assets/web/a49_cam01.webp",
+      "assets/web/a49_cam02.webp",
+      "assets/web/a49_cam03.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "nahdi-care-clinics",
+    "project": "Nahdi Care Clinics & Retail",
+    "images": 4,
+    "assets": [
+      "assets/web/portfolio-source-zan/nahdi-care-01.webp",
+      "assets/web/portfolio-source-zan/nahdi-care-02.webp",
+      "assets/web/portfolio-source-zan/nahdi-care-03.webp",
+      "assets/web/portfolio-source-zan/nahdi-care-04.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "zan-jazan-waterfront",
+    "project": "ZAN Jazan Waterfront — Hospitality & Commercial",
+    "images": 4,
+    "assets": [
+      "assets/web/portfolio-source-zan/zan-jazan-masterplan-cover.webp",
+      "assets/web/behance-galleries/zan-october-00.webp",
+      "assets/web/behance-galleries/zan-october-01.webp",
+      "assets/web/behance-galleries/zan-october-massing.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "dmc-office",
+    "project": "D.M.C Office",
+    "images": 4,
+    "assets": [
+      "assets/web/behance-galleries/dmc-03.webp",
+      "assets/web/behance-galleries/dmc-00.webp",
+      "assets/web/behance-galleries/dmc-01.webp",
+      "assets/web/behance-galleries/dmc-02.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "daghriri-park",
+    "project": "Daghriri Park",
+    "images": 6,
+    "assets": [
+      "assets/web/portfolio-source-originals/daghriri-park-cover.webp",
+      "assets/web/behance-galleries/tuhama-park-01.webp",
+      "assets/web/behance-galleries/tuhama-park-02.webp",
+      "assets/web/behance-galleries/tuhama-park-03.webp",
+      "assets/web/behance-galleries/tuhama-park-04.webp",
+      "assets/web/behance-galleries/tuhama-night-00.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "al-barrak-warehouses",
+    "project": "Al Barrak Warehouses & Administrative Offices",
+    "images": 1,
+    "assets": [
+      "assets/web/portfolio-source-royal-commission/al-barrak-warehouses.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "saudi-coffee-factory",
+    "project": "Saudi Coffee Company Factory",
+    "images": 1,
+    "assets": [
+      "assets/web/portfolio-source-royal-commission/saudi-coffee-factory.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "red-sea-marine-ship-repair",
+    "project": "Red Sea Marine — Ship Repair Yard",
+    "images": 1,
+    "assets": [
+      "assets/web/portfolio-source-royal-commission/red-sea-marine-ship-repair.webp"
+    ],
+    "videoEmbed": null
+  },
+  {
+    "id": "tuhama-coast",
+    "project": "Tuhama Coast — Applied Design",
+    "images": 15,
+    "assets": [
+      "assets/web/behance-galleries/tuhama-night-01.webp",
+      "assets/web/behance-galleries/tuhama-night-00.webp",
+      "assets/web/behance-galleries/tuhama-park-00.webp",
+      "assets/web/behance-galleries/tuhama-park-01.webp",
+      "assets/web/behance-galleries/tuhama-park-02.webp",
+      "assets/web/behance-galleries/tuhama-park-03.webp",
+      "assets/web/behance-galleries/tuhama-park-04.webp",
+      "assets/web/behance-galleries/tuhama-park-05.webp",
+      "assets/web/behance-galleries/tuhama-park-06.webp",
+      "assets/web/behance-galleries/tuhama-park-09.webp",
+      "assets/web/behance-galleries/tuhama-park-13.webp",
+      "assets/web/behance-galleries/tuhama-park-17.webp",
+      "assets/web/behance-galleries/tuhama-park-22.webp",
+      "assets/web/behance-galleries/tuhama-park-25.webp",
+      "assets/web/behance-galleries/tuhama-park-28.webp"
+    ],
+    "videoEmbed": null
+  }
+]

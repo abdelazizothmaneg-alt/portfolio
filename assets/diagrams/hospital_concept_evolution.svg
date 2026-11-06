@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="auto">
+  <defs>
+    <marker id="hArrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#C5A880" />
+    </marker>
+  </defs>
+
+  <rect width="1000" height="360" fill="#0C0E14" rx="8" />
+  
+  <text x="30" y="32" font-family="'Bahnschrift', sans-serif" font-size="12" font-weight="700" letter-spacing="0.1em" fill="#C5A880">CLINICAL MASSING &amp; INFECTION-CONTROL CIRCULATION • JAZAN HOSPITAL &amp; MEDICAL PLAZA</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(30, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 01</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Clinical Program Mass</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">42,000 m² BUA Requirements</text>
+
+    <rect x="40" y="110" width="130" height="90" fill="#1E2433" stroke="#C5A880" stroke-width="1.2" />
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#64748B">Inpatient + OPD + Commercial</text>
+  </g>
+
+  <path d="M 248 190 L 268 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#hArrow)" />
+
+  <!-- Step 2 -->
+  <g transform="translate(276, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 02</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Flow Segregation</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Sterile vs Public Flow (FGI)</text>
+
+    <!-- Emergency (Red), Outpatient (Blue), Service (Orange) -->
+    <rect x="35" y="105" width="45" height="100" fill="rgba(239,68,68,0.2)" stroke="#EF4444" stroke-width="1.2" />
+    <text x="57" y="155" font-family="sans-serif" font-size="8" fill="#EF4444" text-anchor="middle">ER / TRAUMA</text>
+
+    <rect x="90" y="105" width="85" height="45" fill="rgba(56,189,248,0.2)" stroke="#38BDF8" stroke-width="1.2" />
+    <text x="132" y="132" font-family="sans-serif" font-size="8" fill="#38BDF8" text-anchor="middle">OUTPATIENT</text>
+
+    <rect x="90" y="160" width="85" height="45" fill="rgba(245,158,11,0.2)" stroke="#F59E0B" stroke-width="1.2" />
+    <text x="132" y="187" font-family="sans-serif" font-size="8" fill="#F59E0B" text-anchor="middle">LOGISTICS / BOH</text>
+
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#EF4444">Zero Cross-Contamination</text>
+  </g>
+
+  <path d="M 494 190 L 514 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#hArrow)" />
+
+  <!-- Step 3 -->
+  <g transform="translate(522, 50)">
+    <rect width="210" height="280" fill="#131620" stroke="rgba(255,255,255,0.08)" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 03</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Healing Courtyards</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Biophilic light penetration</text>
+
+    <!-- Ring with Central Courtyard -->
+    <path d="M 40 100 L 170 100 L 170 210 L 40 210 Z M 75 135 L 135 135 L 135 175 L 75 175 Z" fill="#1E2433" fill-rule="evenodd" stroke="#C5A880" stroke-width="1.2" />
+    <rect x="75" y="135" width="60" height="40" fill="rgba(16,185,129,0.3)" stroke="#10B981" />
+    <text x="105" y="158" font-family="sans-serif" font-size="8" fill="#10B981" text-anchor="middle">ATRIUM</text>
+
+    <text x="16" y="260" font-family="sans-serif" font-size="10" fill="#10B981">100% Daylit Inpatient Rooms</text>
+  </g>
+
+  <path d="M 740 190 L 760 190" stroke="#C5A880" stroke-width="1.5" marker-end="url(#hArrow)" />
+
+  <!-- Step 4 -->
+  <g transform="translate(768, 50)">
+    <rect width="202" height="280" fill="#131620" stroke="#C5A880" stroke-width="1.5" rx="6" />
+    <text x="16" y="28" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#C5A880">STEP 04 • FINAL</text>
+    <text x="16" y="46" font-family="'Bahnschrift', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Medical Plaza Hub</text>
+    <text x="16" y="64" font-family="sans-serif" font-size="10.5" fill="#94A3B8">Integrated commercial retail</text>
+
+    <!-- Hospital + Integrated Plaza -->
+    <rect x="35" y="95" width="95" height="115" fill="#1E2433" stroke="#C5A880" stroke-width="1.2" />
+    <rect x="135" y="115" width="45" height="95" fill="rgba(229,199,158,0.25)" stroke="#E5C79E" stroke-width="1.2" />
+    <text x="157" y="165" font-family="sans-serif" font-size="8" fill="#E5C79E" text-anchor="middle" transform="rotate(-90 157 165)">COMMERCIAL</text>
+
+    <text x="16" y="260" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#C5A880">SBC 801 Compliant • Handover</text>
+  </g>
+</svg>

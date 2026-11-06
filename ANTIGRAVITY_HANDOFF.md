@@ -360,3 +360,12 @@ Prepared full current baseline summary in existing PORTFOLIO conversation, inclu
    - Confirmed 100% SHA256 parity between `D:\_Course\PORTFOLIO\index.html` and `D:\_Course\PORTFOLIO_DEPLOY\index.html` (`dfabbd6ace6aa4a8ce863581f1debb032bcf4f58c5c3d7a928d44e5a62e4b19d`).
    - Synced updates into `all_projects_data.json`.
    - Visual verification captured via CDP for both English and Arabic views.
+
+
+## 2026-11-06 — Production Deployment to GitHub Pages via Official Workflow
+
+**Summary:** Successfully deployed the approved, calibrated architectural portfolio to GitHub Pages using the official modern GitHub Actions workflow (`deploy.yml`) with `.nojekyll` protection:
+- **Live URL:** https://abdelazizothmaneg-alt.github.io/portfolio/
+- **Repository:** https://github.com/abdelazizothmaneg-alt/portfolio (Public, GitHub Pages enabled)
+- **Status:** HTTP 200 OK, full TLS/HTTPS encryption, verified live worldwide via CDN.
+- **Verification:** Captured live production browser viewport (`live_production_verified.png`) confirming full CSS, web fonts, 30 project cards, bilingual controls, and subtle background movement.

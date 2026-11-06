@@ -334,3 +334,29 @@ Owner requested header inner edges match hero and sections. Changed .nav-contain
   - Exact SHA256 match with the original approved baseline: `88f6b9a67c9461144c173a126e609e214e37c13bcf772998b0ba37958a2f0228`.
   - Node.js syntax test confirmed 0 errors across all scripts.
   - Mirrored across both `D:\_Course\PORTFOLIO` and `D:\_Course\PORTFOLIO_DEPLOY`.
+
+## 2026-11-06 — Latest update message prepared in Antigravity
+Prepared full current baseline summary in existing PORTFOLIO conversation, including 30 projects, updated galleries/videos, Tuhama15 images and aligned navbar/hero/career. Draft was visually verified in composer; final send could not be verified after the window changed to newer user activity and a running task. Do not report direct message as delivered. Shared files remain the latest baseline. No website files changed in this communication task.
+
+
+## 2026-11-06 — Geographic Alignment: Jazan vs Riyadh Scope Corrections
+
+**Summary:** Fully resolved geographic inaccuracies across the Career History section and project catalog per direct owner correction:
+1. **Role 1 (Hassan Mohammad Faqih Consulting Engineers):**
+   - Corrected bullet 1 (`r1b1`): Changed reference from "Riyadh corporate and residential projects" to "Jazan corporate and residential projects" (English) and "لمشاريع إدارية وسكنية بجازان" (Arabic).
+   - Re-aligned location badges and descriptions from `Riyadh, KSA` to `Jazan, KSA` / `جازان، السعودية` across all six corresponding Faqih projects:
+     - `The Arched Arcade Commercial Plaza (A-55)` (Plate 10)
+     - `Corporate HQ 37 Commercial Building` (Plate 11)
+     - `The Fluted Boutique Villas (A-114)` (Plate 18)
+     - `The Monolithic Cube Townhomes (A-115)` (Plate 19)
+     - `The Modern Mashrabiya Villas (A-50)` (Plate 20)
+     - `The Modern Wing Townhomes (A-49)` (Plate 21)
+2. **Role 2 (Environmental Means Co.):**
+   - Updated location pill (`r2Date`) to reflect dual-geography scope: `Jun 2022 – Jun 2026 • Jazan & Riyadh, KSA` / `يونيو 2022 – يونيو 2026 • جازان والرياض، السعودية`.
+   - Updated bullet 1 (`r2b1`) to cover commercial developments and retail strips across both Jazan and Riyadh.
+   - Added `King Fahd Landmark Towers` (Plate 08 / Riyadh) to Role 2's related case studies evidence drawer.
+3. **Verification:**
+   - Confirmed 0 syntax errors across all scripts via Node.js AST validation.
+   - Confirmed 100% SHA256 parity between `D:\_Course\PORTFOLIO\index.html` and `D:\_Course\PORTFOLIO_DEPLOY\index.html` (`dfabbd6ace6aa4a8ce863581f1debb032bcf4f58c5c3d7a928d44e5a62e4b19d`).
+   - Synced updates into `all_projects_data.json`.
+   - Visual verification captured via CDP for both English and Arabic views.

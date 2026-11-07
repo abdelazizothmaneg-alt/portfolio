@@ -390,3 +390,25 @@ Prepared full current baseline summary in existing PORTFOLIO conversation, inclu
    - Evaluated via live Edge CDP: `document.title` returns `Abdelaziz Osman Portfolio` on production.
    - Live HTTP 200 OK verified on `https://abdelazizothmaneg-alt.github.io/portfolio/`.
    - Automated GitHub Actions deployment succeeded in 57s.
+
+
+## 2026-11-07 — Open Graph Social Share Image Branding: Apple SF Pro Display & Topographic Background
+
+**Summary:** Replaced the generic project render preview with a dedicated high-impact Open Graph sharing card tailored to Apple's design language:
+1. **Visual Composition:**
+   - Text layout:
+     ```
+     ABDELAZIZ
+     OSMAN
+     PORTFOLIO
+     ```
+   - Typography: Apple SF Pro Display Heavy (`SF-Pro-Display-Heavy.otf`), 96px, with precise letter-spacing and deep atmospheric drop shadows.
+   - Background: Obsidian dark theme `#0A0B0E` integrated with the genuine procedural topographic contour lines and multi-tier strata shading matching `index.html`.
+   - Dimensions: Standard 1200 x 630 px (1.91:1) optimized for WhatsApp, LinkedIn, Twitter/X cards, and iMessage.
+2. **Metadata & Cache-Busting:**
+   - Updated `og:image` and `twitter:image` to `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-image.png?v=2`.
+   - Added `og:image:type="image/png"`, `og:image:width="1200"`, `og:image:height="630"`.
+3. **Verification:**
+   - GitHub Actions deployed successfully (1m2s).
+   - Live HTTP 200 OK verified on `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-image.png` (201,721 bytes).
+   - Live `index.html` confirmed pointing to `og-image.png?v=2`.

@@ -4978,8 +4978,35 @@ html[dir="rtl"] .lang-toggle {
 
     .project-media .project-number, .project-media .project-status-tag, .project-media .project-region-badge { z-index:3; }
 
-    .hero-role-capsule { max-width:100%; }
-    .hero-role-title { white-space:normal!important; text-wrap:balance; line-height:1.65!important; }
+    .hero-role-capsule {
+      max-width: 100% !important;
+      padding: 6px 14px !important;
+      margin-top: 6px !important;
+      margin-bottom: 20px !important;
+      border-radius: 980px !important;
+      background: rgba(255, 255, 255, 0.05) !important;
+      border: 1px solid rgba(255, 255, 255, 0.12) !important;
+      backdrop-filter: blur(12px) !important;
+      -webkit-backdrop-filter: blur(12px) !important;
+      box-shadow: none !important;
+    }
+    .hero-role-capsule .hero-role-title,
+    html .hero-role-capsule .hero-role-title,
+    html:not([dir="rtl"]) .hero-role-capsule .hero-role-title,
+    html[dir="rtl"] .hero-role-capsule .hero-role-title {
+      font-size: 12px !important;
+      font-weight: 500 !important;
+      line-height: 1.4 !important;
+      letter-spacing: -0.01em !important;
+      white-space: normal !important;
+      text-wrap: balance !important;
+      color: #FFFFFF !important;
+    }
+    .hero-role-capsule:hover {
+      background: rgba(255, 255, 255, 0.08) !important;
+      border-color: rgba(255, 255, 255, 0.22) !important;
+      transform: none !important;
+    }
     .project-card[data-project-id="zan-jazan-waterfront"] .project-media img { object-position:65% 50%; }
 
     #navbar { position:fixed!important; top:0!important; left:0; right:0; width:100%; box-sizing:border-box; padding:16px 0!important; z-index:1000!important; }

@@ -4985,34 +4985,60 @@ html[dir="rtl"] .lang-toggle {
 
     .project-media .project-number, .project-media .project-status-tag, .project-media .project-region-badge { z-index:3; }
 
-    .hero-role-capsule {
-      max-width: 100% !important;
-      padding: 6px 14px !important;
-      margin-top: 6px !important;
+    .hero-role-capsules {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      align-items: center !important;
+      gap: 8px !important;
+      margin-top: 8px !important;
       margin-bottom: 20px !important;
+      padding: 0 !important;
+      background: transparent !important;
+      border: none !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      backdrop-filter: none !important;
+      -webkit-backdrop-filter: none !important;
+      max-width: 100% !important;
+    }
+    .hero-role-capsules .hero-role-pill,
+    .hero-role-capsules span,
+    .hero-role-capsule {
+      font-family: var(--font-mono) !important;
+      font-size: 12px !important;
+      font-weight: 500 !important;
+      line-height: 1.4 !important;
+      padding: 6px 14px !important;
       border-radius: 980px !important;
       background: rgba(255, 255, 255, 0.05) !important;
       border: 1px solid rgba(255, 255, 255, 0.12) !important;
       backdrop-filter: blur(12px) !important;
       -webkit-backdrop-filter: blur(12px) !important;
-      box-shadow: none !important;
-    }
-    .hero-role-capsule .hero-role-title,
-    html .hero-role-capsule .hero-role-title,
-    html:not([dir="rtl"]) .hero-role-capsule .hero-role-title,
-    html[dir="rtl"] .hero-role-capsule .hero-role-title {
-      font-size: 12px !important;
-      font-weight: 500 !important;
-      line-height: 1.4 !important;
-      letter-spacing: -0.01em !important;
-      white-space: normal !important;
-      text-wrap: balance !important;
       color: #FFFFFF !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 6px !important;
+      box-shadow: none !important;
+      transition: all 0.2s ease !important;
     }
+    .hero-role-capsules .hero-role-pill:hover,
+    .hero-role-capsules span:hover,
     .hero-role-capsule:hover {
       background: rgba(255, 255, 255, 0.08) !important;
       border-color: rgba(255, 255, 255, 0.22) !important;
       transform: none !important;
+    }
+    html[dir="rtl"] .hero-role-capsules .hero-role-pill,
+    html[dir="rtl"] .hero-role-capsules span {
+      font-family: var(--font-arabic-display), var(--font-arabic), serif !important;
+      font-size: 12px !important;
+      letter-spacing: 0 !important;
+    }
+    html[data-theme="light"] .hero-role-capsules .hero-role-pill,
+    html[data-theme="light"] .hero-role-capsules span {
+      background: rgba(0, 0, 0, 0.04) !important;
+      border-color: rgba(0, 0, 0, 0.12) !important;
+      color: #1D1D1F !important;
     }
     .hero-credentials-bar {
       display: flex !important;
@@ -5114,8 +5140,10 @@ html[dir="rtl"] .lang-toggle {
         <div class="hero-grid-layout">
           <div class="hero-brand-block">
             <h1 class="hero-name" data-i18n="heroName">Abdelaziz Osman</h1>
-            <div class="hero-role-capsule">
-              <span class="hero-role-title" data-i18n="heroRole">Lead Architect | Engineering &amp; Project Management Consultant (PMC) | BIM Architect</span>
+            <div class="hero-role-capsules">
+              <span class="hero-role-pill" data-i18n="roleLead">Lead Architect</span>
+              <span class="hero-role-pill" data-i18n="rolePmc">Engineering &amp; Project Management Consultant (PMC)</span>
+              <span class="hero-role-pill" data-i18n="roleBim">BIM Architect</span>
             </div>
             <div class="hero-monograph-tag" data-i18n="monographTag">ARCHITECTURAL PRACTICE &amp; PROJECT GOVERNANCE • 2014 — 2026</div>
             <div class="hero-geography" data-i18n="heroGeo">Jazan, KSA &bull; Al-Mahalla Al-Kubra, Egypt</div>
@@ -5137,7 +5165,7 @@ html[dir="rtl"] .lang-toggle {
             </div>
 
             <div class="hero-actions">
-              <a class="btn btn-solid" href="#projects" data-i18n="btnWorks">See the four featured projects</a>
+              <a class="btn btn-solid" href="#projects" data-i18n="btnWorks">Selected Projects</a>
               
               <a class="btn btn-text" href="https://www.linkedin.com/in/abdelaziz-osman-sa/" target="_blank" rel="noopener" data-i18n="btnLinkedin">LinkedIn ↗</a>
               <a class="btn btn-text" href="https://www.behance.net/AbdelazizOthman" target="_blank" rel="noopener" data-i18n="btnBehance">Behance ↗</a>
@@ -7433,6 +7461,9 @@ html[dir="rtl"] .lang-toggle {
         heroLocation: "Jazan, KSA / Al-Mahalla Al-Kubra, EGYPT",
         heroCaptionName: "ABDELAZIZ OSMAN",
         heroRole: "Lead Architect | Engineering & Project Management Consultant (PMC) | BIM Architect",
+        roleLead: "Lead Architect",
+        rolePmc: "Engineering & Project Management Consultant (PMC)",
+        roleBim: "BIM Architect",
         heroBio: "Over 12 years bridging visionary architectural design with rigorous PMC governance across Saudi Arabia and Egypt, leading multidisciplinary teams to deliver landmark developments and master communities exceeding 350,000+ sqm BUA (+500M SAR). Backed by an active, continuously evolving mastery of Revit and BIM workflows—integrating digital coordination to ensure architectural vision translates seamlessly into coordinated, buildable delivery.",
         
         pillPmp: "PMP® Certified (#4322897)",
@@ -7441,7 +7472,7 @@ html[dir="rtl"] .lang-toggle {
         pillNfpa: "NFPA 101 Life Safety",
         pillSbc: "SBC Compliant",
         
-        btnWorks: "See the four featured projects",
+        btnWorks: "Selected Projects",
         btnCvPdf: "Download CV (PDF)",
         btnLinkedin: "LinkedIn Profile ↗",
         btnBehance: "Behance Portfolio ↗",
@@ -7636,6 +7667,9 @@ html[dir="rtl"] .lang-toggle {
         heroLocation: "جازان، المملكة العربية السعودية / المحلة الكبرى، مصر",
         heroCaptionName: "م. عبد العزيز عثمان",
         heroRole: "معماري رئيسي | استشاري هندسي وإدارة مشاريع (PMC) | معماري نمذجة معلومات البناء (BIM)",
+        roleLead: "معماري رئيسي",
+        rolePmc: "استشاري هندسي وإدارة مشاريع (PMC)",
+        roleBim: "معماري نمذجة معلومات البناء (BIM)",
         heroBio: "أكثر من 12 عاماً من الجمع بين الرؤية المعمارية وحوكمة إدارة المشاريع الاستشارية (PMC) في السعودية ومصر، وقيادة فرق العمل لتسليم مشاريع كبرى ومجتمعات عمرانية تتجاوز 350,000+ م² (+500 مليون ريال). مع توظيف متقدم ومستمر لمنهجيات Revit وBIM كركيزة أساسية أمارسها وأتعمق في دراستها وتطويرها، لضمان دقة التنسيق الهندسي وتحويل الفكر التصميمي إلى واقع تنفيذي متكامل.",
         
         pillPmp: "معتمد PMP® لإدارة المشاريع (#4322897)",
@@ -7644,7 +7678,7 @@ html[dir="rtl"] .lang-toggle {
         pillNfpa: "سلامة الأرواح NFPA 101",
         pillSbc: "مطابق لكود البناء السعودي SBC",
         
-        btnWorks: "شاهد المشاريع الأربعة الرئيسية",
+        btnWorks: "المشاريع المختارة",
         btnCvPdf: "السيرة الذاتية الرسمية (PDF)",
         btnLinkedin: "حساب لينكد إن ↗",
         btnBehance: "معرض بيهانس ↗",

@@ -707,3 +707,7 @@ Moved `.hero-credentials-bar` directly underneath `.hero-role-capsules` (above `
 - Tightened `.hero-role-capsules` `margin-bottom` to `8px` and `.hero-credentials-bar` `margin-top: 0; margin-bottom: 22px;` so all role + accreditation pills form one cohesive, evenly-spaced badge cluster right under the H1 name.
 - Visually verified desktop English & Arabic (RTL) previews via headless Edge.
 - Verified 100% SHA-256 parity between `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
+
+
+## 2026-11-19 — Update hero role pill from Lead Architect to Architect Team Leader
+Updated the first hero role pill (`roleLead`) and English `heroRole` in `index.html` and `index-demo.html` from `Lead Architect` to `Architect Team Leader` (matching the header brand subtitle and resume header). Verified SHA-256 parity across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.

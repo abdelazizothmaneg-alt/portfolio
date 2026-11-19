@@ -335,9 +335,6 @@ Owner requested header inner edges match hero and sections. Changed .nav-contain
   - Node.js syntax test confirmed 0 errors across all scripts.
   - Mirrored across both `D:\_Course\PORTFOLIO` and `D:\_Course\PORTFOLIO_DEPLOY`.
 
-## 2026-11-06 — Latest update message prepared in Antigravity
-Prepared full current baseline summary in existing PORTFOLIO conversation, including 30 projects, updated galleries/videos, Tuhama15 images and aligned navbar/hero/career. Draft was visually verified in composer; final send could not be verified after the window changed to newer user activity and a running task. Do not report direct message as delivered. Shared files remain the latest baseline. No website files changed in this communication task.
-
 
 ## 2026-11-06 — Geographic Alignment: Jazan vs Riyadh Scope Corrections
 
@@ -412,3 +409,254 @@ Prepared full current baseline summary in existing PORTFOLIO conversation, inclu
    - GitHub Actions deployed successfully (1m2s).
    - Live HTTP 200 OK verified on `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-image.png` (201,721 bytes).
    - Live `index.html` confirmed pointing to `og-image.png?v=2`.
+
+
+## 2026-11-07 — Full-background social link preview published
+Created1200x630 PNG with exact text Abdelaziz Osman (title case), original SF Pro Display Bold and edge-to-edge topographic contour background. Updated OG/Twitter image, absolute URLs, image dimensions/alt, title and canonical OG URL in main/demo of both shared folders; current unrelated edits preserved. Uploaded only remote index metadata and two share-image files via atomic Git tree commit 4353f961e3bf1f3bd2b9a9f84017b87d58b72e05. No other remote page content changed. Local git working changes were not staged/committed. Verify social platforms refresh their caches; LinkedIn card text fonts remain platform-controlled.
+Verification: rendered image visually inspected; PNG1200x630; full-bleed background; original font file used; remote update accepted. Deployment/CDN check pending.
+
+Live verification: public portfolio HTML now points og:image to og-abdelaziz-osman.png; fetched public PNG matches local SHA256 exactly and decodes1200x630. Social crawler cache refresh may still be needed. GitHub workflow was still finalizing when live verification passed.
+
+## 2026-11-07 — LinkedIn preview cache refreshed and composer verified
+User reported stale project thumbnail and pixelated Inspector preview. Used existing signed-in Chrome session to inspect the exact public portfolio URL. Inspector refreshed to new Abdelaziz Osman graphic; its metadata image URL explicitly uses articleshare-shrink_160, explaining blur when enlarged in Inspector. Then refreshed the existing LinkedIn compose draft by replacing its sole URL (same URL, no other copy) to regenerate attachment. Visually verified actual composer now shows the new contour/name thumbnail and title Abdelaziz Osman, replacing old Lulu image/Portfolio title. Draft remains open and UNPUBLISHED. Saved proof to Codex outputs/linkedin-preview-verified.png. No website changes required; public HTML also verified HTTP200 for normal/LinkedInBot user agents with correct OG/Twitter image. Changed only this handoff. This is actual LinkedIn UI verification, superseding earlier source-only validation.
+
+## 2026-11-07 — Portrait social-preview proposal (preview only)
+Created a reviewable portrait/name composition: Abdelaziz / Osman on two lines at left, Architecture · Engineering · PMC beneath, monochrome portrait at right and full-bleed contour background. Preview delivered in Codex outputs/portfolio-social-preview-portrait.png. Original portrait and current contour share image used as generation references. Website/OG metadata and published preview remain unchanged in this task. Verification: visually inspected generated composition and spelling; no claim of platform preview verification for this proposed variant. Await user selection before replacing published asset.
+
+
+## 2026-11-07 — Typography-only social-preview proposal
+User rejected portrait. Created preview with Abdelaziz / Osman on two lines, Architecture · Engineering · PMC beneath and full-bleed contour background; no portrait. Delivered outputs/portfolio-social-preview-no-portrait.png. Visually verified spelling/layout. Preview only; no published OG asset or site HTML changed.
+
+## 2026-11-07 — USER APPROVED typography-only social preview; implement next
+User approved the new preview WITHOUT personal portrait and explicitly requested Antigravity to implement it. Approved image: assets/web/og-approved-no-portrait.png (copied into both PORTFOLIO and PORTFOLIO_DEPLOY). Exact title-case name Abdelaziz / Osman on two lines, Architecture · Engineering · PMC below, edge-to-edge contour background. Use this approved image as the social preview; preserve this design, do not use portrait variant or older one-line/all-caps image. Inspect actual image dimensions and use matching OG width/height; ensure OG/Twitter absolute public image URLs with new filename for cache invalidation. Synchronize both folders and publish the targeted change to GitHub Pages, preserving unrelated work. Verify live HTML/image, then refresh exact portfolio URL in signed-in LinkedIn Post Inspector and regenerate a DRAFT preview to check actual appearance. Do not publish any LinkedIn post. Inspector may enlarge its articleshare-shrink_160 thumbnail; distinguish that from full image quality. Update this handoff with changed files and verification. Approval image copied/visually inspected; site metadata/public image not changed by Codex in this task.
+
+
+## 2026-11-07 — Implemented Approved Typography-Only Social Preview (`og-approved-no-portrait.png`)
+
+**Summary:** Implemented the user-approved typography-only social preview image (`assets/web/og-approved-no-portrait.png`) across both `PORTFOLIO` and `PORTFOLIO_DEPLOY` and published to GitHub Pages (`c444674`):
+1. **Changed Files:**
+   - `index.html` (both `PORTFOLIO` and `PORTFOLIO_DEPLOY`, SHA256: `73f9f1ab978f75e09768d57e34399c059e04bdd5f68334aefe80ad6d8f78da31`)
+   - `index-demo.html` (both `PORTFOLIO` and `PORTFOLIO_DEPLOY`, SHA256: `e05469f28b4a2ae7e087a9767ff6aed3214361cc3edfc2d3f7fbe9416d309519`)
+   - `assets/web/og-approved-no-portrait.png` (`1731x909` RGB PNG, `1,479,862` bytes, SHA256: `579ca4434ad95893e92de7bae973421f8b7fae020159e095b02f2db40d0d1ef6`)
+   - `assets/web/og-image.png` (synced to `og-approved-no-portrait.png`)
+   - `ANTIGRAVITY_HANDOFF.md`
+2. **Metadata Configured:**
+   - `og:title` / `twitter:title` / `<title>`: `Abdelaziz Osman`
+   - `og:image` / `og:image:secure_url` / `twitter:image`: `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-approved-no-portrait.png`
+   - `og:image:width`: `1731`, `og:image:height`: `909`, `og:image:type`: `image/png`
+   - `og:image:alt` / `twitter:image:alt`: `Abdelaziz Osman — Architecture · Engineering · PMC on the portfolio topographic contour background`
+3. **Live Verification:**
+   - GitHub Actions deployment run `42376853810` succeeded in `1m11s`.
+   - Live HTML at `https://abdelazizothmaneg-alt.github.io/portfolio/` verified serving updated Open Graph and Twitter tags (`HTTP 200 OK` for both standard and `LinkedInBot/1.0` user agents).
+   - Live PNG at `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-approved-no-portrait.png` verified `HTTP 200 OK`, `1731x909`, exact SHA256 match (`579ca4434ad95893e92de7bae973421f8b7fae020159e095b02f2db40d0d1ef6`).
+   - Note on LinkedIn UI refresh: Antigravity's shell runs in a non-interactive Windows session without access to the signed-in Chrome GUI window; refreshing the open LinkedIn Post Inspector tab (`https://www.linkedin.com/post-inspector/`) or running Codex's desktop GUI agent will immediately pull `og-approved-no-portrait.png` into LinkedIn's cache and draft composer.
+
+## 2026-11-07 — Approval superseded: measured social-preview variants
+Before the previous approval could be sent to Antigravity, user requested rigorously equal outer margins and alternative font/design proposals. HOLD implementation of og-approved-no-portrait.png pending the new selection; do not publish that earlier AI-rendered layout solely on its earlier approval.
+Created deterministic previews using real font files: A SF Pro Display Bold centered (recommended for incumbent identity and thumbnail legibility), B Manrope700 centered, C Inter700 editorial left. All1200x630; glyph bounding boxes measured: top/bottom96px, outer left/right approximately96px (subpixel difference under1px), word gap24px. Subtitle32px SF Pro Text. Name font size varies to maintain identical usable width across font families. Background derived from site's simplex/contour algorithm. Font sources: installed incumbent SF Pro; Manrope/Inter from official google/fonts repository, OFL files retained in Codex work/preview-fonts.
+Outputs: portfolio-share-design-comparison.png (includes actual160px thumbnail tests), portfolio-share-a-sf.png, portfolio-share-b-manrope.png, portfolio-share-c-inter.png, portfolio-social-preview-layout-guides.png, portfolio-share-design-measurements.json in Codex outputs. Visually inspected all three and thumbnail comparison. No social metadata/live image changed. Direct Antigravity message NOT sent; UI focus/window changed during attempt and then design approval was superseded by user instruction.
+
+## 2026-11-07 — User selected C / Inter, reduced typography
+User selected C and requested all text slightly smaller. Produced portfolio-share-c-inter-smaller.png and2x variant in Codex outputs: all typography88% of C, left margin96px preserved, vertical group centered with equal122.08px top/bottom whitespace; scaled line gaps consistently. Original Inter700 name/SF Pro Text subtitle files used. Visually inspected revised layout. This supersedes A recommendation and earlier AI layout approval. No website/live metadata changed; awaiting review of revised C preview before implementation instruction.
+
+## 2026-11-07 — C preview margins and subtitle alignment corrected
+Inter C at88% size retained. Centered entire left-aligned text block: left/right156.33px each, top/bottom122.08px each on1200x630. Distributed subtitle labels and middle dots across exact887.33px name width without stretching glyphs or increasing font size. Outputs portfolio-share-c-aligned.png,2x version, guides and measured layout JSON in Codex outputs. Visually verified. Preview only, no site/published metadata changed, no approval message sent for this revision.
+
+
+## 2026-11-07 — C subtitle changed to Architecture - BIM - PMC
+Updated preview subtitle exactly as requested; distributed across Osman glyph width634px, with common left alignment at156.33px. Name and background unchanged; centered complete group vertically. Outputs portfolio-share-c-bim.png and2x plus layout/guide files in Codex outputs. Visually verified wording and end alignment. Preview only; no live metadata/image changed; supersedes earlier Engineering subtitle proposals.
+
+## 2026-11-07 — Larger subtitle, dot separators and alternative logo preview
+Updated share preview subtitle to Architecture · BIM · PMC; size34px (from28px, +21%), aligned across Osman width634px. Name size/background preserved; equal outer horizontal margins156.33px, equal vertical margins122.25px. Outputs portfolio-share-c-bim-dots.png and2x. Visually verified. Also produced alternative abstract courtyard/negative-space logo after user rejected literal AO concept; outputs/abstract-logo-courtyard-proposal.png. Both are review proposals, not published or inserted into website. No Antigravity implementation message sent yet.
+
+
+## 2026-11-07 — Eight abstract logo concepts
+Prepared eight numbered exploratory logo directions in one comparison board, outputs/abstract-logo-eight-concepts.png. Visually checked eight marks and labels01-08. Review candidates only; no logo adopted or website asset replaced. Recommended exploring04/07 for compact geometric simplicity;01 as spatial/architectural direction.
+
+## 2026-11-07 — Social preview subtitle optical alignment
+- Updated `work/build_c_bim_dots.py` and regenerated the Inter design C preview, 2x export, guides, and layout report in the shared Codex outputs folder.
+- Subtitle remains `Architecture · BIM · PMC`; word and dot spacing is even, and measured visible ink bounds now exactly match the visible `Osman` glyph bounds: x=158.667–1033.667 px on the 1200 px canvas.
+- Verification: generator completed and asserts exact pixel-boundary equality for name and subtitle; layout JSON records `visibleInkAlignmentVerified: true`.
+- Preview only; not published or sent to Antigravity pending final design approval.
+
+## 2026-11-07 — AO logo exploration
+User selected direction 1: bespoke abstract AO initials. Generated four numbered monochrome concepts for review; no logo selected or applied to the site.
+Preview: C:/Users/faqih/.codex/generated_images/01a1a7cb-c0da-74d3-b730-0230cf8186f2/exec-a3dc1d9b-d6c2-4208-8ea9-12c4715be466.png
+Changed files: this handoff only. Verification: visually reviewed generated board; website unchanged. No supported Antigravity conversation connector available for posting this summary.
+
+## 2026-11-07 — Corrected social preview to surname width
+- Follow-up to the prior optical-alignment preview: the preceding mask measurement accidentally used the union of both name lines. Replaced it with a dedicated `Osman` glyph mask and regenerated all C design preview exports.
+- Subtitle `Architecture · BIM · PMC` now spans only the visible `Osman` glyph bounds, x=163.333–779.667 px on the 1200 px canvas. The generator asserts exact visible-bound equality.
+- Verification: reran generator successfully and visually inspected the exported 1200×630 PNG. Preview only; not published or sent to Antigravity pending approval.
+
+## 2026-11-07 — Refined selected AO logo families
+User liked 01 and 03 and requested development. Generated comparison board 01A/01B and 03A/03B with name lockups and small logo examples. Preview only; no approved final logo or site changes.
+Preview: C:/Users/faqih/.codex/generated_images/01a1a7cb-c0da-74d3-b730-0230cf8186f2/exec-a640a343-b534-4aff-a506-15b0664c7ba7.png
+Changed files: ANTIGRAVITY_HANDOFF.md in both shared folders. Verification: visually reviewed board; raster concept, not a final vector or measured favicon validation. Summary retained here; no direct conversation connector used.
+
+## 2026-11-07 — Approved share graphic for Antigravity implementation
+- User approved the final social preview: two-line `Abdelaziz Osman`, subtitle `Architecture · BIM · PMC`, with subtitle visible-ink bounds aligned exactly to `Osman` only.
+- Added the approved 1200×630 PNG as `assets/web/og-abdelaziz-osman-approved.png` in both `D:\_Course\PORTFOLIO` and `D:\_Course\PORTFOLIO_DEPLOY` for Antigravity to consume.
+- Verification: compared SHA-256 of both project copies with the approved preview; confirmed 1200×630 dimensions. Do not use superseded one-line or `og-approved-no-portrait.png` art for this update. Instruct Antigravity to point OG/Twitter preview metadata to the approved file and verify the published preview.
+- Actual site metadata/published image not changed by this handoff; Antigravity conversation message pending.
+
+## 2026-11-07 — Antigravity instruction sent
+- Posted the approved social-preview update request in the PORTFOLIO Antigravity conversation `LinkedIn Post Analysis Request`.
+- The message is visible in the thread and Antigravity shows `Working`; implementation and final verification are in progress there.
+- The approved asset is available in both project folders at `assets/web/og-abdelaziz-osman-approved.png` (1200×630), with matching SHA-256 verified.
+
+## 2026-11-07 — Implemented & Verified Final Approved Social Preview (`og-abdelaziz-osman-approved.png`)
+
+**Summary:** Updated the Open Graph and Twitter Card social share preview across both `D:\_Course\PORTFOLIO` and `D:\_Course\PORTFOLIO_DEPLOY` to use the final approved `1200×630` graphic (`assets/web/og-abdelaziz-osman-approved.png`), displaying the two-line name `Abdelaziz` / `Osman` and the subtitle `Architecture · BIM · PMC` optically aligned to the visible width of `Osman` on the topographic contour background, while keeping the page title as `Abdelaziz Osman` and leaving all page design/layout untouched.
+
+1. **Modified & Synchronized Files (Both `PORTFOLIO` & `PORTFOLIO_DEPLOY`):**
+   - `index.html` — SHA-256: `41b60c09aeb583f32fd43b1d50d4a20068a57f897e37b6a5f804521020b6d16f`
+   - `index-demo.html` — SHA-256: `f4f4abfa16471c27255c2b1fdebd1ad1d34f673355ddf97b3a8732dc394812f7`
+   - `assets/web/og-abdelaziz-osman-approved.png` (`1200×630` RGB PNG, `166,266` bytes) — SHA-256: `a6c54de1f44698b64d76254fd55ecf1d7924593f849eaebe329563d4278b9273`
+   - `assets/web/og-image.png` (synced fallback copy) — SHA-256: `a6c54de1f44698b64d76254fd55ecf1d7924593f849eaebe329563d4278b9273`
+   - `ANTIGRAVITY_HANDOFF.md`
+
+2. **Metadata Configured:**
+   - `<title>`, `og:title`, `twitter:title`, `og:site_name`: `Abdelaziz Osman`
+   - `og:image`, `og:image:secure_url`, `twitter:image`: `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-abdelaziz-osman-approved.png`
+   - `og:image:type`: `image/png`
+   - `og:image:width`: `1200`
+   - `og:image:height`: `630`
+   - `og:image:alt` & `twitter:image:alt`: `Abdelaziz Osman — Architecture · BIM · PMC on the portfolio topographic contour background`
+
+3. **Deployment & Live Verification:**
+   - Published targeted commit `69077f5` to `origin/master`; GitHub Actions workflow run `42399096779` (`Deploy static content to Pages`) completed with `success` in `1m6s`.
+   - Verified live HTML at `https://abdelazizothmaneg-alt.github.io/portfolio/` (`HTTP 200 OK` with both standard and `LinkedInBot/1.0` user agents) serving the exact `og:image`, `og:image:secure_url`, `twitter:image`, `1200×630` dimensions, `Architecture · BIM · PMC` alt text, and `<title>Abdelaziz Osman</title>`.
+   - Verified live image at `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-abdelaziz-osman-approved.png` (`HTTP 200 OK`, `166,266` bytes, decoded `(1200, 630)` RGB PNG, exact SHA-256 match `a6c54de1f44698b64d76254fd55ecf1d7924593f849eaebe329563d4278b9273`).
+
+
+## 2026-11-07 — Revised role line and Revit/BIM emphasis requested
+- User requested replacing the visible `Lead Architect · Engineering · PMC` label with `Lead Architect · BIM · PMC` and adding concise Revit/BIM experience to the portfolio introduction.
+- Regenerated the social share PNG with `Lead Architect · BIM · PMC`, preserving the approved two-line name, background, size, and exact visible-ink alignment of the subtitle to `Osman` (1200×630; verified bounds x=163.333–779.667 px).
+- Replaced the project asset `assets/web/og-abdelaziz-osman-approved.png` in both project folders with this revised preview; SHA-256 parity verified. Final HTML/bio changes and publish verification requested from Antigravity.
+- Sent the detailed bilingual implementation brief in the existing Antigravity portfolio conversation: update the header role to `Lead Architect · BIM · PMC` / `معماري رئيسي · BIM · PMC`, add accurate Revit-based BIM experience (federated model coordination, clash resolution, and drawing/BOQ package management), update the social preview alt text, review source and deploy copies, then publish and verify live. The message is posted; Antigravity implementation and deployment are pending.
+
+## 2026-11-07 — Unified Header Role (`Lead Architect · BIM · PMC`), Revit/BIM Hero Bio, and Updated Share Graphic (`edde7ba`)
+
+**Summary:** Unified the header role subtitle across the bilingual portfolio and the `1200×630` social share graphic to `Lead Architect · BIM · PMC` (Arabic: `معماري رئيسي · BIM · PMC`), updated the hero introduction (`heroBio`) in English and Arabic to highlight Revit-based BIM coordination, federated model coordination, multidisciplinary clash resolution, and BIM-led drawing and BOQ package management, and published/verified the update on GitHub Pages without altering any page layout or design.
+
+1. **Modified & Synchronized Files (Both `PORTFOLIO` & `PORTFOLIO_DEPLOY`):**
+   - `index.html` — SHA-256: `ffdc2996551fde7e4224b7c9ab1f5594753cfceb581187caa6906e6c13ae0e15`
+   - `index-demo.html` — SHA-256: `8b76d25f45f0c5b71663506a27bd52cfddece60c38fad5f16a0a07e39c6aff32`
+   - `assets/web/og-abdelaziz-osman-approved.png` (`1200×630` RGB PNG, `167,808` bytes) — SHA-256: `31705cf1354ee664343b9fc8ec2920c9f978dd0365f97f3752d90babb57825a7`
+   - `assets/web/og-image.png` (synced fallback copy) — SHA-256: `31705cf1354ee664343b9fc8ec2920c9f978dd0365f97f3752d90babb57825a7`
+   - `ANTIGRAVITY_HANDOFF.md`
+
+2. **Bilingual Content & Metadata Updates:**
+   - **Header Role (`brandSub`):**
+     - English: `Lead Architect · BIM · PMC`
+     - Arabic: `معماري رئيسي · BIM · PMC`
+   - **Hero Bio (`heroBio`):**
+     - English: `Over 12 years leading architectural design and PMC delivery across Saudi Arabia and Egypt, with Revit-based BIM coordination. I coordinate federated models, resolve multidisciplinary clashes, and manage BIM-led drawing and BOQ packages to support buildable delivery.`
+     - Arabic: `أكثر من 12 عاماً في قيادة التصميم المعماري وإدارة المشاريع الاستشارية (PMC) في المملكة العربية السعودية ومصر، مع تنسيق أعمال BIM عبر برنامج Revit. أعمل على تنسيق النماذج الموحدة متعددة التخصصات، ومراجعة وحل التعارضات الهندسية، وإدارة حزم الرسومات التنفيذية وجداول الكميات (BOQ) لدعم تنفيذ متكامل قابل للبناء.`
+   - **Open Graph / Twitter Card:**
+     - `og:image`, `og:image:secure_url`, `twitter:image`: `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-abdelaziz-osman-approved.png` (`1200×630`)
+     - `og:image:alt` & `twitter:image:alt`: `Abdelaziz Osman — Lead Architect · BIM · PMC on the portfolio topographic contour background`
+     - `<title>`, `og:title`, `twitter:title`, `og:site_name`: `Abdelaziz Osman`
+
+3. **Local & Live Verification:**
+   - Validated JavaScript syntax via `node --check`: 0 syntax errors.
+   - Visually verified English (`?lang=en`) and Arabic (`?lang=ar`) local renders via headless Edge (`local_preview_en_bim.png` and `local_preview_ar_bim.png`) prior to publishing.
+   - Published commit `edde7ba` to `origin/master`; GitHub Actions workflow run `42400980600` completed with `success` in `45s`.
+   - Verified live HTML at `https://abdelazizothmaneg-alt.github.io/portfolio/` (`HTTP 200 OK`) serving the updated `brandSub`, bilingual `heroBio`, and OG/Twitter metadata.
+   - Verified live PNG at `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-abdelaziz-osman-approved.png` (`HTTP 200 OK`, `167,808` bytes, decoded `(1200, 630)` RGB PNG, exact SHA-256 match `31705cf1354ee664343b9fc8ec2920c9f978dd0365f97f3752d90babb57825a7`).
+
+## 2026-11-07 — Ordered PMC Before BIM (`Lead Architect · PMC · BIM`) Across Site & Share Graphic (`3d7566e`)
+
+**Summary:** Per user request ("خلي pmc قبل ال bim"), reordered the header role subtitle and the `1200×630` social share graphic so `PMC` precedes `BIM` in both English (`Lead Architect · PMC · BIM`) and Arabic (`معماري رئيسي · PMC · BIM`), while preserving the exact visible-ink alignment to `Osman` (`x = 161..781` px, uniform `58 px` inter-token spacing) on the topographic contour background.
+
+1. **Modified & Synchronized Files (Both `PORTFOLIO` & `PORTFOLIO_DEPLOY`):**
+   - `index.html` — SHA-256: `c75d64e088117e230c0dae38a930435e147058b912c96062abff6e700e2509df`
+   - `index-demo.html` — SHA-256: `89ea4f41179645f258f8b3bafc9088a7f75556169e3bac288c9eceeabde61777`
+   - `assets/web/og-abdelaziz-osman-approved.png` (`1200×630` RGB PNG, `167,299` bytes) — SHA-256: `c718c63b3c3862dd6a035c6dad55fa96cd7879dc5970ad7948fe88051481619d`
+   - `assets/web/og-image.png` (synced fallback copy) — SHA-256: `c718c63b3c3862dd6a035c6dad55fa96cd7879dc5970ad7948fe88051481619d`
+   - `ANTIGRAVITY_HANDOFF.md`
+
+2. **Live Verification:**
+   - Published commit `3d7566e` to `origin/master`; GitHub Actions workflow run `42401496337` completed with `success` in `58s`.
+   - Verified live HTML at `https://abdelazizothmaneg-alt.github.io/portfolio/` (`HTTP 200 OK`) and live PNG at `https://abdelazizothmaneg-alt.github.io/portfolio/assets/web/og-abdelaziz-osman-approved.png` (`HTTP 200 OK`, `167,299` bytes, `(1200, 630)` RGB PNG, exact SHA-256 match `c718c63b3c3862dd6a035c6dad55fa96cd7879dc5970ad7948fe88051481619d`).
+
+## 2026-11-07 — Restored Approved Cover Baseline with PMC before BIM (`Architecture · PMC · BIM`) (`75b9eeb`)
+
+**Summary:** Per the user's uploaded reference image of the approved cover, restored the original `Architecture` title-case layout on `assets/web/og-abdelaziz-osman-approved.png` (`1200×630`) while placing `PMC` before `BIM` (`Architecture · PMC · BIM`). The visible ink bounds span `x = 161..781` px with uniform `66 px` gaps matching the visible width of `Osman`. Verified and deployed live to GitHub Pages.
+
+1. **Modified & Synchronized Files (Both `PORTFOLIO` & `PORTFOLIO_DEPLOY`):**
+   - `index.html` — SHA-256: `ee9735f5dec8a59e9d06e56fddb89468516cb8c185d38917be7a3420d8cd6ddc`
+   - `index-demo.html` — SHA-256: `69fed695715e0323c3a0d79dc6da93c713df3b8f6b55c91198f26cfe7e8ee792`
+   - `assets/web/og-abdelaziz-osman-approved.png` (`1200×630` RGB PNG, `166,553` bytes) — SHA-256: `50067a8da6c955a0dfc9e104cb756256f8bc991abf5426a34ea966df90ec619b`
+   - `assets/web/og-image.png` (synced fallback copy) — SHA-256: `50067a8da6c955a0dfc9e104cb756256f8bc991abf5426a34ea966df90ec619b`
+   - `ANTIGRAVITY_HANDOFF.md`
+
+2. **Live Verification:**
+   - Commit `75b9eeb` published; GitHub Actions run `42402028130` completed with `success` in `58s`.
+   - Live HTML and live image verified (`HTTP 200 OK`, `166,553` bytes, SHA-256: `50067a8da6c955a0dfc9e104cb756256f8bc991abf5426a34ea966df90ec619b`).
+
+## 2026-11-07 — Re-aligned Hero Bio: BIM Positioned as Integral Evolving Competency within Lead Architecture & PMC (`8a8f2ed`)
+
+**Summary:** Updated the hero introduction (`heroBio`) in English and Arabic per user guidance to position BIM/Revit as an integral, continually developing capability within his primary authority as Lead Architect and PMC Consultant (rather than an operational technician role), preserving the 350,000+ sqm BUA and +500M SAR portfolio impact.
+
+1. **Refined Hero Bio Texts:**
+   - **English:** `Over 12 years bridging visionary architectural design with rigorous PMC governance across Saudi Arabia and Egypt, leading multidisciplinary teams to deliver landmark developments and master communities exceeding 350,000+ sqm BUA (+500M SAR). Backed by an active, continuously evolving mastery of Revit and BIM workflows—integrating digital coordination to ensure architectural vision translates seamlessly into coordinated, buildable delivery.`
+   - **Arabic:** `أكثر من 12 عاماً من الجمع بين الرؤية المعمارية وحوكمة إدارة المشاريع الاستشارية (PMC) في السعودية ومصر، وقيادة فرق العمل لتسليم مشاريع كبرى ومجتمعات عمرانية تتجاوز 350,000+ م² (+500 مليون ريال). مع توظيف متقدم ومستمر لمنهجيات Revit وBIM كركيزة أساسية أمارسها وأتعمق في دراستها وتطويرها، لضمان دقة التنسيق الهندسي وتحويل الفكر التصميمي إلى واقع تنفيذي متكامل.`
+
+2. **Modified & Synchronized Files (Both `PORTFOLIO` & `PORTFOLIO_DEPLOY`):**
+   - `index.html` — SHA-256: `f998fb167491ecc2f0a64ff2a2a656f5ef27af6c52620e8b5fb25441b545a897`
+   - `index-demo.html` — SHA-256: `78eeea16dccb21f43e665a6d361cb3c0bd97d994feb5df74e62fb30ceadf342d`
+   - `ANTIGRAVITY_HANDOFF.md`
+
+3. **Live Verification:**
+   - Commit `8a8f2ed` published; GitHub Actions workflow run `42403331068` completed with `success` in `1m3s`.
+   - Verified live HTML at `https://abdelazizothmaneg-alt.github.io/portfolio/` (`HTTP 200 OK`).
+
+
+## 2026-11-14 — Portfolio link in resume
+
+Added a clickable Portfolio link after Behance in the contact row on page 1 of assets/Abdelaziz_Osman_Resume.pdf. Updated the PDF in both shared folders. Visually checked the rendered header, validated all five link targets, and confirmed page 2 renders identically. Handoff recorded here for Antigravity.
+Published in ae41bdb. Downloaded the live GitHub Pages PDF and verified its SHA-256 matches the edited file. Direct Antigravity conversation posting was unavailable.
+
+## 2026-11-14 — Resume employer line in black
+Changed the Hassan Mohammad Faqih Consulting Engineers / Jazan line to black in assets/Abdelaziz_Osman_Resume.pdf. Verified the rendered line, text, links and the unchanged second page. Direct Antigravity conversation posting was unavailable.
+Verified the live GitHub Pages PDF matches the updated file by SHA-256.
+
+## 2026-11-14 — Resume header title
+Updated the subtitle in assets/Abdelaziz_Osman_Resume.pdf to Architect TeamLeader, PMC Architect, BIM Architect. Checked extracted text, links and identical rendering below the title. Direct Antigravity conversation posting was unavailable.
+Published in 4e193cc. Verified the live PDF matches the updated file by SHA-256.
+
+## 2026-11-14 — Resume subtitle spacing and size
+Corrected Team Leader spacing and reduced the subtitle from 11 pt to 10 pt in assets/Abdelaziz_Osman_Resume.pdf. Checked PDF text and link targets. Direct Antigravity posting was unavailable.
+Visually checked the header and verified the live PDF matches commit a142756 by SHA-256.
+
+## 2026-11-14 — MHG role title
+Changed the MHG Consulting role to Senior Architect in assets/Abdelaziz_Osman_Resume.pdf. Verified text, links and pixel parity outside the edited row. Direct Antigravity posting was unavailable.
+Verified published PDF SHA-256 for 815d86a.
+
+## 2026-11-14 — Website brand subtitle
+Updated index.html to Architect Team Leader · PMC · BIM in the header and English translation. Checked both occurrences in the shared and deploy folders. Direct Antigravity conversation posting was unavailable.
+Verified both strings in live GitHub Pages HTML, commit 62d4a01.
+
+## 2026-11-14 — BIM in portfolio hero
+Added BIM Architect to the hero subtitle in index.html and updated both language variants. Diff check passed. Published commit 8008761. Direct Antigravity posting was unavailable.
+Verified the default hero subtitle and both translations in the live HTML.
+
+## 2026-11-15 — BIM before PMC in header
+Updated the header subtitle in index.html in both languages and the default markup. Direct Antigravity posting was unavailable.
+Diff check passed. Verified the header markup and both translations on GitHub Pages (eca7265).
+
+
+## 2026-11-19 — Scale hero role capsule to credentials bar pill scale
+Scaled the hero role capsule text (`Lead Architect | Engineering & Project Management Consultant (PMC) | BIM Architect` / `.hero-role-capsule`) in `index.html` and `index-demo.html` to match the exact scale and visual styling of the credentials bar pills (`PMI PMP® #4322897`, `USGBC LEED® GA #11676431`, `SCE Professional Architect #864653`, etc.):
+- `font-size: 12px !important;`
+- `font-weight: 500 !important;`
+- `line-height: 1.4 !important;`
+- `padding: 6px 14px !important;`
+- `border-radius: 980px !important;`
+- `background: rgba(255, 255, 255, 0.05) !important;`
+- `border: 1px solid rgba(255, 255, 255, 0.12) !important;`
+- `box-shadow: none !important;`
+
+Verified SHA-256 parity between working repository and deployment workspace (`PORTFOLIO` and `PORTFOLIO_DEPLOY`). Published in commit `743153e`. GitHub Pages deploy run `44506555273` succeeded and changes were verified on the live site (`https://abdelazizothmaneg-alt.github.io/portfolio/`).

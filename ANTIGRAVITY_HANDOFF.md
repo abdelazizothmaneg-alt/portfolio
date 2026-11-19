@@ -711,3 +711,13 @@ Moved `.hero-credentials-bar` directly underneath `.hero-role-capsules` (above `
 
 ## 2026-11-19 — Update hero role pill from Lead Architect to Architect Team Leader
 Updated the first hero role pill (`roleLead`) and English `heroRole` in `index.html` and `index-demo.html` from `Lead Architect` to `Architect Team Leader` (matching the header brand subtitle and resume header). Verified SHA-256 parity across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
+
+
+## 2026-11-19 — Full Arabic localization for hero credentials, Talda title, and 60 project spec values
+1. **Hero Credential Pills (Arabic RTL)**:
+   - Added bilingual `data-en-html` / `data-ar-html` support to `.hero-credentials-bar` pills and wired it into `applyLanguage(lang)` so switching to Arabic renders natural, RTL-proper Arabic credentials with `Thmanyah Serif` typography instead of flipped English text.
+2. **Talda Compound Arabic Name**:
+   - Updated `كمبوند تالدة السكني (HDP)` to `كمبوند تالدا السكني` across project card `data-ar`, `projectsData.titleAr`, timeline evidence button, and career bullets.
+3. **Project Spec Values (60 replacements)**:
+   - Translated all 60 remaining English-only `.spec-block strong` `data-ar` values (including Talda's `30 Feddans (~126,000 m²)`, `80% Open Space / Riverways`, `~740 Units (600 Apts + 140 TH)`, and all other project cards) into clean Modern Standard Arabic.
+- Verified 0 JS syntax errors, visually verified desktop AR & EN previews, and verified 100% SHA-256 parity across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.

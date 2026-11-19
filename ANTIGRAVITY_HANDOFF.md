@@ -669,3 +669,34 @@ Removed the outer container styling (background, border, padding, and backdrop-f
 - Applied identical responsive handling and dark/light theme support.
 - Verified 100% SHA-256 parity between `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
 - Published in commit `5c61563`.
+
+
+## 2026-11-19 — Split hero role into separate pills & update CTA to Selected Projects
+1. **Hero Roles Split into Individual Pills**:
+   - Converted `.hero-role-capsule` from a single combined string to individual pills inside `.hero-role-capsules`:
+     - `Lead Architect` (`roleLead`)
+     - `Engineering & Project Management Consultant (PMC)` (`rolePmc`)
+     - `BIM Architect` (`roleBim`)
+   - Arabic translations added:
+     - `معماري رئيسي`
+     - `استشاري هندسي وإدارة مشاريع (PMC)`
+     - `معماري نمذجة معلومات البناء (BIM)`
+   - Styled each pill identically to the credentials bar pills:
+     - `font-size: 12px !important;`
+     - `font-family: var(--font-mono) !important;` (Arabic uses `var(--font-arabic-display)`)
+     - `font-weight: 500 !important;`
+     - `line-height: 1.4 !important;`
+     - `padding: 6px 14px !important;`
+     - `border-radius: 980px !important;`
+     - `background: rgba(255, 255, 255, 0.05) !important;`
+     - `border: 1px solid rgba(255, 255, 255, 0.12) !important;`
+     - `backdrop-filter: blur(12px) !important;`
+     - Responsive hover state and full light theme support.
+
+2. **Primary CTA Button Updated**:
+   - Updated from "See the four featured projects" to "Selected Projects" in English (`btnWorks`).
+   - Updated to "المشاريع المختارة" in Arabic.
+
+3. **Parity and Verification**:
+   - 100% SHA-256 parity maintained across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
+   - Published in commit `f19e59a`.

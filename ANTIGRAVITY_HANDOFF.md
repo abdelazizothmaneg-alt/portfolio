@@ -700,3 +700,10 @@ Removed the outer container styling (background, border, padding, and backdrop-f
 3. **Parity and Verification**:
    - 100% SHA-256 parity maintained across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
    - Published in commit `f19e59a`.
+
+
+## 2026-11-19 — Move credentials pills directly under hero role pills
+Moved `.hero-credentials-bar` directly underneath `.hero-role-capsules` (above `.hero-monograph-tag` and `.hero-bio`) in both `index.html` and `index-demo.html`:
+- Tightened `.hero-role-capsules` `margin-bottom` to `8px` and `.hero-credentials-bar` `margin-top: 0; margin-bottom: 22px;` so all role + accreditation pills form one cohesive, evenly-spaced badge cluster right under the H1 name.
+- Visually verified desktop English & Arabic (RTL) previews via headless Edge.
+- Verified 100% SHA-256 parity between `PORTFOLIO` and `PORTFOLIO_DEPLOY`.

@@ -660,3 +660,12 @@ Scaled the hero role capsule text (`Lead Architect | Engineering & Project Manag
 - `box-shadow: none !important;`
 
 Verified SHA-256 parity between working repository and deployment workspace (`PORTFOLIO` and `PORTFOLIO_DEPLOY`). Published in commit `743153e`. GitHub Pages deploy run `44506555273` succeeded and changes were verified on the live site (`https://abdelazizothmaneg-alt.github.io/portfolio/`).
+
+
+## 2026-11-19 — Remove outer bounding box container from hero credentials bar
+Removed the outer container styling (background, border, padding, and backdrop-filter) from `.hero-credentials-bar` in `index.html` and `index-demo.html`:
+- Set `.hero-credentials-bar` to `background: transparent !important; border: none !important; padding: 0 !important; box-shadow: none !important; backdrop-filter: none !important; border-radius: 0 !important;`.
+- Kept the individual credential pills (`span:not(.bar-sep)`) fully intact with their respective pill backgrounds (`rgba(255, 255, 255, 0.05)`), subtle borders (`1px solid rgba(255, 255, 255, 0.12)`), blur backdrop filter, and text formatting.
+- Applied identical responsive handling and dark/light theme support.
+- Verified 100% SHA-256 parity between `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
+- Published in commit `5c61563`.

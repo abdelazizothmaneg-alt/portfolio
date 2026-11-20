@@ -725,3 +725,7 @@ Updated the first hero role pill (`roleLead`) and English `heroRole` in `index.h
 
 ## 2026-11-20 — Remove PLATE number and status tag overlays from all project cards
 Removed all 30 `.project-number` (`PLATE XX / 30`) and 30 `.project-status-tag` (`Design & Engineering`, `Delivered`, etc.) overlay badges from project cards in `index.html` and `index-demo.html`, keeping the `.project-region-badge` location tags (`Jazan, KSA`, etc.) intact. Verified 100% SHA-256 parity across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
+
+
+## 2026-11-20 — Standardize 16px inset padding frame across all 30 project cards
+Fixed `.project-card:first-child` override in `index.html` and `index-demo.html` (which had `padding: 0 !important;` and `height: 310px !important;`, making the first card in `.featured-projects` and `.projects-grid` — such as ZAN Jazan Waterfront and King Fahd Landmark Towers — flush edge-to-edge without the 16px inset frame). Updated it to `padding: 16px !important; gap: 0 !important; align-items: stretch !important;` and `.project-media` `height: 330px !important;` so all 30 project cards have the exact same framed card aesthetic.

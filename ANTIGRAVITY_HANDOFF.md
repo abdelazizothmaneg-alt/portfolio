@@ -721,3 +721,7 @@ Updated the first hero role pill (`roleLead`) and English `heroRole` in `index.h
 3. **Project Spec Values (60 replacements)**:
    - Translated all 60 remaining English-only `.spec-block strong` `data-ar` values (including Talda's `30 Feddans (~126,000 m²)`, `80% Open Space / Riverways`, `~740 Units (600 Apts + 140 TH)`, and all other project cards) into clean Modern Standard Arabic.
 - Verified 0 JS syntax errors, visually verified desktop AR & EN previews, and verified 100% SHA-256 parity across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
+
+
+## 2026-11-20 — Remove PLATE number and status tag overlays from all project cards
+Removed all 30 `.project-number` (`PLATE XX / 30`) and 30 `.project-status-tag` (`Design & Engineering`, `Delivered`, etc.) overlay badges from project cards in `index.html` and `index-demo.html`, keeping the `.project-region-badge` location tags (`Jazan, KSA`, etc.) intact. Verified 100% SHA-256 parity across `PORTFOLIO` and `PORTFOLIO_DEPLOY`.
